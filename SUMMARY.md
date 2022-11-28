@@ -10,8 +10,10 @@
 
 ## Method Notes
 
-* [Statistical Method](method-notes/statistical-method/README.md)
-  * [Common Statistics](method-notes/statistical-method/common-statistics.md)
+* [Statistical Method](method-notes/statistical-method.md)
+  * [Common Statistics](method-notes/statistical-method/common-statistics/README.md)
+    * [t-test](method-notes/statistical-method/common-statistics/t-test.md)
+    * [power](method-notes/statistical-method/common-statistics/power.md)
 
 ## Deep Learning Notes
 

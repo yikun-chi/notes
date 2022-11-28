@@ -1,8 +1,10 @@
-# Common Statistics
+---
+description: >-
+  Notes are primarily taken from the textbook Mathematical Statistics and Data
+  Analysis by John Rice 3rd edition
+---
 
-## T-test
-
-Notes are primarily taken from the textbook [Mathematical Statistics and Data Analysis by John Rice 3rd edition ](https://www.cengage.com/c/mathematical-statistics-and-data-analysis-3e-rice/9780534399429/)
+# t-test
 
 ### Usage:&#x20;
 

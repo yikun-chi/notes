@@ -8,12 +8,12 @@
   * [Paper 1](paper-reading-notes/wellbing/paper-1.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 
-## Method Notes
+## Statistics Method Notes
 
-* [Statistical Method](method-notes/statistical-method.md)
-  * [Common Statistics](method-notes/statistical-method/common-statistics/README.md)
-    * [t-test](method-notes/statistical-method/common-statistics/t-test.md)
-    * [power](method-notes/statistical-method/common-statistics/power.md)
+* [Multilevel Modeling](statistics-method-notes/multilevel-modeling.md)
+* [Common Statistics](statistics-method-notes/common-statistics/README.md)
+  * [t-test](statistics-method-notes/common-statistics/t-test.md)
+  * [power](statistics-method-notes/common-statistics/power.md)
 
 ## Deep Learning Notes
 

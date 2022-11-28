@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Yikun's Learning Notes](README.md)
+* [Introduction](README.md)
 
 ## Paper Reading Notes
 

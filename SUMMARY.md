@@ -10,4 +10,9 @@
 
 ## Method Notes
 
-* [Statistical Method](method-notes/statistical-method.md)
+* [Statistical Method](method-notes/statistical-method/README.md)
+  * [Common Statistics](method-notes/statistical-method/common-statistics.md)
+
+## Deep Learning Notes
+
+* [Page 1](deep-learning-notes/page-1.md)

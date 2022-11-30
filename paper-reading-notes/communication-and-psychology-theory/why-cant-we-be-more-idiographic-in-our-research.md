@@ -7,7 +7,7 @@ description: >-
 
 # Why Can’t We Be More Idiographic in Our Research?
 
-[Article Link   ](https://pubmed.ncbi.nlm.nih.gov/26158824/)[Annotaed Link](https://drive.google.com/file/d/10GX5jrxMI9I6H\_nu\_FiXwgc13z\_R\_bEm/view?usp=sharing)
+[Article Link  ](https://pubmed.ncbi.nlm.nih.gov/26158824/)[Annotated Link](https://drive.google.com/file/d/1U26VhX1g6Kdhn78yo-XxxQpxh85a8XHU/view?usp=sharing)
 
 ## Key Concepts:&#x20;
 

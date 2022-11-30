@@ -7,6 +7,6 @@ description: >-
 
 # The Use of Media in Media Psychology
 
-
+[Article Link](https://www.tandfonline.com/doi/full/10.1080/15213269.2015.1030083)
 
 \

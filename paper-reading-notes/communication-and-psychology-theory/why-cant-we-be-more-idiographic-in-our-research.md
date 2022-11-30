@@ -7,14 +7,18 @@ description: >-
 
 # Why Can’t We Be More Idiographic in Our Research?
 
-## Key Concept:&#x20;
+[Article Link](https://pubmed.ncbi.nlm.nih.gov/26158824/)
+
+## Key Concepts:&#x20;
 
 * idiographic approach: Carefully tracking one / few individual for a long time&#x20;
 * nomothetic approach: Assemble large groups of individuals and measure mean&#x20;
 
-## Core Argument&#x20;
+## Core Arguments&#x20;
 
 * Idiographic approach used to be popular in early stage of experimental psychology and middle of the last century&#x20;
 * Nomothetic strategy is now the dominant option, e.g.: RCT&#x20;
 * There are many challenges to the generalizability of nomothetic approach, normally in the form of methodology critic.&#x20;
 * Advance in idiographic method now allows and calls for better integration of both approaches. &#x20;
+
+{% file src="../../.gitbook/assets/Barlow Knock Ideographic strategies (1).pdf" %}

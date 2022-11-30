@@ -16,10 +16,12 @@
 
 ## Statistics Method Notes
 
+* [Common Statistical Test and Tools](statistics-method-notes/common-statistical-test-and-tools/README.md)
+  * [t-test](statistics-method-notes/common-statistical-test-and-tools/t-test.md)
 * [Multilevel Modeling](statistics-method-notes/multilevel-modeling.md)
 * [Common Statistics](statistics-method-notes/common-statistics/README.md)
-  * [t-test](statistics-method-notes/common-statistics/t-test.md)
   * [power](statistics-method-notes/common-statistics/power.md)
+  * [t-test](statistics-method-notes/common-statistics/t-test.md)
 
 ## Deep Learning Notes
 

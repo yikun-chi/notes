@@ -12,6 +12,8 @@
   * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
+* [Relationships](paper-reading-notes/relationships/README.md)
+  * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
 
 ## Statistics Method Notes
 

@@ -24,4 +24,5 @@
 
 ## Deep Learning Notes
 
-* [Page 1](deep-learning-notes/page-1.md)
+* [Natural Language Processing](deep-learning-notes/natural-language-processing/README.md)
+  * [Classification Methods and Vector Space](deep-learning-notes/natural-language-processing/classification-methods-and-vector-space.md)

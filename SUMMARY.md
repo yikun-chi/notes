@@ -10,6 +10,8 @@
   * [Methods for the Study of Development – Developing Methods](paper-reading-notes/communication-and-psychology-theory/methods-for-the-study-of-development-developing-methods.md)
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)
   * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
+  * [Sixty years of quantitative communication research summarized:](paper-reading-notes/communication-and-psychology-theory/sixty-years-of-quantitative-communication-research-summarized.md)
+  * [The Ebb and Flow of Communication Research](paper-reading-notes/communication-and-psychology-theory/the-ebb-and-flow-of-communication-research.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 * [Relationships](paper-reading-notes/relationships/README.md)

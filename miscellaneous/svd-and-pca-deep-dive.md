@@ -46,7 +46,7 @@ If $$Z=AX$$, then the covariance of $$Z$$ can be calculated as $$V_z = AV_xA^T$$
 
 Given the SVD decomposition, apply $$A$$ to a vector $$x$$ can be understood as first performing a rotation $$V^T$$, then a scaling $$S$$, and finally another rotation $$U$$.&#x20;
 
-## Alternative Perspective: Rotation ([Link](https://drive.google.com/file/d/1M7jtWcFcK-eakfO47cCssHSuuiZyS9TK/view?usp=sharing}))
+## Alternative Perspective: Rotation ([Link](https://drive.google.com/file/d/1iBYkI6lHluUKKNqhAqkWnHPcJNCA9-OI/view?usp=share\_link))
 
 First consider the extreme case of $$y=n x, x\sim \text{Unif}(0,1)$$. We create both variables and mean center it, then fed into a PCA to get 2 principle components. We plot the original data in blue and PCA transformed data (based on the rotation matrix of PCA) in orange.&#x20;
 

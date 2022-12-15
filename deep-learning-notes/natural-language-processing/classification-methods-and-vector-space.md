@@ -78,8 +78,6 @@ A matrix with words on the rows and document types as columns. The cell value ar
 
 ### PCA
 
-PCA as identifying rotation matrix: [Link](https://drive.google.com/file/d/1M7jtWcFcK-eakfO47cCssHSuuiZyS9TK/view?usp=sharing})
-
 1. Deriving uncorrelated features through eigenvector&#x20;
    1. Mean Normalize data&#x20;
    2. Get covariance matrix&#x20;
@@ -87,6 +85,8 @@ PCA as identifying rotation matrix: [Link](https://drive.google.com/file/d/1M7jt
    4. Eigenvector should be organized according to descending eigenvalue&#x20;
 2. Dot product to project data matrix $$X$$to the first $$k$$column of eigenvector matrix $$U$$through $$X' = XU[:k]$$
 3. Calculate percentage of variance explained via $$\frac{\sum_{i=1}^{d} S_{ii}}{\sum_{j=1}^k S_{jj}}$$
+
+[PCA Deepdive](../../miscellaneous/svd-and-pca-deep-dive.md)
 
 ## Machine Translation with K nearest Neighbor and Locality Sensitive Hashing&#x20;
 

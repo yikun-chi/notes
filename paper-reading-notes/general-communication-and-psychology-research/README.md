@@ -1,2 +1,0 @@
-# Communication and Psychology Theory
-

@@ -4,13 +4,14 @@
 
 ## Paper Reading Notes
 
-* [General Communication and Psychology Research](paper-reading-notes/general-communication-and-psychology-research/README.md)
-  * [Why Can’t We Be More Idiographic in Our Research?](paper-reading-notes/general-communication-and-psychology-research/why-cant-we-be-more-idiographic-in-our-research.md)
-  * [Methods for the Study of Development – Developing Methods](paper-reading-notes/general-communication-and-psychology-research/methods-for-the-study-of-development-developing-methods.md)
-  * [The Use of Media in Media Psychology](paper-reading-notes/general-communication-and-psychology-research/the-use-of-media-in-media-psychology.md)
-  * [Small data, where n = me](paper-reading-notes/general-communication-and-psychology-research/small-data-where-n-me.md)
-  * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-communication-and-psychology-research/sixty-years-of-quantitative-communication-research-summarized.md)
-  * [The Ebb and Flow of Communication Research](paper-reading-notes/general-communication-and-psychology-research/the-ebb-and-flow-of-communication-research.md)
+* [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [The Ebb and Flow of Communication Research](paper-reading-notes/general-comm-and-psych/the-ebb-and-flow-of-communication-research.md)
+  * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-comm-and-psych/sixty-years-of-quantitative-communication-research-summarized.md)
+  * [The Use of Media in Media Psychology](paper-reading-notes/general-comm-and-psych/the-use-of-media-in-media-psychology.md)
+* [General Research](paper-reading-notes/general-research/README.md)
+  * [Why Can’t We Be More Idiographic in Our Research?](paper-reading-notes/general-research/why-cant-we-be-more-idiographic-in-our-research.md)
+  * [Methods for the Study of Development – Developing Methods](paper-reading-notes/general-research/methods-for-the-study-of-development-developing-methods.md)
+  * [Small data, where n = me](paper-reading-notes/general-research/small-data-where-n-me.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 * [Relationships](paper-reading-notes/relationships/README.md)

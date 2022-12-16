@@ -9,6 +9,7 @@
   * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-comm-and-psych/sixty-years-of-quantitative-communication-research-summarized.md)
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)
 * [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
+  * [Problematization](paper-reading-notes/general-research/problematization.md)
   * [Personal Knowledge](paper-reading-notes/general-research/personal-knowledge.md)
   * [Why Can’t We Be More Idiographic in Our Research?](paper-reading-notes/communication-and-psychology-theory/why-cant-we-be-more-idiographic-in-our-research.md)
   * [Methods for the Study of Development – Developing Methods](paper-reading-notes/communication-and-psychology-theory/methods-for-the-study-of-development-developing-methods.md)

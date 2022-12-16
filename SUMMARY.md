@@ -21,9 +21,10 @@
 
 ## Statistics Method Notes
 
-* [Common Statistical Test and Tools](statistics-method-notes/common-statistical-test-and-tools/README.md)
-  * [power](statistics-method-notes/common-statistics/power.md)
-  * [t-test](statistics-method-notes/common-statistics/t-test.md)
+* [Statistical Test and Tools](statistics-method-notes/statistical-test-and-tools/README.md)
+  * [power](statistics-method-notes/statistical-test-and-tools/power.md)
+  * [t-test](statistics-method-notes/statistical-test-and-tools/t-test.md)
+  * [Hidden Markov Models](statistics-method-notes/statistical-test-and-tools/hidden-markov-models.md)
 * [Multilevel Modeling](statistics-method-notes/multilevel-modeling.md)
 
 ## Deep Learning Notes

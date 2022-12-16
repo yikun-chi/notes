@@ -1,2 +1,2 @@
-# General Research
+# Communication and Psychology Theory
 

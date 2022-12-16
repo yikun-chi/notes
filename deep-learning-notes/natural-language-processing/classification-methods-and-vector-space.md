@@ -145,20 +145,20 @@ confidence_ellipse(data_pos.positive, data_pos.negative, ax, n_std=2, edgecolor=
 
 ## Completed Notebook&#x20;
 
-[Logistic Regression Sentiment Analysis Notebook](https://drive.google.com/file/d/1VjBPjnc84eIcTmzQi-KuPAQk1LbJKl93/view?usp=sharing)
+[Logistic Regression Sentiment Analysis Notebook](https://drive.google.com/file/d/1\_7XX9QWWPlxo43Fw1xxx9PzFxpl27q2D/view?usp=sharing)
 
 * Stemming, Removing Stopwords
 * Manual Implementation of Logistic Regression and lossderivation
 
-[Naive Bayes Sentiment Analysis Notebook](https://drive.google.com/file/d/10B7u3PMDpUxS3i6jWMwQK5OBupr800Ar/view?usp=sharing)
+[Naive Bayes Sentiment Analysis Notebook](https://drive.google.com/file/d/1G9ibr3t05UOVmuzRFZZQfG1HO\_JkNy-M/view?usp=sharing)
 
 * Naive Bayes Sentiment Analysis
 
-[Vector Space Model Notebook](https://drive.google.com/file/d/16qyWv2DkFhi2hK2U0YPvJ8cKGvTjL3Dr/view?usp=share\_link)
+[Vector Space Model Notebook](https://drive.google.com/file/d/1BIm71QmfUo2MU9pw2CmmKQfKt1vwn-w6/view?usp=sharing)
 
 * Manual PCA
 
-[Machine Translation and Nearest Neighbor Search Notebook](https://drive.google.com/file/d/1iHHK93QHkHoNfAtuktrJW6vbWmEN7pT3/view?usp=share\_link)
+[Machine Translation and Nearest Neighbor Search Notebook](https://drive.google.com/file/d/1ZQX4BSOBvFa3MQnUNnhGGRkQg2UoDc3S/view?usp=sharing)
 
 * LSH and approximate neighborhood
 * Manual Gradient Descent

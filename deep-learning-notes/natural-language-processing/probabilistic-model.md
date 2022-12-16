@@ -88,6 +88,8 @@ $$
     \end{align*}
 $$
 
+* $$N$$ is the total number of tags&#x20;
+
 ### Smoothing in Calculating Emission Probabilities&#x20;
 
 Following the same principle, we can calcuate emission probabilities as&#x20;
@@ -97,6 +99,8 @@ $$
 p(w_i|t_i) = \frac{Count(t_i, w_i) + \epsilon}{\sum_{j=1}^V Count(t_i, w_j) + N * \epsilon}
 \end{align*}
 $$
+
+* $$N$$ is the total number of words&#x20;
 
 [Deepdive into Hidden Markov Models](../../statistics-method-notes/statistical-test-and-tools/hidden-markov-models.md)&#x20;
 
@@ -116,4 +120,9 @@ Counter('abracadabra').most_common (3)
 * Dynamic Programming&#x20;
 * String Edit (deletion, insertion, replacement) as List Comprehension (very interesting)&#x20;
 * Using Counter object
+
+[Part of Speech Tagging](https://drive.google.com/file/d/1sGzQF5LFhzIoF4Df5mMTFj0gIAr7sxnv/view?usp=share\_link)
+
+* Clear structure in pre-processing and actual modeling&#x20;
+* Viterbi algorithm implementation&#x20;
 

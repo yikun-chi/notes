@@ -1,2 +1,2 @@
-# Miscellaneous Statistical Stuff
+# Common Statistical Test and Tools
 

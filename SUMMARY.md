@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [Institutional Sources of Intellectual Poverty in Communication Research](paper-reading-notes/general-comm-and-psych/institutional-sources-of-intellectual-poverty-in-communication-research.md)
   * [The “Concept” of Communication](paper-reading-notes/general-comm-and-psych/the-concept-of-communication.md)
   * [Disciplines, Intersections, and the Future of Communication Research](paper-reading-notes/general-comm-and-psych/disciplines-intersections-and-the-future-of-communication-research.md)
   * [Communication in the Communication Sciences](paper-reading-notes/general-comm-and-psych/communication-in-the-communication-sciences.md)

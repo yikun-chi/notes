@@ -24,11 +24,17 @@
 
 ## Statistics Method Notes
 
-* [Mixture and Latent Class Model](statistics-method-notes/mixture-and-latent-class-model.md)
-* [Miscellaneous Statistical Stuff](statistics-method-notes/miscellaneous-statistical-stuff/README.md)
-  * [power](statistics-method-notes/miscellaneous-statistical-stuff/power.md)
-  * [t-test](statistics-method-notes/miscellaneous-statistical-stuff/t-test.md)
-  * [Hidden Markov Models](statistics-method-notes/miscellaneous-statistical-stuff/hidden-markov-models.md)
+* [Mixture and Latent Class Model](statistics-method-notes/mixture-and-latent-class-model/README.md)
+  * [Motivation and Definition](statistics-method-notes/mixture-and-latent-class-model/motivation-and-definition.md)
+  * [Parameter Estimation](statistics-method-notes/mixture-and-latent-class-model/parameter-estimation.md)
+  * [Parameter Inference](statistics-method-notes/mixture-and-latent-class-model/parameter-inference.md)
+  * [Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
+  * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)
+  * [Identifiability](statistics-method-notes/mixture-and-latent-class-model/identifiability.md)
+* [Miscellaneous Statistical Stuff](statistics-method-notes/statistical-test-and-tools/README.md)
+  * [power](statistics-method-notes/statistical-test-and-tools/power.md)
+  * [t-test](statistics-method-notes/statistical-test-and-tools/t-test.md)
+  * [Hidden Markov Models](statistics-method-notes/statistical-test-and-tools/hidden-markov-models.md)
 * [Multilevel Modeling](statistics-method-notes/multilevel-modeling.md)
 
 ## Deep Learning Notes

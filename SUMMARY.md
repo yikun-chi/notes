@@ -5,6 +5,9 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [The “Concept” of Communication](paper-reading-notes/general-comm-and-psych/the-concept-of-communication.md)
+  * [Disciplines, Intersections, and the Future of Communication Research](paper-reading-notes/general-comm-and-psych/disciplines-intersections-and-the-future-of-communication-research.md)
+  * [Communication in the Communication Sciences](paper-reading-notes/general-comm-and-psych/communication-in-the-communication-sciences.md)
   * [The Ebb and Flow of Communication Research](paper-reading-notes/general-comm-and-psych/the-ebb-and-flow-of-communication-research.md)
   * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-comm-and-psych/sixty-years-of-quantitative-communication-research-summarized.md)
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)

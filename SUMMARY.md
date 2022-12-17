@@ -25,13 +25,14 @@
 ## Statistics Method Notes
 
 * [Mixture and Latent Class Model](statistics-method-notes/mixture-and-latent-class-model/README.md)
-  * [Motivation and Definition](statistics-method-notes/mixture-and-latent-class-model/motivation-and-definition.md)
+  * [Setup](statistics-method-notes/mixture-and-latent-class-model/setup.md)
   * [Parameter Estimation](statistics-method-notes/mixture-and-latent-class-model/parameter-estimation.md)
   * [Parameter Inference](statistics-method-notes/mixture-and-latent-class-model/parameter-inference.md)
   * [Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
   * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)
   * [Identifiability](statistics-method-notes/mixture-and-latent-class-model/identifiability.md)
 * [Miscellaneous Statistical Stuff](statistics-method-notes/statistical-test-and-tools/README.md)
+  * [Distribution Testing](statistics-method-notes/miscellaneous-statistical-stuff/distribution-testing.md)
   * [power](statistics-method-notes/statistical-test-and-tools/power.md)
   * [t-test](statistics-method-notes/statistical-test-and-tools/t-test.md)
   * [Hidden Markov Models](statistics-method-notes/statistical-test-and-tools/hidden-markov-models.md)

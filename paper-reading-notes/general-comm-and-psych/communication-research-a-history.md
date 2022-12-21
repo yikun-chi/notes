@@ -7,7 +7,7 @@ description: >-
 
 # Communication Research: A History
 
-Annotated Link
+[Annotated Link](https://drive.google.com/file/d/1UxKSHaTRSll\_kU7G2cOHnkzzOOsUAP6G/view?usp=share\_link)
 
 ## Overarching Theme:&#x20;
 
@@ -54,3 +54,30 @@ Annotated Link
 * **Lazarsfeld and the institutionalization of applied research**: Lazarsfeld's work examplifys the institutionalization of applied research.&#x20;
 
 ## Communication Science 1940 to 1965: Consolidation&#x20;
+
+### WWII and Communication Research&#x20;
+
+* WWII advanced the interest of applied social science generally.&#x20;
+* It pulled together people like Carl Hovland, Lazarsfeld, Stouffer.&#x20;
+* It encouraged exapnsion of American higher education&#x20;
+
+### The Consolidation of Communication Science&#x20;
+
+* The years following WWII communication as a key word and concept start to emerge and the field start to consolidate.&#x20;
+* People share the same sense of history of communication from social and political issue based practical research.&#x20;
+* There is a drive to detach communication from commercial and political interests and to be more theory driven.&#x20;
+* The adoption of a vocabulary of organizing term, the establishment of a core subject matter and the embracing of a standard conception of the basic process (Laswell's framework) all contributed to the emergence of the field.&#x20;
+
+### The Hovland and Lazarsfeld Traditions in the 1950s
+
+* Both focus on mediating roles in communication of recipipent predispositions and social processes&#x20;
+* Hovland and the Yale attitude change studies became important / exemplary in 1) use of attitude change as dependent variable and 2) standard research paradigm that reflects the transmit stimuli framework of communication process. It also push social psychology and experiment into the forefront of communication research.&#x20;
+* Katz, Lazarsfeld, and the social-mediation effects framework focuses on the connections between social organizations / processes and mass communication.&#x20;
+
+### The Communication Science Core and the Broader Field&#x20;
+
+* The particular set of individuals interests gave raise to the emergence of communication field, but also limited its content. For example, historical, cultural, and critical studies were being pushed aside first. It is also primary focus on mass communication and less in public and interpersonal communication.&#x20;
+
+## Relocation and Transformation: Communication Science in the Journalism Schools and Speech Departments&#x20;
+
+* The integration into journalism schools and speech departments produced significant impact.

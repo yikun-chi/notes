@@ -1,4 +1,8 @@
-# Setup
+---
+description: 'Visser: Sec 2.1, 2.2,'
+---
+
+# Mixture Model Setup
 
 ## Definition
 

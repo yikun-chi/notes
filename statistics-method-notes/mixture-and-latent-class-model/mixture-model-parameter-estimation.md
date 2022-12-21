@@ -18,7 +18,7 @@ $$
 
 In a mixture model, the components can permute and still has the same distribution. (e.g.: If there are two normal distribution state, just swap the paramters for state 1 with parameters for state 2). It has more severe consequences when using Bayesian paramter estimation and inference techniques, and bootstrapping. In that cause, relabeling components to make them consistent over iterations becomes necessary.&#x20;
 
-### Method 1: Numerical Optimization of the Likelihood&#x20;
+## Method 1: Numerical Optimization of the Likelihood&#x20;
 
 Numerical optimization can iteratively find the minimum of a function. Look at below trivial example
 
@@ -58,24 +58,20 @@ opt$par
   * _y=y\_obs:_ the additional argument required for _fn_
   * The requirement of mixing probabilities have to be between 0 and 1 and positive standard deviation is enforced through _lower_ and _upper_ arguments&#x20;
 
-### Expectation Maximization (EM) Algorithm&#x20;
+## Expectation Maximization (EM) Algorithm&#x20;
 
-#### EM Goal:&#x20;
+### EM Goal and Use Canse:&#x20;
 
-Parameter estimation&#x20;
+Parameter estimation for problems with missing or latent data and maximum likelihood estimation would be easy if we know the missing or latent values.
 
-#### EM Use Case
-
-Problems with missing or latent data and maximum likelihood estimation would be easy if we know the missing or latent values.&#x20;
-
-#### EM Idea&#x20;
+### EM Idea&#x20;
 
 Impute expected values for the latent data / states and then estimate parameters by optimizing the joint likelihood of the parameters given the observation and imputed latent states. Then we can separately perform the following step&#x20;
 
 * Expectation step: (Re)compute expectation of the complete-data log likelihood (The likelihood of observated data + hidden states).&#x20;
 * Maximization step: Expected complete-data log likelihood is a function of parameters $$\theta$$, but not the unobserved state $$S$$. So we can find the optimal values of $$\theta$$ by maximizing expected complete-data log likelihood.&#x20;
 
-#### EM in Mixture Model&#x20;
+### EM in Mixture Model&#x20;
 
 The joint log-likelihood function (complete-data log likelihood) can be decomposed into two parts:&#x20;
 

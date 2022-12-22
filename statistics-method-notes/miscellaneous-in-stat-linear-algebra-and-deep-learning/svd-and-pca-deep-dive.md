@@ -50,7 +50,7 @@ Given the SVD decomposition, apply $$A$$ to a vector $$x$$ can be understood as 
 
 First consider the extreme case of $$y=n x, x\sim \text{Unif}(0,1)$$. We create both variables and mean center it, then fed into a PCA to get 2 principle components. We plot the original data in blue and PCA transformed data (based on the rotation matrix of PCA) in orange.&#x20;
 
-<figure><img src="../.gitbook/assets/y=nx PCA Demo.png" alt=""><figcaption><p>y=nx PCA Demo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/y=nx PCA Demo.png" alt=""><figcaption><p>y=nx PCA Demo</p></figcaption></figure>
 
 &#x20;We can see that there is only one direction (horizontal) post transformation, which is the original unfirom sampling on x axis.&#x20;
 
@@ -58,7 +58,7 @@ If we look at the rotation matrix, it is equal to $$R=\begin{bmatrix} \cos(45^\c
 
 In a more complicated example, we can generate $$X$$and $$Y$$ as two independent normal variables with different varianec, and then apply a rotation matrix to make them correlated. We can then attempt to decouple this through principle component. Here blue is the original post rotation data and organge is the recovered data.&#x20;
 
-<figure><img src="../.gitbook/assets/2 var PCA Demo.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 var PCA Demo.png" alt=""><figcaption></figcaption></figure>
 
 
 

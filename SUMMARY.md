@@ -36,13 +36,14 @@
   * [Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
   * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)
   * [Identifiability](statistics-method-notes/mixture-and-latent-class-model/identifiability.md)
-* [Miscellaneous Statistical Stuff](statistics-method-notes/statistical-test-and-tools/README.md)
-  * [Distribution Testing](statistics-method-notes/miscellaneous-statistical-stuff/distribution-testing.md)
-  * [power](statistics-method-notes/statistical-test-and-tools/power.md)
-  * [t-test](statistics-method-notes/statistical-test-and-tools/t-test.md)
-  * [Hidden Markov Models](statistics-method-notes/statistical-test-and-tools/hidden-markov-models.md)
+* [Miscellaneous in Stat, Linear Algebra, and Deep Learning](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/README.md)
+  * [Distribution Testing](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/distribution-testing.md)
+  * [power](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/power.md)
+  * [t-test](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/t-test.md)
+  * [SVD and PCA Deep Dive](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/svd-and-pca-deep-dive.md)
 * [Multilevel Modeling](statistics-method-notes/multilevel-modeling/README.md)
   * [Setup](statistics-method-notes/multilevel-modeling/setup.md)
+* [Hidden Markov Models](statistics-method-notes/hidden-markov-models.md)
 
 ## Deep Learning Notes
 
@@ -52,5 +53,4 @@
 
 ***
 
-* [Miscellaneous](miscellaneous/README.md)
-  * [SVD and PCA Deep Dive](miscellaneous/svd-and-pca-deep-dive.md)
+* [Miscellaneous](miscellaneous.md)

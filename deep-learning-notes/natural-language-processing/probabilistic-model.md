@@ -102,7 +102,7 @@ $$
 
 * $$N$$ is the total number of words&#x20;
 
-[Deepdive into Hidden Markov Models](../../statistics-method-notes/statistical-test-and-tools/hidden-markov-models.md)&#x20;
+[Deepdive into Hidden Markov Models](../../statistics-method-notes/hidden-markov-models.md)&#x20;
 
 ## Code&#x20;
 

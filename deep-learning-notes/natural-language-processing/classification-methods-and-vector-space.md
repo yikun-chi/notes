@@ -86,7 +86,7 @@ A matrix with words on the rows and document types as columns. The cell value ar
 2. Dot product to project data matrix $$X$$to the first $$k$$column of eigenvector matrix $$U$$through $$X' = XU[:k]$$
 3. Calculate percentage of variance explained via $$\frac{\sum_{i=1}^{d} S_{ii}}{\sum_{j=1}^k S_{jj}}$$
 
-[PCA Deepdive](../../miscellaneous/svd-and-pca-deep-dive.md)
+[PCA Deepdive](../../statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/svd-and-pca-deep-dive.md)
 
 ## Machine Translation with K nearest Neighbor and Locality Sensitive Hashing&#x20;
 

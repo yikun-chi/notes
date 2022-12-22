@@ -6,7 +6,7 @@ description: 'Visser: Sec 2.3'
 
 ## Maximum Likelihood Estimator
 
-MLE is defined as the parameters that maximizes the [likelihood function](mixture-model-setup.md#likelihood) defined in previous chapter given the observation (treating observation as fixed)
+MLE is defined as the parameters that maximizes the [likelihood function](../mixture-model-setup.md#likelihood) defined in previous chapter given the observation (treating observation as fixed)
 
 $$
 \begin{equation*}
@@ -106,7 +106,7 @@ So overall, the EM algorithm for mixture model can be described as&#x20;
 
 1. Start with an initial set of parameters $$\theta'$$
 2. Repeat until convergence:&#x20;
-   1. Compute the [posterior probabilities](mixture-model-setup.md#posterior-probabilities) $$\gamma$$and the [log-likelihood](mixture-model-setup.md#likelihood) $$l(\theta'|y_{1:T})$$as described in previous chapter.&#x20;
+   1. Compute the [posterior probabilities](../mixture-model-setup.md#posterior-probabilities) $$\gamma$$and the [log-likelihood](../mixture-model-setup.md#likelihood) $$l(\theta'|y_{1:T})$$as described in previous chapter.&#x20;
    2. Obtain new estimates&#x20;
       * $$\begin{equation*} \hat{\theta}_{pr} = \overset{\text{argmax}}{\theta_{pr}} \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log P(s_t = i|\theta_{pr}) \end{equation*}$$
       *   $$\begin{equation*} \hat{\theta}_{obs} = \overset{\text{argmax}}{\theta_{obs}} \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log f(y_t|s_t = i,\theta_{obs}) \end{equation*}$$

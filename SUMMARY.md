@@ -31,7 +31,8 @@
 
 * [Mixture and Latent Class Model](statistics-method-notes/mixture-and-latent-class-model/README.md)
   * [Mixture Model Setup](statistics-method-notes/mixture-and-latent-class-model/mixture-model-setup.md)
-  * [Mixture Model Parameter Estimation](statistics-method-notes/mixture-and-latent-class-model/mixture-model-parameter-estimation.md)
+  * [Mixture Model Parameter Estimation](statistics-method-notes/mixture-and-latent-class-model/mixture-model-parameter-estimation/README.md)
+    * [EM Algorithm for Gaussian Mixture](statistics-method-notes/mixture-and-latent-class-model/mixture-model-parameter-estimation/em-algorithm-for-gaussian-mixture.md)
   * [Parameter Inference](statistics-method-notes/mixture-and-latent-class-model/parameter-inference.md)
   * [Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
   * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)

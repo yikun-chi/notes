@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [Characteristics of Symbol System](paper-reading-notes/general-comm-and-psych/characteristics-of-symbol-system.md)
   * [Historical Trends in Research on Children and the Media: 1900–1960](paper-reading-notes/general-comm-and-psych/historical-trends-in-research-on-children-and-the-media-1900-1960.md)
   * [A Historiography of Human–Computer Interaction](paper-reading-notes/general-comm-and-psych/a-historiography-of-human-computer-interaction.md)
   * [Communication Research: A History](paper-reading-notes/general-comm-and-psych/communication-research-a-history.md)

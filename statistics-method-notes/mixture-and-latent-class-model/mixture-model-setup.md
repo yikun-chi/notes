@@ -6,7 +6,7 @@ description: 'Visser: Sec 2.1, 2.2,'
 
 ## Definition
 
-Mixture model models $$y$$ as a series of random independent draw from different states (distributions). A mixture model with $$N$$ states is defined by&#x20;
+Mixture model models $y$ as a series of random independent draw from different states (distributions). A mixture model with $$N$$ states is defined by&#x20;
 
 * The state densities $$f_i$$, $$i = 1,..., N$$
 * The state probabilities $$\pi_i$$, $$i = 1,...,N$$&#x20;

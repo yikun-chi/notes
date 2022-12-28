@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [Synthesizing a Working Definition of “Mass” Media](paper-reading-notes/general-comm-and-psych/synthesizing-a-working-definition-of-mass-media.md)
   * [Medium Theory](paper-reading-notes/general-comm-and-psych/medium-theory.md)
   * [Characteristics of Symbol System](paper-reading-notes/general-comm-and-psych/characteristics-of-symbol-system.md)
   * [Historical Trends in Research on Children and the Media: 1900–1960](paper-reading-notes/general-comm-and-psych/historical-trends-in-research-on-children-and-the-media-1900-1960.md)

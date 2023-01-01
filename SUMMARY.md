@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [Social Media: Defining, Developing, and Divining](paper-reading-notes/general-comm-and-psych/social-media-defining-developing-and-divining.md)
   * [Synthesizing a Working Definition of “Mass” Media](paper-reading-notes/general-comm-and-psych/synthesizing-a-working-definition-of-mass-media.md)
   * [Medium Theory](paper-reading-notes/general-comm-and-psych/medium-theory.md)
   * [Characteristics of Symbol System](paper-reading-notes/general-comm-and-psych/characteristics-of-symbol-system.md)

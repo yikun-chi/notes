@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [The nature of communication between humans](paper-reading-notes/general-comm-and-psych/the-nature-of-communication-between-humans.md)
   * [Social Media: Defining, Developing, and Divining](paper-reading-notes/general-comm-and-psych/social-media-defining-developing-and-divining.md)
   * [Synthesizing a Working Definition of “Mass” Media](paper-reading-notes/general-comm-and-psych/synthesizing-a-working-definition-of-mass-media.md)
   * [Medium Theory](paper-reading-notes/general-comm-and-psych/medium-theory.md)
@@ -26,6 +27,7 @@
   * [Methods for the Study of Development – Developing Methods](paper-reading-notes/communication-and-psychology-theory/methods-for-the-study-of-development-developing-methods.md)
   * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)
+  * [CrossCheck: Integrating... to identify digital indicators of psychotic relapse](paper-reading-notes/wellbing/crosscheck-integrating...-to-identify-digital-indicators-of-psychotic-relapse.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 * [Relationships](paper-reading-notes/relationships/README.md)
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)

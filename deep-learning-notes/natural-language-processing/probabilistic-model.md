@@ -1,6 +1,5 @@
 ---
-description: >-
-  https://www.coursera.org/learn/probabilistic-models-in-nlp?specialization=natural-language-processing
+description: https://www.coursera.org/learn/probabilistic-models-in-nlp/home/week/2
 ---
 
 # Probabilistic Model

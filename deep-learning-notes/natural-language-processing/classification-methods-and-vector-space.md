@@ -1,5 +1,5 @@
 ---
-description: https://www.coursera.org/learn/classification-vector-spaces-in-nlp
+description: https://www.coursera.org/learn/probabilistic-models-in-nlp/home/week/1
 ---
 
 # Classification Methods and Vector Space

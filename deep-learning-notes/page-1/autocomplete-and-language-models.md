@@ -84,3 +84,8 @@ A good model has low perplexity, such as 60-20 for English or 5.3-5.9 for log pe
 
 
 
+## Completed Notebook
+
+[Autocomplete](https://drive.google.com/file/d/14HihsV09Nugg\_uNJstFVV9Fmnw4b-p8P/view?usp=share\_link)
+
+* Calculating N-gram probabilities&#x20;

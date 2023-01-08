@@ -61,5 +61,10 @@ Model Evaluation&#x20;
   * POS tagging&#x20;
   * ...&#x20;
 
+## Completed Notebook
 
+[CBOW Embedding Training ](https://drive.google.com/file/d/1rDpEZw03Yf\_ZvoA0GAaHf9XtAWuOe9RX/view?usp=share\_link)
+
+* Manual coding of gradient descent&#x20;
+* Text pre-processing&#x20;
 

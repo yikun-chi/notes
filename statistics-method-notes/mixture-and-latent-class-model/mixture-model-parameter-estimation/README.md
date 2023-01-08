@@ -98,6 +98,7 @@ $$
 
 
 * In the definition, the expectation is w.r.t hidden state across each observation ($$s_{1:T}$$) given the observations and initial / previous guess parameter $$\theta'$$.&#x20;
+* The expectation is a function of the true parameter and the initial / guess parameters&#x20;
 * The second equal sign is only for mixture model. It applies the defnition of expectation. Notice $$s_{1:T}\in S^T$$ is just a short hand for all possible permutation of hidden states from time 1 to T.&#x20;
 * The third equation can be also think of as directly applying the definition of expectation over the previous listed complete-data log likelihood equation.&#x20;
 * $$\gamma$$ function is the posterior probabilities of the state given the initial / previous guess parameters.&#x20;

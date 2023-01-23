@@ -7,6 +7,8 @@ description: >-
 
 # 'Social Meaning' and the explanation of social action
 
+[Annotated Link](https://drive.google.com/file/d/1p1v2zfaBBERmnDLzC3RuV2xSaYAR4sxD/view?usp=share\_link)
+
 ## Context
 
 Social action has meaning for the performer. This statement is used simultaneously by anti-naturalist ( examplified by Dilthey, phenomenologist, and Wittgenstein) and [naturalist](https://www.rep.routledge.com/articles/thematic/naturalism-in-social-science/v-1). They just draw different conclusions from subjective meaning behind social behavior.&#x20;

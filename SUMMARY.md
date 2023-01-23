@@ -21,6 +21,7 @@
   * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-comm-and-psych/sixty-years-of-quantitative-communication-research-summarized.md)
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)
 * [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
+  * ['Social Meaning' and the explanation of social action](paper-reading-notes/communication-and-psychology-theory/social-meaning-and-the-explanation-of-social-action.md)
   * [Outsiders (Ethnography)](paper-reading-notes/communication-and-psychology-theory/outsiders-ethnography.md)
   * [Realist Tales (Ethnography)](paper-reading-notes/communication-and-psychology-theory/realist-tales-ethnography.md)
   * [Problematization](paper-reading-notes/general-research/problematization.md)

@@ -8,6 +8,8 @@ description: >-
 
 ## Chapter 1: Science: Conjectures and Refutations
 
+[Annotated Link](https://drive.google.com/file/d/1lwLi85QZ7U3udAw\_J-gnaV7itiKw\_4pl/view?usp=sharing)
+
 ### Problem of Demarcation of Science Statements
 
 Sections 1, 2, and 3 established and provided context on the criterion of the scientific status of a theory is its falsifiability, refutability, or testability. Stressed that this is for demarcation only. It has nothing to do with meaning.&#x20;

@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [A First Look at Communication Theory](paper-reading-notes/general-comm-and-psych/a-first-look-at-communication-theory.md)
   * [The nature of communication between humans](paper-reading-notes/general-comm-and-psych/the-nature-of-communication-between-humans.md)
   * [Social Media: Defining, Developing, and Divining](paper-reading-notes/general-comm-and-psych/social-media-defining-developing-and-divining.md)
   * [Synthesizing a Working Definition of “Mass” Media](paper-reading-notes/general-comm-and-psych/synthesizing-a-working-definition-of-mass-media.md)
@@ -21,8 +22,8 @@
   * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-comm-and-psych/sixty-years-of-quantitative-communication-research-summarized.md)
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)
 * [Ethnograpaphy](paper-reading-notes/ethnograpaphy/README.md)
-  * [Realist Tales (Ethnography)](paper-reading-notes/ethnograpaphy/realist-tales-ethnography.md)
-  * [Outsiders (Ethnography)](paper-reading-notes/ethnograpaphy/outsiders-ethnography.md)
+  * [Realist Tales (Ethnography)](paper-reading-notes/communication-and-psychology-theory/realist-tales-ethnography.md)
+  * [Outsiders (Ethnography)](paper-reading-notes/communication-and-psychology-theory/outsiders-ethnography.md)
 * [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
   * [The Growth of Scientific Knowledge](paper-reading-notes/communication-and-psychology-theory/the-growth-of-scientific-knowledge.md)
   * [The Structure of Scientific Revolutions](paper-reading-notes/communication-and-psychology-theory/the-structure-of-scientific-revolutions.md)

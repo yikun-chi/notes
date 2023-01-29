@@ -22,14 +22,5 @@ Sections 4, 5, 6, and 7 supported Hume's refutation of inductive inference. But 
 
 Sections 8, 9, and 10 connected the problem of demarcation and the problem of induction. Point out that the theory's acceptance is only temporary (never accept null hypothesis, only failure to reject null).&#x20;
 
-## The Nature of Normal Science
+##
 
-A paradigm is successful because it prompise more discoverable success. People generally choose to work on this mopping up operation until is is more efficient to think of alternatives.&#x20;
-
-Three categories of scientific investigations
-
-* Work on facts that the paradigm has shown to be important, increasing its precision or larger context&#x20;
-* Work on facts that can be compred directly with predictions from the paradigm theory&#x20;
-* Work on articulate the paradigm theory
-
-## Normal Science as Puzzle-solving

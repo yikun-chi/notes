@@ -8,9 +8,25 @@ description: >-
 
 [Annotated Link](https://drive.google.com/file/d/12Thaa1E8JIK\_NPJBn0vCRgfgZW1UVQ0A/view?usp=share\_link)
 
-## Introduction: A Role for History
+## Chapter 1: Introduction: A Role for History
 
-* Historians are finding harder to 1) research into accumulation view of the scientific development history and 2) distinguish the scientific component and mistake component of past theories.&#x20;
-* New focus for historians are to display the historical integrity of that science in its own time&#x20;
+* Historians are finding it harder to 1) research into the accumulation view of the scientific development history and 2) distinguish the scientific component and mistake component of past theories.&#x20;
+* The new focus for historians is to display the historical integrity of that science in its own time&#x20;
 * Methodology alone is not sufficient to generate a unique substantive conclusion to scientific questions. Background matters
 * New theory forms as a slow process to challenge existing theories, and it take time for new facts and theory to be integrated into existing systems&#x20;
+
+## Chapter 2: The Route to Normal Science
+
+We can divide a field's history into pre-paradigm and post-paradigm.&#x20;
+
+Pre-paradigm:&#x20;
+
+* No single dominating paradigm&#x20;
+* All facts that could pertain to the development seem equally relevant. So early fact-gathering consists of causal observations, experiments, and data from other established crafts. Seems chaotic. Often multiple scientists will attempt to interpret similar but not exactly the same phenomenon from different perspectives.&#x20;
+
+Post-paradigm:&#x20;
+
+* Consecutive scientific revolution transit one paradigm to another
+* Existence of a set of principles that scientists no longer need to explain or justify when continuing their research
+* With each paradigm the definition of the field become more rigid and clear
+* Research report starting to become impossible for laymen to access

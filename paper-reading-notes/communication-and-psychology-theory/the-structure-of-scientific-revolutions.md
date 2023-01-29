@@ -30,20 +30,3 @@ Post-paradigm:&#x20;
 * Existence of a set of principles that scientists no longer need to explain or justify when continuing their research
 * With each paradigm the definition of the field become more rigid and clear
 * Research report starting to become impossible for laymen to access
-
-## Chapter 3 The Nature of Normal Science
-
-A paradigm is successful because it prompise more discoverable success. People generally choose to work on this mopping up operation until is is more efficient to think of alternatives.&#x20;
-
-Three categories of scientific investigations
-
-* Work on facts that the paradigm has shown to be important, increasing its precision or larger context&#x20;
-* Work on facts that can be compred directly with predictions from the paradigm theory&#x20;
-* Work on articulate the paradigm theory
-
-## Chapter 4 Normal Science as Puzzle-solving
-
-Normal science rarely aim to produce major innovations. The process is like solving a puzzle:&#x20;
-
-* Result is determined, and maybe of no value, but the process is fun&#x20;
-* There are set of rules governing how to obtain the result&#x20;

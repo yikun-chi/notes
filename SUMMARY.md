@@ -25,6 +25,7 @@
   * [Realist Tales (Ethnography)](paper-reading-notes/communication-and-psychology-theory/realist-tales-ethnography.md)
   * [Outsiders (Ethnography)](paper-reading-notes/communication-and-psychology-theory/outsiders-ethnography.md)
 * [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
+  * [Criticism and the Growth of Knowledge](paper-reading-notes/communication-and-psychology-theory/criticism-and-the-growth-of-knowledge.md)
   * [The Growth of Scientific Knowledge](paper-reading-notes/communication-and-psychology-theory/the-growth-of-scientific-knowledge.md)
   * [The Structure of Scientific Revolutions](paper-reading-notes/communication-and-psychology-theory/the-structure-of-scientific-revolutions.md)
   * ['Social Meaning' and the explanation of social action](paper-reading-notes/communication-and-psychology-theory/social-meaning-and-the-explanation-of-social-action.md)

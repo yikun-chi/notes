@@ -41,4 +41,9 @@ Three categories of scientific investigations
 * Work on facts that can be compred directly with predictions from the paradigm theory&#x20;
 * Work on articulate the paradigm theory
 
-## Normal Science as Puzzle-solving
+## Chapter 4 Normal Science as Puzzle-solving
+
+Normal science rarely aim to produce major innovations. The process is like solving a puzzle:&#x20;
+
+* Result is determined, and maybe of no value, but the process is fun&#x20;
+* There are set of rules governing how to obtain the result&#x20;

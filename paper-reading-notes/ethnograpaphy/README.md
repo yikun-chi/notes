@@ -38,9 +38,23 @@ Tips:&#x20;
 
 ## Philosophy on Sampling&#x20;
 
+Attempts to solve generalizability in interviewing, such as random sampling or finding representatives, are misguided and fruitless. Random sampling might deal with needing large numbers and unresponse bias. Finding representatives are influenced by conceptual image of "representative"&#x20;
+
+Alternative 1: Extending the extended case method&#x20;
+
+* The Berkeley school (Michael Burawoy): objective is to understand larger forces shaping conditions in the case. Unique cases are especially interesting. This can be used to improve theory, but does not provide a way to make empirical assessments relevant to other theories or judge the quality of hypothesis.&#x20;
+* Manchester (Clyde Mitchell): Focus on "scientific inference". Case studies can be used to make logical hypothesis (A is doing B because of C)
+
+Alternative 2: Sequential interviewing&#x20;
+
+* Focus on case sutdy logic. Continue to interview until case is complete. Each interview is designed to obtain new information that previous interview did not uncover.&#x20;
+
+
+
 ## Reference&#x20;
 
 1. Charmaz, K. (2014). Chapter 1: An Invitation to Grounded Theory in _Constructing grounded theory_. essay, SAGE. ([Annotated Link](https://drive.google.com/file/d/1B8pi8SqjpmwU5SlRa-xm5wqonw4plM\_w/view?usp=share\_link))
 2. Charmaz, K. (2014). Chapter 2: Gathering Rich Data in _Constructing grounded theory_. essay, SAGE. ([Annotated Link](https://drive.google.com/file/d/1C-H5MPrUrZ6WUc5DHF4JN2YpZkpBxtTT/view?usp=share\_link))
 3. Lareau, A. (2021). Chapter 5: How to Conduct a Good Interview. In _Listening to people a practical guide to interviewing, Participant Observation, data analysis, and writing it all up_. essay, The University of Chicago Press. ([Annotated Link](https://drive.google.com/file/d/1g1wwf\_M5hsAALRsgWaWH7E5Wa14urjS6/view?usp=sharing))
-4. Timmermans, S., & Tavory, I. (2012). Theory Construction in Qualitative Research: From Grounded Theory to Abductive Analysis. Sociological Theory, 30(3), 167–186. https://doi.org/10.1177/0735275112457914 ([Annotated Link](https://drive.google.com/file/d/1-9WvbJBPqdGJBVM0yhCT4XS9zhd3ujmC/view?usp=share\_link))
+4. Small, M. L. (2009). \`How many cases do I need?’: On science and the logic of case selection in field-based research. Ethnography, 10(1), 5–38. https://doi.org/10.1177/1466138108099586 ([Annotated Link](https://drive.google.com/file/d/1BgN--zFhb3vnLxYs4g7i4eby5fj7Pttk/view?usp=sharing))
+5. Timmermans, S., & Tavory, I. (2012). Theory Construction in Qualitative Research: From Grounded Theory to Abductive Analysis. Sociological Theory, 30(3), 167–186. https://doi.org/10.1177/0735275112457914 ([Annotated Link](https://drive.google.com/file/d/1-9WvbJBPqdGJBVM0yhCT4XS9zhd3ujmC/view?usp=share\_link))

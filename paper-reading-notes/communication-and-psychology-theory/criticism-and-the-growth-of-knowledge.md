@@ -17,3 +17,9 @@ Based on Kuhn's view, paradigm-switching must means post-hoc view that empirical
 
 According to Kuhn's view of normal science, the gestalt switch that leads people to join a new paradigm shouldn't happen. Because it reuqires that the new paradigm to be immediately powerful at the point of conception.&#x20;
 
+## Does the Distinction between Normal and Revolutionary Science Hold Water?  by Stephen Toulmin&#x20;
+
+Kuhn's original theory implies the existence of drastic discontinuity in scientific history due to paradigm switching, which doesn't comply with some historical examples. But if we reduce the drasticness of paradigm switching, we sort of took away the main point of Kuhn.&#x20;
+
+Proposed alternative view is to see normal science as adding variations. Therefore there are three dimensions: the quantity of variation, the direction of variation, and the criteria for selecting variations to replace original theory. Parallel to evolution.&#x20;
+

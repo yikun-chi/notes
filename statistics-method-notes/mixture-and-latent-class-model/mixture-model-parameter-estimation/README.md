@@ -117,5 +117,18 @@ So overall, the EM algorithm for mixture model can be described as&#x20;
 
 The convergence can be checked by 1) the norm of the parameter guesses or 2) relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
 
-__
+In summary, EM algorithm for Misture Class Model alternative between&#x20;
+
+1. computing the expected component membership probabilities or the posterior state probabilities
+2. optimizing the response model parameters conditional on these expected component memberships
+
+## Handling Constraint
+
+Linear (in)equality constraint can be represented as&#x20;
+
+$$
+I \leq A\theta\leq U
+$$
+
+And numerical optimization can be performed using packages such as _Rsolnp, Rdonlp2, depmixS4_ &#x20;
 

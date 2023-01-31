@@ -22,3 +22,9 @@ Sections 4, 5, 6, and 7 supported Hume's refutation of inductive inference. But 
 
 Sections 8, 9, and 10 connected the problem of demarcation and the problem of induction. Point out that the theory's acceptance is only temporary (never accept null hypothesis, only failure to reject null).&#x20;
 
+## Some reactions&#x20;
+
+* Poper might be claiming the tendency is preceding inductive reasoning. But this tendency itself is not testable.&#x20;
+
+##
+

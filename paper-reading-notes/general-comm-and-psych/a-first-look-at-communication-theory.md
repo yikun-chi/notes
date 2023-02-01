@@ -46,7 +46,6 @@ In 1970s - 90s, the field transit to Powerful-Effect Models&#x20;
 
 * Explanatory linkes became clearer&#x20;
 * Excitation Transfer Theory&#x20;
-* Social Cognitive Theory: vicarious experience with attention, rentention, motivation give raise to learning&#x20;
 
 ## Chapter 29 Cultivation Theory of George Gerbner&#x20;
 

@@ -95,6 +95,8 @@ Q(\theta, \theta')
 \end{align*}
 $$
 
+
+
 * In the definition, the expectation is w.r.t hidden state across each observation ($$s_{1:T}$$) given the observations and initial / previous guess parameter $$\theta'$$.&#x20;
 * The expectation is a function of the true parameter and the initial / guess parameters&#x20;
 * The second equal sign is only for mixture model. It applies the defnition of expectation. Notice $$s_{1:T}\in S^T$$ is just a short hand for all possible permutation of hidden states from time 1 to T.&#x20;
@@ -130,9 +132,3 @@ $$
 
 And numerical optimization can be performed using packages such as _Rsolnp, Rdonlp2, depmixS4_ &#x20;
 
-## Starting Values
-
-We have two choices, especially concerning EM algorithm.&#x20;
-
-1. Start with density parameter values for components (obtained through methods such as K-means) and equal value for mixing probability&#x20;
-2. Start with posterior probability (such as random assignment of each case to a component, resulting in 1 hot vector for posterior probability) and directly go to maximization step in the first iteration&#x20;

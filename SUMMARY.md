@@ -52,6 +52,7 @@
   * [Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
   * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)
 * [Miscellaneous in Stat, Linear Algebra, and Deep Learning](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/README.md)
+  * [Fisher Information](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/fisher-information.md)
   * [Distribution Testing](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/distribution-testing.md)
   * [power](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/power.md)
   * [t-test](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/t-test.md)

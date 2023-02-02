@@ -45,3 +45,5 @@ fsmix2c <- fit(spm2, equal = c(1,1,1,2,1,2), method = "rsolnp")
 llratio(fspmix2, fspmix2c)
 ```
 
+## Standard Errors
+

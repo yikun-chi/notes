@@ -49,7 +49,7 @@
     * [EM Algorithm and Mixtures of Generalized Linear Models](statistics-method-notes/mixture-and-latent-class-model/mixture-model-parameter-estimation/em-algorithm-and-mixtures-of-generalized-linear-models.md)
     * [EM Proof](statistics-method-notes/mixture-and-latent-class-model/mixture-model-parameter-estimation/em-proof.md)
   * [Mixture Model Parameter Inference](statistics-method-notes/mixture-and-latent-class-model/parameter-inference.md)
-  * [Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
+  * [Mixture Model Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
   * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)
 * [Miscellaneous in Stat, Linear Algebra, and Deep Learning](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/README.md)
   * [Fisher Information](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/fisher-information.md)

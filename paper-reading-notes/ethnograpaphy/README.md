@@ -49,12 +49,16 @@ Alternative 2: Sequential interviewing&#x20;
 
 * Focus on case sutdy logic. Continue to interview until case is complete. Each interview is designed to obtain new information that previous interview did not uncover.&#x20;
 
+## Philosophy on Interviewing&#x20;
 
+Inteterview-only studies have the danger of missing certain connections and ignoring behavior to report mismatch. Ethnographer place accounts into the context of action and can achieve more holistic result.&#x20;
 
 ## Reference&#x20;
 
 1. Charmaz, K. (2014). Chapter 1: An Invitation to Grounded Theory in _Constructing grounded theory_. essay, SAGE. ([Annotated Link](https://drive.google.com/file/d/1B8pi8SqjpmwU5SlRa-xm5wqonw4plM\_w/view?usp=share\_link))
 2. Charmaz, K. (2014). Chapter 2: Gathering Rich Data in _Constructing grounded theory_. essay, SAGE. ([Annotated Link](https://drive.google.com/file/d/1C-H5MPrUrZ6WUc5DHF4JN2YpZkpBxtTT/view?usp=share\_link))
-3. Lareau, A. (2021). Chapter 5: How to Conduct a Good Interview. In _Listening to people a practical guide to interviewing, Participant Observation, data analysis, and writing it all up_. essay, The University of Chicago Press. ([Annotated Link](https://drive.google.com/file/d/1g1wwf\_M5hsAALRsgWaWH7E5Wa14urjS6/view?usp=sharing))
-4. Small, M. L. (2009). \`How many cases do I need?’: On science and the logic of case selection in field-based research. Ethnography, 10(1), 5–38. https://doi.org/10.1177/1466138108099586 ([Annotated Link](https://drive.google.com/file/d/1BgN--zFhb3vnLxYs4g7i4eby5fj7Pttk/view?usp=sharing))
-5. Timmermans, S., & Tavory, I. (2012). Theory Construction in Qualitative Research: From Grounded Theory to Abductive Analysis. Sociological Theory, 30(3), 167–186. https://doi.org/10.1177/0735275112457914 ([Annotated Link](https://drive.google.com/file/d/1-9WvbJBPqdGJBVM0yhCT4XS9zhd3ujmC/view?usp=share\_link))
+3. Jerolmack, C., & Khan, S. (2014). Talk Is Cheap: Ethnography and the Attitudinal Fallacy. _Sociological Methods & Research_, _43_(2), 178–209 ([Annotated Link](https://drive.google.com/file/d/13T0nbpIdmWzfEMVUotV68\_oDRm\_8yZa0/view?usp=sharing))
+4. Lamont, Michèle, and Ann Swidler. 2014. “[Methodological Pluralism and the Possibilities and Limits of Interviewing](https://scholar.harvard.edu/lamont/publications/praise-methodological-pluralism-methods-theory-debate)”. Qualitative Sociology 37 (2):153-171. ([Annotated Link](https://drive.google.com/file/d/1e\_ctASE41qd8F-crwrBiqQmuUhmRFOLQ/view?usp=share\_link))
+5. Lareau, A. (2021). Chapter 5: How to Conduct a Good Interview. In _Listening to people a practical guide to interviewing, Participant Observation, data analysis, and writing it all up_. essay, The University of Chicago Press. ([Annotated Link](https://drive.google.com/file/d/1g1wwf\_M5hsAALRsgWaWH7E5Wa14urjS6/view?usp=sharing))
+6. Small, M. L. (2009). \`How many cases do I need?’: On science and the logic of case selection in field-based research. Ethnography, 10(1), 5–38. https://doi.org/10.1177/1466138108099586 ([Annotated Link](https://drive.google.com/file/d/1BgN--zFhb3vnLxYs4g7i4eby5fj7Pttk/view?usp=sharing))
+7. Timmermans, S., & Tavory, I. (2012). Theory Construction in Qualitative Research: From Grounded Theory to Abductive Analysis. Sociological Theory, 30(3), 167–186. https://doi.org/10.1177/0735275112457914 ([Annotated Link](https://drive.google.com/file/d/1-9WvbJBPqdGJBVM0yhCT4XS9zhd3ujmC/view?usp=share\_link))

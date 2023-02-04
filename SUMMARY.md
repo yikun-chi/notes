@@ -39,6 +39,8 @@
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 * [Relationships](paper-reading-notes/relationships/README.md)
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
+* [Personality](paper-reading-notes/personality/README.md)
+  * [A Multimodal Affective Sensing Model for Constructing a Personality-Based Financial Advisor System](paper-reading-notes/personality/a-multimodal-affective-sensing-model-for-constructing-a-personality-based-financial-advisor-system.md)
 
 ## Statistics Method Notes
 

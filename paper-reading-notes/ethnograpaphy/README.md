@@ -2,8 +2,6 @@
 
 Notes are taken with COMM 314 Ethnographic Method by Prof. Angèle Christin
 
-Annotated Link
-
 ## Grounded Theory
 
 ### Intro&#x20;

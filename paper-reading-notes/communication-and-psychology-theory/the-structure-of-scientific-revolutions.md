@@ -1,12 +1,18 @@
 ---
 description: >-
-  Kuhn, T. S., &amp; Hacking, I. (2012). The structure of Scientific
-  Revolutions. University of Chicago Press.
+  Kuhn, T. S., & Hacking, I. (2012). The structure of Scientific Revolutions.
+  University of Chicago Press.
 ---
 
 # The Structure of Scientific Revolutions
 
 [Annotated Link](https://drive.google.com/file/d/12Thaa1E8JIK\_NPJBn0vCRgfgZW1UVQ0A/view?usp=share\_link)
+
+## Overall Discussion (COMM 317 with Professor James S. Fishkin)
+
+* In a way Kuhn backed out a bit on his original claim of anti-cumulative science a bit.
+* One of the greatest debate around his theory is the incommensurability of the paradigm shift&#x20;
+* It is really hard to just do extradentary research. Often is stumbled across from doing normal research. But certain ways of generating research questions are more effective.&#x20;
 
 ## Chapter 1: Introduction: A Role for History
 
@@ -31,44 +37,44 @@ Post-paradigm:&#x20;
 * With each paradigm the definition of the field become more rigid and clear
 * Research report starting to become impossible for laymen to access
 
-## Chapter 3 The Nature of Normal Science
+## Chapter 3: The Nature of Normal Science
 
-A paradigm is successful because it prompise more discoverable success. People generally choose to work on this mopping up operation until is is more efficient to think of alternatives.&#x20;
+A paradigm is successful because it promise more discoverable success. People generally choose to work on this mopping up operation until is is more efficient to think of alternatives.&#x20;
 
 Three categories of scientific investigations
 
 * Work on facts that the paradigm has shown to be important, increasing its precision or larger context&#x20;
-* Work on facts that can be compred directly with predictions from the paradigm theory&#x20;
+* Work on facts that can be compared directly with predictions from the paradigm theory&#x20;
 * Work on articulate the paradigm theory
 
-## Chapter 4 Normal Science as Puzzle-solving
+## Chapter 4: Normal Science as Puzzle-solving
 
 Normal science rarely aim to produce major innovations. The process is like solving a puzzle:&#x20;
 
 * Result is determined, and maybe of no value, but the process is fun&#x20;
 * There are set of rules governing how to obtain the result&#x20;
 
-## Chapter 5 The Priority of Paradigms
+## Chapter 5: The Priority of Paradigms
 
 This chapter separates paradigms from full set of rules. Kuhn argues that&#x20;
 
 * Paradigm determine normal science without discoverable full set of rules
-* people relate to paradigm by resemblance, and this process is obtained because education is never in a vaccum
+* people relate to paradigm by resemblance, and this process is obtained because education is never in a vacuum
 * Because explicit rules do not exist, the field of a particular science often has little coherence
 
-## Chapter 6 Anomaly and the Emergence of Scientific Discoveries
+## Chapter 6: Anomaly and the Emergence of Scientific Discoveries
 
-Discovery of anomaly fact (observational) and new theory (conceptual) takes time to completely integrate (it's a process). The process of normal science, through contnuously advancing precise measurement and expectation, actually give ground to the possibility to discover anomalies. Those anomalies after extended, but not necessarily prolonged assimilation, will lead to new theory and paradigm.&#x20;
+Discovery of anomaly fact (observational) and new theory (conceptual) takes time to completely integrate (it's a process). The process of normal science, through continuously advancing precise measurement and expectation, actually give ground to the possibility to discover anomalies. Those anomalies after extended, but not necessarily prolonged assimilation, will lead to new theory and paradigm.&#x20;
 
-## Chapter 7 Crisis and the Emergence of Scientific Theories&#x20;
+## Chapter 7: Crisis and the Emergence of Scientific Theories&#x20;
 
 New theory emerges when a paradigm suffers from consistent failure in puzzle solving activities (the crisis).&#x20;
 
-## Chapter 8 The Response to Crisis&#x20;
+## Chapter 8: The Response to Crisis&#x20;
 
-Not all questions can lead to paradigm change. Once questions and anomales beccame large enough, the end is one of the three options: paradigm wins, declare no solution, and new theory emerge. In crisis, scientist will start to loosen paradigm by introduce variations, and also try to make the anomaly more defined and pronounced.&#x20;
+Not all questions can lead to paradigm change. Once questions and anomalies became large enough, the end is one of the three options: paradigm wins, declare no solution, and new theory emerge. In crisis, scientist will start to loosen paradigm by introduce variations, and also try to make the anomaly more defined and pronounced.&#x20;
 
 Note nothing in this process is guaranteed accumulative.&#x20;
 
-## Chapter 9 The Nature and Necessity of Scientific Revolutions
+## Chapter 9: The Nature and Necessity of Scientific Revolutions
 

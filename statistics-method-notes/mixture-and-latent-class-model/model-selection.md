@@ -16,7 +16,9 @@ Alternatively, we can use bootstrapping method instead of the actual chi-square 
    2. Fit the $$k, k+l$$ component mixture models to the bootstrap data and calculate the likelihood ratio&#x20;
 3. Calculate the proportion of bootstrap likelihood ratio which are equal or larger than observed.&#x20;
 
+## Method 2: Information Criteria&#x20;
 
+[See information criteria](../miscellaneous-in-stat-linear-algebra-and-deep-learning/information-criteria.md)
 
 
 

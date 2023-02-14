@@ -72,7 +72,8 @@ Critique:&#x20;
 
 Theory:&#x20;
 
-* People respond to communication media as if they were alive
+* People respond to communication media as if they were alive.&#x20;
+* Computer as Social Actors (CaSA) paradigm.&#x20;
 * It is counter-intuitive and people may claim "not me"
 * Evolution as mechanism, human are evolved to think things are real.&#x20;
 

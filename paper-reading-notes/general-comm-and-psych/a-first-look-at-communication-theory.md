@@ -65,3 +65,24 @@ Resonance: The condition that exists when viewer's real-life environment is like
 Critique:&#x20;
 
 * Lack of testability on causal directions&#x20;
+
+
+
+## Media Equation (Archived Chapter)
+
+Theory:&#x20;
+
+* People respond to communication media as if they were alive
+* It is counter-intuitive and people may claim "not me"
+* Evolution as mechanism, human are evolved to think things are real.&#x20;
+
+Expperiment
+
+* Interpersonal Distance: When figures in media are up and close, peole have stronger response.&#x20;
+* Similarity and Attraction: Students more socially and intellectually attracted to computers that matched their personality.&#x20;
+* Source Credibility: Viewers who watched the news tape on the specialist television rated the reporter's stories are better.&#x20;
+
+Critique:&#x20;
+
+* Dangerous potentual use case. Theory offers no way to defend against Media Equation way of thinking.&#x20;
+* Uses social-psych definition of communication, experiments only focus on one way communication.&#x20;

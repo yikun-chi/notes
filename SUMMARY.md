@@ -53,6 +53,7 @@
   * [Mixture Model Parameter Inference](statistics-method-notes/mixture-and-latent-class-model/parameter-inference.md)
   * [Mixture Model Model Selection](statistics-method-notes/mixture-and-latent-class-model/model-selection.md)
   * [Model Covariates Effect on Prior Probability](statistics-method-notes/mixture-and-latent-class-model/model-covariates-effect-on-prior-probability.md)
+  * [R Example](statistics-method-notes/mixture-and-latent-class-model/r-example.md)
 * [Miscellaneous in Stat, Linear Algebra, and Deep Learning](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/README.md)
   * [Information Criteria](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/information-criteria.md)
   * [Fisher Information](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/fisher-information.md)

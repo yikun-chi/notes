@@ -66,14 +66,11 @@ Critique:&#x20;
 
 * Lack of testability on causal directions&#x20;
 
-
-
 ## Media Equation (Archived Chapter)
 
 Theory:&#x20;
 
 * People respond to communication media as if they were alive.&#x20;
-* Computer as Social Actors (CaSA) paradigm.&#x20;
 * It is counter-intuitive and people may claim "not me"
 * Evolution as mechanism, human are evolved to think things are real.&#x20;
 
@@ -87,3 +84,16 @@ Critique:&#x20;
 
 * Dangerous potentual use case. Theory offers no way to defend against Media Equation way of thinking.&#x20;
 * Uses social-psych definition of communication, experiments only focus on one way communication.&#x20;
+
+## Computer as Social Actors (CaSA)&#x20;
+
+* More restricted compare to Media Equation&#x20;
+* Requires:&#x20;
+  * Social cues: individuals must be presented with an object that has enough cues to lead the person to categorize it as worthy of social response&#x20;
+  * Sourcing: Individuals can see computer as source of information&#x20;
+* Applies to Human Computer Interaction, not Computer Mediated Communication
+* Influence factors
+  * Experience level&#x20;
+  * Individual wellbeing&#x20;
+  * Perceived humannes
+  * Anthropormorphic cues and repeated interactions&#x20;

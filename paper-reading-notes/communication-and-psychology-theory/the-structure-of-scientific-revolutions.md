@@ -76,5 +76,32 @@ Not all questions can lead to paradigm change. Once questions and anomalies beca
 
 Note nothing in this process is guaranteed accumulative.&#x20;
 
-## Chapter 9: The Nature and Necessity of Scientific Revolutions
+### Chapter 9: The Nature and Necessity of Scientific Revolutions
 
+The parallel between political revolution and scientific revolution&#x20;
+
+* Existing paradigm cease to function adequately (crisis)&#x20;
+* Only visible for practitioner
+* The choose between paradigm must go beyond scientific arguments
+
+New paradigm does not have to be in directly conflict with predecessors, but cumulation is improbable.&#x20;
+
+Argues against the somewhat Positivism way of thinking that theory only applies to already tested facts.&#x20;
+
+Overall talks about the scientific revolution as a concept.&#x20;
+
+### Chapter 10: Revolutions as Change of World View&#x20;
+
+Argues for scientific revolution leads to change in perception of the world, much more than mere interpretation.&#x20;
+
+### Chapter 11: The Invisibility of Revolutions&#x20;
+
+Argues for the invisibility of scientific revolution. Textbooks are constructed post revolution about an new paradigm, so easier to be seen and written as the cumulative history.&#x20;
+
+### Chapter 12: The Resolution of Revolution
+
+Scientist often not switch paradigm, or switching due to persuasion(such as aesthetic) instead of proof
+
+### Chapter 13: Progress through Revolution&#x20;
+
+New paradigms are often not comparable to old ones. We cannot assume the that revolution brings progress. The sense of progress is generally fake.&#x20;

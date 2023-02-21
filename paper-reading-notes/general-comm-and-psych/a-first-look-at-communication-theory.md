@@ -48,6 +48,24 @@ In 1970s - 90s, the field transit to Powerful-Effect Models&#x20;
 * Excitation Transfer Theory&#x20;
 * Social Cognitive Theory: vicarious experience with attention, retention, motivation give raise to learning&#x20;
 
+## Relationship Development
+
+&#x20;Experiential approach by humanist psychologist Carl Rogers
+
+* Congruence&#x20;
+* Unconditional positive regard&#x20;
+* Empathic understanding&#x20;
+
+Rewards and cost of interaction by economist Gary Becker&#x20;
+
+* People interact with others to maximizes personal benefit and minimize personal cost&#x20;
+
+### Chapter 8 Social Penetration Theory of Irwin Altman & Dalmas Taylor
+
+
+
+##
+
 ## Chapter 29 Cultivation Theory of George Gerbner&#x20;
 
 Summary: TV power comes from symbolic content. Heavy TV viewer's perception of reality is influenced by TV&#x20;

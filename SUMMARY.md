@@ -68,6 +68,9 @@
 
 ## Deep Learning Notes
 
+* [PyTorch Notes](deep-learning-notes/pytorch-notes/README.md)
+  * [PyTorch Foundation](deep-learning-notes/pytorch-notes/pytorch-foundation.md)
+  * [PyTorch Functions](deep-learning-notes/pytorch-notes/pytorch-functions.md)
 * [Natural Language Processing](deep-learning-notes/page-1.md)
   * [Classification Methods and Vector Space](deep-learning-notes/natural-language-processing/classification-methods-and-vector-space.md)
   * [Probabilistic Model](deep-learning-notes/natural-language-processing/probabilistic-model.md)

@@ -38,3 +38,33 @@ tensor([[1, 2, 3, 0, 0],
 <pre class="language-python"><code class="lang-python"><strong># Using scatter_ to create one-hot encoding based on value of y 
 </strong><strong>torch.zeros(10, dtype=torch.float).scatter_(0, torch.tensor(y), value=1)
 </strong></code></pre>
+
+## [torch.mean](https://pytorch.org/docs/stable/generated/torch.mean.html#torch-mean)
+
+torch.mean(_input_, _dim_, _keepdim=False_, _\*_, _dtype=None_, _out=None_) → [Tensor](https://pytorch.org/docs/stable/tensors.html#torch.Tensor)
+
+* **input** ([_Tensor_](https://pytorch.org/docs/stable/tensors.html#torch.Tensor)) – the input tensor.
+* **dim** ([_int_](https://docs.python.org/3/library/functions.html#int) _or tuple of ints_) – the dimension or dimensions to reduce.
+* **keepdim** ([_bool_](https://docs.python.org/3/library/functions.html#bool)) – whether the output tensor has `dim` retained or not.
+
+```python
+a = torch.tensor([x for x in range(24)], dtype = float).reshape((2,3,4))
+
+# 1
+a.mean(dim = 0).shape
+# (3,4)
+
+# 2
+a.mean(dim = 1).shape
+# (2,4)
+
+# 3
+a.mean(dim = (0,2)).shape
+# (3)
+
+# think of a as an image with 2 channels, 3 by 4
+```
+
+1. Reducing over dimension 0. e.g.,: _Output\[0]\[0]_ is the mean of _Input\[0]\[0]\[0]_ and _input\[1]\[0]\[0]_
+2. Reducing over dimension 1. e.g.,: _Output\[0]\[0]_ is the mean of _Input\[0]\[0]\[0]_, _Input\[0]\[1]\[0]_ and _Input\[0]\[2]\[0]_
+3. Reducing over dimension 0 and 2. e.g.,: _Output\[0]_ is the mean of _\[0]\[0]\[0], \[0]\[0]\[1], \[0]\[0]\[2], \[0]\[0]\[3], \[1]\[0]\[0], \[1]\[0]\[1], \[1]\[0]\[2], \[1]\[0]\[3]_

@@ -68,3 +68,24 @@ a.mean(dim = (0,2)).shape
 1. Reducing over dimension 0. e.g.,: _Output\[0]\[0]_ is the mean of _Input\[0]\[0]\[0]_ and _input\[1]\[0]\[0]_
 2. Reducing over dimension 1. e.g.,: _Output\[0]\[0]_ is the mean of _Input\[0]\[0]\[0]_, _Input\[0]\[1]\[0]_ and _Input\[0]\[2]\[0]_
 3. Reducing over dimension 0 and 2. e.g.,: _Output\[0]_ is the mean of _\[0]\[0]\[0], \[0]\[0]\[1], \[0]\[0]\[2], \[0]\[0]\[3], \[1]\[0]\[0], \[1]\[0]\[1], \[1]\[0]\[2], \[1]\[0]\[3]_
+
+## [transform](https://pytorch.org/vision/main/generated/torchvision.transforms.Normalize.html)&#x20;
+
+torchvision.transforms.Normalize(_mean_, _std_, _inplace=False_)
+
+* **mean** (_sequence_) – Sequence of means for each channel.
+* **std** (_sequence_) – Sequence of standard deviations for each channel.
+* **inplace** ([_bool_](https://docs.python.org/3/library/functions.html#bool)_,optional_) – Bool to make this operation in-place.
+
+```python
+# a is a batch of 2 image, each image is 2 channel 
+a = torch.tensor([x for x in range(16)], dtype = float).reshape((2,2,2,2))
+
+# mean sequence 
+m = torch.tensor([0,1])
+
+fn = torchvision.transforms.Normalize(mean = m, std = torch.ones(1))
+
+```
+
+* For every image, the transformer will subtract 0 from every cell in channel 0, and subtract 1 from every cell in channel 1

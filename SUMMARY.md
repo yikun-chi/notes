@@ -69,6 +69,7 @@
 ## Deep Learning Notes
 
 * [PyTorch Notes](deep-learning-notes/pytorch-notes/README.md)
+  * [Pytorch Code Snippet](deep-learning-notes/pytorch-notes/pytorch-code-snippet.md)
   * [PyTorch Foundation](deep-learning-notes/pytorch-notes/pytorch-foundation.md)
   * [PyTorch Functions](deep-learning-notes/pytorch-notes/pytorch-functions.md)
 * [Natural Language Processing](deep-learning-notes/page-1.md)

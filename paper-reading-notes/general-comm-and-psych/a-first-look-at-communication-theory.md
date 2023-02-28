@@ -62,9 +62,36 @@ Rewards and cost of interaction by economist Gary Becker&#x20;
 
 ### Chapter 8 Social Penetration Theory of Irwin Altman & Dalmas Taylor
 
+## Influence&#x20;
+
+### Chapter 16 Cognitive Dissonance Theory of Leon Festinger
+
+Original: Cognitive dissonance is the distressing mental state caused by inconsistency between a person's two beliefs or a belief and an action. &#x20;
+
+Three Hypothesis:&#x20;
+
+* Selective exposure prevents dissonance: People tend to avoid information that would create dissonance&#x20;
+  * Entertainment, humor can bypass this.&#x20;
+  * Selective exposure doesn't kick-in if people don't see the information as threat
+* Postdecision Dissonance Creates a Need for Reassurance: People feel dissonance after making an important close-call decision that is difficult to reverse.&#x20;
+  * Aspects that increases dissonance: importance of issue, time it takes to make the decition, difficulty to reverse&#x20;
+* Minimal Justification for Action Induces Attitude Change: The best way to stimulate an attitude change is to offer just enough reward / punishment to elicit overt compliance
+  * $1/$20 experiment: Providing too much incentive give a justification to the inconsistent behavior, and thus reduce cognance, and means no incentive to change attitude.&#x20;
+
+Three Reversion
+
+* Elliot Aronson: Dissonance is caused by inconsistency between self-concept and cognition, not purely logical inconsistency.&#x20;
+* Joel Cooper: Dissonance is caused by knowing that the behavior causes adverse events but still did it.&#x20;
+* Claude Steele: Strong self-esteem can reduce dissonance. People will focus on other great achievement and render inconsistency as a minor aspect.&#x20;
+
+Critique:&#x20;
+
+* Daryl Bem: too complicated. Self-perception theory can explain the phenomenon too.&#x20;
+  * Self-perception theory: We determine our attitude the same way an outside observer do, i.e.,: by observing behavior.&#x20;
+* Lack of clear metrics to detect and quantify dissonance&#x20;
+  * potential breakthrough in neural-imaging.&#x20;
 
 
-##
 
 ## Chapter 29 Cultivation Theory of George Gerbner&#x20;
 

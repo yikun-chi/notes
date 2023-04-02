@@ -4,6 +4,16 @@
 
 ## Paper Reading Notes
 
+* [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
+  * [Criticism and the Growth of Knowledge](paper-reading-notes/communication-and-psychology-theory/criticism-and-the-growth-of-knowledge.md)
+  * [The Growth of Scientific Knowledge](paper-reading-notes/communication-and-psychology-theory/the-growth-of-scientific-knowledge.md)
+  * [The Structure of Scientific Revolutions](paper-reading-notes/communication-and-psychology-theory/the-structure-of-scientific-revolutions.md)
+  * ['Social Meaning' and the explanation of social action](paper-reading-notes/communication-and-psychology-theory/social-meaning-and-the-explanation-of-social-action.md)
+  * [Problematization](paper-reading-notes/general-research/problematization.md)
+  * [Personal Knowledge](paper-reading-notes/general-research/personal-knowledge.md)
+  * [Why Can’t We Be More Idiographic in Our Research?](paper-reading-notes/communication-and-psychology-theory/why-cant-we-be-more-idiographic-in-our-research.md)
+  * [Methods for the Study of Development – Developing Methods](paper-reading-notes/communication-and-psychology-theory/methods-for-the-study-of-development-developing-methods.md)
+  * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
   * [A First Look at Communication Theory](paper-reading-notes/general-comm-and-psych/a-first-look-at-communication-theory.md)
   * [The nature of communication between humans](paper-reading-notes/general-comm-and-psych/the-nature-of-communication-between-humans.md)
@@ -24,16 +34,6 @@
 * [Ethnograpaphy](paper-reading-notes/ethnograpaphy/README.md)
   * [Realist Tales (Ethnography)](paper-reading-notes/communication-and-psychology-theory/realist-tales-ethnography.md)
   * [Outsiders (Ethnography)](paper-reading-notes/communication-and-psychology-theory/outsiders-ethnography.md)
-* [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
-  * [Criticism and the Growth of Knowledge](paper-reading-notes/communication-and-psychology-theory/criticism-and-the-growth-of-knowledge.md)
-  * [The Growth of Scientific Knowledge](paper-reading-notes/communication-and-psychology-theory/the-growth-of-scientific-knowledge.md)
-  * [The Structure of Scientific Revolutions](paper-reading-notes/communication-and-psychology-theory/the-structure-of-scientific-revolutions.md)
-  * ['Social Meaning' and the explanation of social action](paper-reading-notes/communication-and-psychology-theory/social-meaning-and-the-explanation-of-social-action.md)
-  * [Problematization](paper-reading-notes/general-research/problematization.md)
-  * [Personal Knowledge](paper-reading-notes/general-research/personal-knowledge.md)
-  * [Why Can’t We Be More Idiographic in Our Research?](paper-reading-notes/communication-and-psychology-theory/why-cant-we-be-more-idiographic-in-our-research.md)
-  * [Methods for the Study of Development – Developing Methods](paper-reading-notes/communication-and-psychology-theory/methods-for-the-study-of-development-developing-methods.md)
-  * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)
   * [CrossCheck: Integrating... to identify digital indicators of psychotic relapse](paper-reading-notes/wellbing/crosscheck-integrating...-to-identify-digital-indicators-of-psychotic-relapse.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
@@ -41,6 +41,7 @@
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
 * [Personality](paper-reading-notes/personality/README.md)
   * [A Multimodal Affective Sensing Model for Constructing a Personality-Based Financial Advisor System](paper-reading-notes/personality/a-multimodal-affective-sensing-model-for-constructing-a-personality-based-financial-advisor-system.md)
+* [Mobility](paper-reading-notes/mobility.md)
 
 ## Statistics Method Notes
 

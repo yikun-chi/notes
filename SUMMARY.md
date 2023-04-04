@@ -41,7 +41,8 @@
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
 * [Personality](paper-reading-notes/personality/README.md)
   * [A Multimodal Affective Sensing Model for Constructing a Personality-Based Financial Advisor System](paper-reading-notes/personality/a-multimodal-affective-sensing-model-for-constructing-a-personality-based-financial-advisor-system.md)
-* [Mobility](paper-reading-notes/mobility.md)
+* [Mobility](paper-reading-notes/mobility/README.md)
+  * [Graph-based Mobility Profiling](paper-reading-notes/mobility/graph-based-mobility-profiling.md)
 
 ## Statistics Method Notes
 

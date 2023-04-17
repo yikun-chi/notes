@@ -14,6 +14,7 @@
   * [Why Can’t We Be More Idiographic in Our Research?](paper-reading-notes/communication-and-psychology-theory/why-cant-we-be-more-idiographic-in-our-research.md)
   * [Methods for the Study of Development – Developing Methods](paper-reading-notes/communication-and-psychology-theory/methods-for-the-study-of-development-developing-methods.md)
   * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
+  * [The Moderator-Mediator Variable Distinction in Social Psychological Research by Baron and Kenny](paper-reading-notes/communication-and-psychology-theory/the-moderator-mediator-variable-distinction-in-social-psychological-research-by-baron-and-kenny.md)
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
   * [A First Look at Communication Theory](paper-reading-notes/general-comm-and-psych/a-first-look-at-communication-theory.md)
   * [The nature of communication between humans](paper-reading-notes/general-comm-and-psych/the-nature-of-communication-between-humans.md)

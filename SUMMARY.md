@@ -82,6 +82,7 @@
   * [Probabilistic Model](deep-learning-notes/natural-language-processing/probabilistic-model.md)
   * [Autocomplete and Language Models](deep-learning-notes/page-1/autocomplete-and-language-models.md)
   * [Word Embeddings with Neural Networks](deep-learning-notes/page-1/word-embeddings-with-neural-networks.md)
+  * [Neural Networks for Sentiment Analysis](deep-learning-notes/page-1/neural-networks-for-sentiment-analysis.md)
 
 ***
 

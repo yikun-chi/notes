@@ -113,18 +113,3 @@ Effects of places visited on subjective well-being&#x20;
 4. No causal inference&#x20;
 5. No controlled estimation correction such as Bonferroni-Holm
 6. Places is based on self-reported&#x20;
-
-* Mobility and mental health&#x20;
-  *
-* Mobility and Psychological Experience
-  *
-  * Lathia, Sandstrom, Mascolo, Rentfrow 2017&#x20;
-  * Mehl, Gosling, Pennebaker 2006&#x20;
-  * Rauthman et al 2014&#x20;
-  * Sandstrom et al 2017&#x20;
-* Movement routine&#x20;
-  * Gonzalez et al 2008&#x20;
-  * Mcinerney et al, 2013&#x20;
-* Movement and Depression&#x20;
-  * Canzian & Musolesi, 2015&#x20;
-  * Saeb et al 2017&#x20;

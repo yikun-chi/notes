@@ -44,6 +44,7 @@
   * [A Multimodal Affective Sensing Model for Constructing a Personality-Based Financial Advisor System](paper-reading-notes/personality/a-multimodal-affective-sensing-model-for-constructing-a-personality-based-financial-advisor-system.md)
   * [What Do we Know When We Know a Person](paper-reading-notes/personality/what-do-we-know-when-we-know-a-person.md)
 * [Mobility](paper-reading-notes/mobility/README.md)
+  * [A Systematic Review of Location Data for Depression Prediction](paper-reading-notes/mobility/a-systematic-review-of-location-data-for-depression-prediction.md)
   * [Investigating the Relationships Between Mobility Behaviours and Indicators of Subjective Well-Being](paper-reading-notes/mobility/investigating-the-relationships-between-mobility-behaviours-and-indicators-of-subjective-well-being.md)
   * [Graph-based Mobility Profiling](paper-reading-notes/mobility/graph-based-mobility-profiling.md)
 

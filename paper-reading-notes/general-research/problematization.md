@@ -19,7 +19,7 @@ description: >-
 ## Five Assumptions Type
 
 * **In-house** : exist within a particular school of thought and shared and accepted as unproblematic.&#x20;
-* **Root metaphor**: **** Broader images of a particular subject matter.  &#x20;
+* **Root metaphor**: Broader images of a particular subject matter.  &#x20;
 * **Paradigm** : Ontological, epistemological, and methodological assumptions.&#x20;
 * **Ideology** : Political, moral and gender related assumptions&#x20;
 * **Field**: Broader set of assumptions about a specific subject matter that are shared by several different school of thoughts.&#x20;

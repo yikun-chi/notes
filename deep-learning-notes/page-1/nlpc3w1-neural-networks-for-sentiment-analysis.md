@@ -2,13 +2,13 @@
 description: https://www.coursera.org/learn/sequence-models-in-nlp/home/week/1
 ---
 
-# Neural Networks for Sentiment Analysis
+# NLPC3W1: Neural Networks for Sentiment Analysis
 
 ## Structure
 
 ### Input Representation&#x20;
 
-A vector of numbers. Each number represent a specific word. Zero-padded to make sure all input have the same size.&#x20;
+A vector of numbers. Each number represents a specific word. Zero-padded to make sure all inputs have the same size.&#x20;
 
 ## Model Architecture in Trax
 

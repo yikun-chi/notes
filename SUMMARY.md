@@ -79,11 +79,11 @@
   * [PyTorch Foundation](deep-learning-notes/pytorch-notes/pytorch-foundation.md)
   * [PyTorch Functions](deep-learning-notes/pytorch-notes/pytorch-functions.md)
 * [Natural Language Processing](deep-learning-notes/page-1.md)
-  * [Classification Methods and Vector Space](deep-learning-notes/natural-language-processing/classification-methods-and-vector-space.md)
-  * [Probabilistic Model](deep-learning-notes/natural-language-processing/probabilistic-model.md)
-  * [Autocomplete and Language Models](deep-learning-notes/page-1/autocomplete-and-language-models.md)
-  * [Word Embeddings with Neural Networks](deep-learning-notes/page-1/word-embeddings-with-neural-networks.md)
-  * [Neural Networks for Sentiment Analysis](deep-learning-notes/page-1/neural-networks-for-sentiment-analysis.md)
+  * [NLPC2W1: Classification Methods and Vector Space](deep-learning-notes/natural-language-processing/classification-methods-and-vector-space.md)
+  * [NLPC2W2: Probabilistic Model](deep-learning-notes/natural-language-processing/probabilistic-model.md)
+  * [NLPC2W3: Autocomplete and Language Models](deep-learning-notes/page-1/nlpc2w3-autocomplete-and-language-models.md)
+  * [NLPC2W4:Word Embeddings with Neural Networks](deep-learning-notes/page-1/nlpc2w4-word-embeddings-with-neural-networks.md)
+  * [NLPC3W1: Neural Networks for Sentiment Analysis](deep-learning-notes/page-1/nlpc3w1-neural-networks-for-sentiment-analysis.md)
 
 ***
 

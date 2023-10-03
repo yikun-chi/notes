@@ -104,3 +104,6 @@ Question&#x20;
 2. Why does cognitive science intrinsically involves motivation, can it just be about content-specific conceptual element that are general purpose?&#x20;
 3. Why does emotions have to be the orchestration process, not attention / sailency, and why can it not be reducible to any one category of effects?&#x20;
 4. How are emotion (affective? ), cognition (cognitive), and behavioral system fit together?&#x20;
+5. Covariate structure of the world arises personality?&#x20;
+6. In order to study / define personality, we have to look at the ancestral environment, what about things such as childhood trama?&#x20;
+7. Domain specific vs. statistical independent, can personality be domain specific? &#x20;

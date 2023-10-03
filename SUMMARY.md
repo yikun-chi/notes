@@ -32,6 +32,7 @@
   * [The Ebb and Flow of Communication Research](paper-reading-notes/general-comm-and-psych/the-ebb-and-flow-of-communication-research.md)
   * [Sixty years of quantitative communication research summarized:](paper-reading-notes/general-comm-and-psych/sixty-years-of-quantitative-communication-research-summarized.md)
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)
+  * [The Theoretical Foundations of Evolutionary Psychology](paper-reading-notes/general-comm-and-psych/the-theoretical-foundations-of-evolutionary-psychology.md)
 * [Ethnograpaphy](paper-reading-notes/ethnograpaphy/README.md)
   * [Realist Tales (Ethnography)](paper-reading-notes/communication-and-psychology-theory/realist-tales-ethnography.md)
   * [Outsiders (Ethnography)](paper-reading-notes/communication-and-psychology-theory/outsiders-ethnography.md)

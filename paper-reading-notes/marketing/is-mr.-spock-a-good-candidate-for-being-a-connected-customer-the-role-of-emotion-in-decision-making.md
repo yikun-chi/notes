@@ -17,4 +17,10 @@ Decision quality, emotions and the brain&#x20;
 * what is a good decision?&#x20;
   * Normative benchmark: axioms of dominance (people choose an inferior product) and transitivity
   * Output driven, good decision is one where the decision marker is satisfied with, confident about&#x20;
-  *
+* Emotion can shift the evaluation of attribute information in favor of the emotionally enriched option. This means sometimes logically trade-off situation (no dominant option) will become dominant due to emotionally driven biased evaluation
+
+A View into the Future&#x20;
+
+* Developing appropriate measures for the emotion component. e.g,: face tracking, skin conductance etc.&#x20;
+* Exploring array of tactical means of shaping emotion. i.e.,: additional arousal mechanism in addition to audio visual&#x20;
+* Gaining richer insights into the CVP by examining interaction effects of emotion, benefit, pricing across various product type and other moderators.&#x20;

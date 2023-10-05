@@ -5,6 +5,7 @@
 ## Paper Reading Notes
 
 * [Marketing](paper-reading-notes/marketing/README.md)
+  * [Eternal Quest for the Best](paper-reading-notes/marketing/eternal-quest-for-the-best.md)
   * [Is Mr. Spock a Good Candidate for Being a Connected Customer? The Role of Emotion in Decision Making](paper-reading-notes/marketing/is-mr.-spock-a-good-candidate-for-being-a-connected-customer-the-role-of-emotion-in-decision-making.md)
 * [General Research](paper-reading-notes/communication-and-psychology-theory/README.md)
   * [Criticism and the Growth of Knowledge](paper-reading-notes/communication-and-psychology-theory/criticism-and-the-growth-of-knowledge.md)

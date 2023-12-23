@@ -38,6 +38,7 @@
   * [The Use of Media in Media Psychology](paper-reading-notes/communication-and-psychology-theory/the-use-of-media-in-media-psychology.md)
   * [The Theoretical Foundations of Evolutionary Psychology](paper-reading-notes/general-comm-and-psych/the-theoretical-foundations-of-evolutionary-psychology.md)
   * [Communication as an Academic Discipline: A Dialogue](paper-reading-notes/general-comm-and-psych/communication-as-an-academic-discipline-a-dialogue.md)
+  * [The Lost Doctrine: Suggestion Theory in Early Media Effects Research](paper-reading-notes/general-comm-and-psych/the-lost-doctrine-suggestion-theory-in-early-media-effects-research.md)
 * [Ethnograpaphy](paper-reading-notes/ethnograpaphy/README.md)
   * [Realist Tales (Ethnography)](paper-reading-notes/communication-and-psychology-theory/realist-tales-ethnography.md)
   * [Outsiders (Ethnography)](paper-reading-notes/communication-and-psychology-theory/outsiders-ethnography.md)

@@ -1,8 +1,21 @@
-# SVD and PCA Deep Dive
+# Principal Components Analysis
 
-Content from: [Jonathan Hui medium post](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491) and Coursera workbook of the NLP module
+Content from:
 
-## PCA as Linear Combination
+* &#x20;[Jonathan Hui medium post](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)&#x20;
+* [Coursera workbook of the NLP module](../../../deep-learning-notes/natural-language-processing/classification-methods-and-vector-space.md)
+* [Stanford CS 233 PCA module](https://drive.google.com/file/d/1b7HLvYZ\_cF8q2LGwpvDhR\_SNI-FQVcsT/view?usp=drive\_link)&#x20;
+* [Lecture Notes on PCA by Laurenz Wiskott](https://drive.google.com/file/d/1aVzEZjn-POBPfD6VmwJvQVQGNu5\_kwGj/view?usp=drive\_link)&#x20;
+
+## PCA Intuition&#x20;
+
+PCA looks for a single lower-dimensional linear subspace that captures most of the variation in the data. In other words, PCA aims to minimize the error introduced by projecting the data into this linear subspace.&#x20;
+
+## [A Simple 2D Example](svd-and-pca-deep-dive.md)
+
+A simple 2D PCA walkthrough motivating variance minimization and PCA as rotation problem
+
+## PCA as a Linear Combination
 
 ### SVD
 
@@ -45,22 +58,6 @@ Furthermore
 If $$Z=AX$$, then the covariance of $$Z$$ can be calculated as $$V_z = AV_xA^T$$ where $$V_x$$is the covariance of $$X$$
 
 Given the SVD decomposition, apply $$A$$ to a vector $$x$$ can be understood as first performing a rotation $$V^T$$, then a scaling $$S$$, and finally another rotation $$U$$.&#x20;
-
-## Alternative Perspective: Rotation ([Link](https://drive.google.com/file/d/1iBYkI6lHluUKKNqhAqkWnHPcJNCA9-OI/view?usp=share\_link))
-
-First consider the extreme case of $$y=n x, x\sim \text{Unif}(0,1)$$. We create both variables and mean center it, then fed into a PCA to get 2 principle components. We plot the original data in blue and PCA transformed data (based on the rotation matrix of PCA) in orange.&#x20;
-
-<figure><img src="../../.gitbook/assets/y=nx PCA Demo.png" alt=""><figcaption><p>y=nx PCA Demo</p></figcaption></figure>
-
-&#x20;We can see that there is only one direction (horizontal) post transformation, which is the original unfirom sampling on x axis.&#x20;
-
-If we look at the rotation matrix, it is equal to $$R=\begin{bmatrix} \cos(45^\circ) & \sin(45^\circ) \\ -\sin(45^\circ) & \cos(45^\circ) \end{bmatrix}$$, which is a $$45^\circ$$ rotation. The explained variance is $$(0.166,0)$$. So the first principle component has all the explained variance since the original variance is $$Var(x) + Var(y)=0.1666$$ based on uniform sampling.&#x20;
-
-In a more complicated example, we can generate $$X$$and $$Y$$ as two independent normal variables with different varianec, and then apply a rotation matrix to make them correlated. We can then attempt to decouple this through principle component. Here blue is the original post rotation data and organge is the recovered data.&#x20;
-
-<figure><img src="../../.gitbook/assets/2 var PCA Demo.png" alt=""><figcaption></figcaption></figure>
-
-
 
 &#x20;
 

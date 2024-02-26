@@ -110,25 +110,3 @@ az.plot_forest(idata, var_names=["beta"], combined=True, hdi_prob=0.95, r_hat=Tr
 
 
 
-
-
-```
-// Some code
-basic_model = pm.Model()
-with basic_model:
-    # Priors for unknown model parameters
-    alpha = pm.Normal("alpha", mu=0, sigma=10)
-    beta = pm.Normal("beta", mu=0, sigma=10, shape=2)
-    sigma = pm.HalfNormal("sigma", sigma=1)
-
-    # Expected value of outcome
-    mu = alpha + beta[0] * X1 + beta[1] * X2
-
-    # Likelihood (sampling distribution) of observations
-    Y_obs = pm.Normal("Y_obs", mu=mu, sigma=sigma, observed=Y)
-```
-
-*
-
-
-

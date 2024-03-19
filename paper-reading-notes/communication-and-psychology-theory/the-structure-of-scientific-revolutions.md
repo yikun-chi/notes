@@ -8,11 +8,43 @@ description: >-
 
 [Annotated Link](https://drive.google.com/file/d/12Thaa1E8JIK\_NPJBn0vCRgfgZW1UVQ0A/view?usp=share\_link)
 
-## Overall Discussion (COMM 317 with Professor James S. Fishkin)
+## Preface
 
-* In a way Kuhn backed out a bit on his original claim of anti-cumulative science a bit.
-* One of the greatest debate around his theory is the incommensurability of the paradigm shift&#x20;
-* It is really hard to just do extradentary research. Often is stumbled across from doing normal research. But certain ways of generating research questions are more effective.&#x20;
+Historical Context of Kuhn's work&#x20;
+
+* Both Kuhn and Popper are physicists by training. However, around 1962, the public perception of the forefront of science slowly shifted from physics to biotech, and it later switched to CS.&#x20;
+* Kuhn took physical science and tried to establish a model to apply to other sciences.&#x20;
+* Pre-1965, physics as a field contains two major competing paradigms: steady state and the Big Bang. But post-1965, after the discovery of background radiation, the Big Bang became the dominant theory. So now the field has a more normal science flavor.&#x20;
+
+Book Structure: Normal science with a paradigm and a dedication to solving puzzles, followed by serious anomalies, which led to a crisis, and finally, the resolution of the crisis by a new paradigm.
+
+* Normal Science and Puzzle- Solving(2-4):&#x20;
+  * Kuhn's view: Normal science research doesn't aim to produce major novelties, conceptual or phenomenal. It can be categorized into three types:&#x20;
+    * Determination of significant fact: Theory only qualitatively informs us. Measurement and other procedures determine the fact more precisely.&#x20;
+    * Matching of facts with theory: A known observation doesn't tally with the theory. Tidy up the theory or show an old fact is wrong / lacks something.&#x20;
+    * Articulation of the theory: Based on the theory, what can it imply (usually through mathematical formula)&#x20;
+  * Kuhn's view is heavily based on valuing theoretical work at the highest value.&#x20;
+  * Since then, society has independently valued theoretical, experimental, and instrumental works.&#x20;
+  * Despite the name, Kuhn values normal science and thinks it is critical.&#x20;
+* Paradigm (5):
+  * The meaning of paradigm has switched so much. But Kuhn himself had two versions: local (exemplar) and global (idea of a scientific community).&#x20;
+  * Kuhn considers a paradigm as an achievement that is 1) sufficiently unprecedented to attract an enduring group of adherents and 2) open-ended, with plenty of problems to be solved.&#x20;
+  * Paradigms set the standard and approach for normal science.&#x20;
+  * Kuhn later walked back on pre-paradigm and claimed that paradigm always exists.&#x20;
+* Anomaly (6):&#x20;
+  * It generally takes a long time for the anomaly to kick in.&#x20;
+* Crisis (7-8):&#x20;
+  * Crisis only brings change when there is a more suited paradigm&#x20;
+* Revolution (9) and Changes of World View:
+  * &#x20;Revolution fundamentally changes the way we see the world.&#x20;
+* Post Revolution
+  * Science is not a straight line to the truth.&#x20;
+  * When a revolution happens, some of the old topics might be abandoned, and new topics get picked up.&#x20;
+
+Incommensurability
+
+* This is one of the important ideas stem from Kuhn. It says that the new paradigm and the old paradigm simply are not comparable.&#x20;
+* Kuhn is still a rationalist, not a relativist. He still thinks that theories should be accurate in their predictions, consistent, broad in scope, present phenomena in an orderly and coherent way, and fruitful in suggesting new phenomena or relationships.&#x20;
 
 ## Chapter 1: Introduction: A Role for History
 

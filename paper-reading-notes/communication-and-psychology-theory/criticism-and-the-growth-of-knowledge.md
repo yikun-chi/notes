@@ -1,13 +1,14 @@
 ---
-description: >-
-  Lakatos, I., & Musgrave, A. (Eds.). (1970). Criticism and the Growth of
-  Knowledge: Proceedings of the International Colloquium in the Philosophy of
-  Science, London, 1965. Cambridge: Cambridge Universi
+description: Lakatos, I., & Musgrave, A. (Eds.)
 ---
 
 # Criticism and the Growth of Knowledge
 
+Lakatos, I., & Musgrave, A. (Eds.). (1970). _Criticism and the growth of knowledge: Volume 4: Proceedings of the International Colloquium in the Philosophy of Science, London, 1965_. Cambridge university press.
+
 Annotated Link
+
+
 
 ## Against 'Normal Science' by J.W.N. Watkins
 

@@ -4,9 +4,37 @@ description: Lakatos, I., & Musgrave, A. (Eds.)
 
 # Criticism and the Growth of Knowledge
 
-Lakatos, I., & Musgrave, A. (Eds.). (1970). _Criticism and the growth of knowledge: Volume 4: Proceedings of the International Colloquium in the Philosophy of Science, London, 1965_. Cambridge university press.
+Lakatos, I., & Musgrave, A. (Eds.). (1970). _Criticism and the growth of knowledge: Volume 4: Proceedings of the International Colloquium in the Philosophy of Science, London, 1965_. Cambridge University Press.
 
 Annotated Link
+
+## Logic of Discovery or Psychology of Research by Thomas S. Kuhn
+
+What Kuhn and Popper agree on:&#x20;
+
+* Rejection of progress by accretion perspective.&#x20;
+* When old theories fail to meet challenges posed by logic, experiment, or observation, revolution occurs, and a new theory replaces it.&#x20;
+
+What Kuhn and Popper differs&#x20;
+
+* Popper characterized the entire scientific enterprise in terms that apply only to the revolutionary part.&#x20;
+  * Kuhn thinks tests like Popoer described exist, but only in normal science, and they are not normally used to reject theory.&#x20;
+  * Tests that reject the theory only happen in revolutionary science and are always preceded by a crisis first.&#x20;
+* Critical discourse marks the transition to a science&#x20;
+  * Once the field establishes/transitions to science, people operate without a discourse on the broader theory until a crisis happens.&#x20;
+* Testing and Puzzle-Solving as Demarcation&#x20;
+  * Testing and puzzle-solving is the line of demarcation, but Kuhn has a different process to Popper.&#x20;
+  * Using astrology as an example, Kunn rejects the claims that astrology is not science because it is non-falsifiable (it was falsifiable) or how practitioners explained failure, &#x20;
+  * Kuhn thinks the non-scientific part of astrology is that failure, although it can be explained, does not give rise to new puzzles and challenges. No man can use the failure to attempt to revise the astrological tradition constructively.&#x20;
+* Kuhn sees Popper's view of "we can learn from our mistake" differently
+  * Kuhn's "learn from mistake" happens in normal science, when people in the same paradigm can point out how a person misusing the theory&#x20;
+  * Popper's "learn from mistake" is when a theory replaces the other one. In Kuhn's view, that is not a mistake; it is simply a theory that was not previously a mistake that has become one, or scientists have made the mistake of clinging to a theory for too long. Fundamentally, Kuhn and Popper are not inductivists, so no mistake can be made in arriving at a theory.&#x20;
+* No conclusive disproof of a theory can ever be produced
+  * Fundamental part of science for Kuhn
+  * An essential qualification that threatens the integrity of his position for Popper.&#x20;
+* Popper provided an ideology, not logic. For example, Popper's verisimilitude is too rigorous.&#x20;
+
+
 
 
 

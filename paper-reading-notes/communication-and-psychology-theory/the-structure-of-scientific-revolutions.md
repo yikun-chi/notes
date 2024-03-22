@@ -34,7 +34,7 @@ Book Structure: Normal science with a paradigm and a dedication to solving puzzl
 * Anomaly (6):&#x20;
   * It generally takes a long time for the anomaly to kick in.&#x20;
 * Crisis (7-8):&#x20;
-  * Crisis only brings change when there is a more suited paradigm&#x20;
+  * The crisis only brings change when there is a more suited paradigm&#x20;
 * Revolution (9) and Changes of World View:
   * &#x20;Revolution fundamentally changes the way we see the world.&#x20;
 * Post Revolution
@@ -48,14 +48,28 @@ Incommensurability
 
 ## Chapter 1: Introduction: A Role for History
 
+Change in the perspective of science history&#x20;
+
 * Historians are finding it harder to 1) research into the accumulation view of the scientific development history and 2) distinguish the scientific component and mistake component of past theories.&#x20;
 * The new focus for historians is to display the historical integrity of that science in its own time&#x20;
 * Methodology alone is not sufficient to generate a unique substantive conclusion to scientific questions. Background matters
-* New theory forms as a slow process to challenge existing theories, and it take time for new facts and theory to be integrated into existing systems&#x20;
+
+Brief overall of the proposed scientific process&#x20;
+
+* Scientists do normal science under shared assumptions/standards. When normal science fails to address puzzles, a revolution happens, and new theory forms as a slow process to challenge existing theories.&#x20;
+* It takes time for new facts and theories to be integrated into existing systems.&#x20;
+* New theory shifts the problem we focus on, the standard for legitimate solutions, and how we see the world.&#x20;
 
 ## Chapter 2: The Route to Normal Science
 
-We can divide a field's history into pre-paradigm and post-paradigm.&#x20;
+Definition of normal science&#x20;
+
+* Research firmly based upon one or more past scientific achievements, achievements that some particular scientific community acknowledges for a time as supplying the foundation for its further practice.&#x20;
+
+Two criteria for paradigm/achievement&#x20;
+
+* Sufficiently unprecedented to attract an enduring group of adherents away from competing modes of scientific activity.&#x20;
+* Sufficiently open-ended to leave all sorts of problems for the redefined group of practitioners to resolve. &#x20;
 
 Pre-paradigm:&#x20;
 
@@ -64,10 +78,10 @@ Pre-paradigm:&#x20;
 
 Post-paradigm:&#x20;
 
-* Consecutive scientific revolution transit one paradigm to another
-* Existence of a set of principles that scientists no longer need to explain or justify when continuing their research
-* With each paradigm the definition of the field become more rigid and clear
-* Research report starting to become impossible for laymen to access
+* Consecutive scientific revolutions transit one paradigm to another
+* The existence of a set of principles that scientists no longer need to explain or justify when continuing their research
+* With each paradigm, the definition of the field becomes more rigid and clear
+* Research reports are starting to become impossible for laymen to access
 
 ## Chapter 3: The Nature of Normal Science
 

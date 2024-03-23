@@ -89,16 +89,21 @@ A paradigm is successful because it promise more discoverable success. People ge
 
 Three categories of scientific investigations
 
-* Work on facts that the paradigm has shown to be important, increasing its precision or larger context&#x20;
-* Work on facts that can be compared directly with predictions from the paradigm theory&#x20;
-* Work on articulate the paradigm theory
+* Work on facts the paradigm has shown to be important, increasing its precision or larger context.&#x20;
+* Work on facts that can be compared directly with predictions from the paradigm theory.&#x20;
+* Work on articulating the paradigm theory
+  * Determination of constant&#x20;
+  * Determination of quantitative laws
+  * Further articulate paradigm through exploring better application to the real world, reconciling observation and theory, and reformulation.&#x20;
 
 ## Chapter 4: Normal Science as Puzzle-solving
 
-Normal science rarely aim to produce major innovations. The process is like solving a puzzle:&#x20;
+Normal science rarely aims to produce major innovations. People love it because it further improves the paradigm, and the process is like solving a puzzle. This puzzle-solving process creates a different motivation for people to finish their research/study.&#x20;
 
-* Result is determined, and maybe of no value, but the process is fun&#x20;
-* There are set of rules governing how to obtain the result&#x20;
+Some properties of normal science and puzzle
+
+* The result is determined and may be of no value, but the process is fun&#x20;
+* There is a set of rules governing how to obtain the result, standards for accepted solutions, and commitment to a set of instruments/how to use them.&#x20;
 
 ## Chapter 5: The Priority of Paradigms
 

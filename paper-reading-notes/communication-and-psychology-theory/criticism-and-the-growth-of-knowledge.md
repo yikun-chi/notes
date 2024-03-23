@@ -34,17 +34,24 @@ What Kuhn and Popper differs&#x20;
   * An essential qualification that threatens the integrity of his position for Popper.&#x20;
 * Popper provided an ideology, not logic. For example, Popper's verisimilitude is too rigorous.&#x20;
 
-
-
-
-
 ## Against 'Normal Science' by J.W.N. Watkins
 
-There are conflict between Kuhn and Popper's view. Kuhn's vision of "Normal Science" is considered to be unscientific in Popper's view. Kuhn's vision of "Extraordinary Science" (an anomaly) is considered to be the norm in Popper's view.&#x20;
+There are conflicts between Kuhn's and Popper's views. Kuhn's vision of "Normal Science" is considered to be unscientific in Popper's view, while Kuhn's vision of "Extraordinary Science" (an anomaly) is considered to be the norm in Popper's view.&#x20;
 
-Based on Kuhn's view, paradigm-switching must means post-hoc view that empirical pressure on the old paradigm become intolerable, but many examples of an empirically successful theory being superseded by more testable theory (thus supporting Popper's view).&#x20;
+Testing&#x20;
 
-According to Kuhn's view of normal science, the gestalt switch that leads people to join a new paradigm shouldn't happen. Because it reuqires that the new paradigm to be immediately powerful at the point of conception.&#x20;
+* Kuhn believed puzzle solving, not testing, is the demarcation of science.&#x20;
+* Watkins clarified that Popper relies on testable not actual testing to be demarcation&#x20;
+* Watkins pointed out that many examples of an empirically successful theory are superseded by more testable theories, thus supporting Popper's view. So, a scientific crisis may have theoretical rather than empirical causes.&#x20;
+
+Impossibility of Normal Science to Extraordinary Science&#x20;
+
+* Watkins pointed out three theses from Kuhn:&#x20;
+  * Paradigm-Monopoly thesis: A scientist can only operate under one paradigm&#x20;
+  * No-Interregnum thesis: No break between two paradigm&#x20;
+  * Incompatibility thesis: Incommensurability between two paradigm&#x20;
+* Based on those theses, the instant gestalt switch that leads the first people to develop new paradigm shouldn't happen. It requires that the new paradigm to be immediately powerful at the point of conception, which is impartical and not true historically.&#x20;
+* The conclusion is the scientific community might not have 100% abandoned the discourse within the paradigm.&#x20;
 
 ## Does the Distinction between Normal and Revolutionary Science Hold Water?  by Stephen Toulmin&#x20;
 

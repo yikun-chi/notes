@@ -1,24 +1,25 @@
 # PyTorch Foundation
 
-## Dataset and Dataloader Object Construction
+From&#x20;
 
-Dataset Object:
+* [Pytorch Basic Tutorial](https://pytorch.org/tutorials/beginner/basics/)&#x20;
 
-* \_\_init\_\_: object construction
-  * transform transform function transform the feature
-  * target\_transform function transform the label
-* \_\_len\_\_: return the length
-* \_\_getitem\_\_: takes in an idex, return image and label&#x20;
+## Pytorch Basic
 
-Dataloader:&#x20;
+### Dataset and Dataloader&#x20;
 
-* Iterate through dataset in mini-batches&#x20;
-* First dimension is the batch size
+`torch.utils.data.Dataset`stores the sample and labels. `torch.utils.data.Dataset`wraps an iterable around the dataset.&#x20;
 
-{% code overflow="wrap" %}
-```python
-# Source: PyTorch Official Tutorial 
-# https://pytorch.org/tutorials/beginner/basics/data_tutorial.html#iterating-and-visualizing-the-dataset
+Example datasets include [Image Datasets](https://pytorch.org/vision/stable/datasets.html), [Text Datasets](https://pytorch.org/text/stable/datasets.html), and [Audio Datasets](https://pytorch.org/audio/stable/datasets.html)
+
+Custom Dataset class must have:
+
+* `__init__`: run once when instantiating the object. The example below specifies the label, directory, and transformation of feature data and label data.&#x20;
+* `__len__`: returns the number of samples in the dataset&#x20;
+* `__getitem__`: loads and returns a sample from the dataset at the given index `idx` with necessary transformation&#x20;
+
+<pre class="language-python" data-overflow="wrap"><code class="lang-python"><strong># Source: PyTorch Official Tutorial 
+</strong># https://pytorch.org/tutorials/beginner/basics/data_tutorial.html#iterating-and-visualizing-the-dataset
 import os
 import pandas as pd
 from torchvision.io import read_image
@@ -66,10 +67,9 @@ ds = datasets.FashionMNIST(
     transform=ToTensor(),
     target_transform=Lambda(lambda y: torch.zeros(10, dtype=torch.float).scatter_(0, torch.tensor(y), value=1))
 )
-```
-{% endcode %}
+</code></pre>
 
-## Building Neural Network&#x20;
+### Building Neural Network&#x20;
 
 ```python
 class NeuralNetwork(nn.Module):
@@ -88,6 +88,14 @@ class NeuralNetwork(nn.Module):
         x = self.flatten(x)
         logits = self.linear_relu_stack(x)
         return logits
+        
+print(f"Model structure: {model}\n\n")
+
+model = NeuralNetwork().to(device)
+print(model)
+
+for name, param in model.named_parameters():
+    print(f"Layer: {name} | Size: {param.size()} | Values : {param[:2]} \n")
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -107,7 +115,7 @@ for name, param in model.named_parameters():
 * inherit parent class&#x20;
 * forward specify how data is passed through all the layers.&#x20;
 
-## Differentiation through autograd&#x20;
+### Differentiation through autograd&#x20;
 
 ```python
 import torch
@@ -127,7 +135,6 @@ print(w.grad)
 print(b.grad)
 
 
-
 # Disable gradient tracking 
 with torch.no_grad():
     z = torch.matmul(x, w)+b
@@ -143,7 +150,7 @@ z_det = z.detach()
 * If several _backward_ call is needed, we need to pass _retain\_graph = True_ to the _backward_ call
 * _torch.no\_grad()_ disable gradient tracking or _detach,_ we can use them to mark parameters in neural network as frozen parameters
 
-## Training Loop
+### Training Loop and Saving Model
 
 ```python
 # Initialize the loss function and optimizer

@@ -3,13 +3,29 @@
 Content from:
 
 * &#x20;[Jonathan Hui medium post](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)&#x20;
-* [Coursera workbook of the NLP module](../../../deep-learning-notes/natural-language-processing/classification-methods-and-vector-space.md)
+* [Coursera workbook of the NLP module](broken-reference)
 * [Stanford CS 233 PCA module](https://drive.google.com/file/d/1b7HLvYZ\_cF8q2LGwpvDhR\_SNI-FQVcsT/view?usp=drive\_link)&#x20;
 * [Lecture Notes on PCA by Laurenz Wiskott](https://drive.google.com/file/d/1aVzEZjn-POBPfD6VmwJvQVQGNu5\_kwGj/view?usp=drive\_link)&#x20;
 
 ## PCA Intuition&#x20;
 
 PCA looks for a single lower-dimensional linear subspace that captures most of the variation in the data. In other words, PCA aims to minimize the error introduced by projecting the data into this linear subspace.&#x20;
+
+## PCA Flow&#x20;
+
+The overflow of PCA involves rotating the data to obtain uncorrelated features and then performing dimensionality reduction through projection.&#x20;
+
+* Eigenvectors give the direction of uncorrelated features&#x20;
+* Eigenvalues are the variance of the new features&#x20;
+* Dot product gives the projection of uncorrelated features&#x20;
+
+1. Deriving uncorrelated features through eigenvector&#x20;
+   1. Mean Normalize data&#x20;
+   2. Get covariance matrix&#x20;
+   3. Perform SVD to get the eigenvector matrix (first matrix) and eigenvalue (diagonal value of second matrix)&#x20;
+   4. The eigenvector should be organized according to descending eigenvalue&#x20;
+2. Dot product to project data matrix $$X$$to the first $$k$$column of eigenvector matrix $$U$$through $$X' = XU[:k]$$
+3. Calculate the percentage of variance explained via $$\frac{\sum_{i=0}^{k} S_{ii}}{\sum_{j=0}^d S_{jj}}$$
 
 ## [A Simple 2D Example](svd-and-pca-deep-dive.md)
 

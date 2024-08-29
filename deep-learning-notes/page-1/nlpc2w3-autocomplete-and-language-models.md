@@ -2,7 +2,7 @@
 description: https://www.coursera.org/learn/probabilistic-models-in-nlp/home/week/3
 ---
 
-# Autocomplete and Language Models
+# NLPC2W3: Autocomplete and Language Models
 
 ## N-gram and Sequence Probabilities
 
@@ -46,7 +46,7 @@ Other consideration&#x20;
 
 ### Smoothing&#x20;
 
-* Add-one smoothing ([Laplacian smoothing](../natural-language-processing/classification-methods-and-vector-space.md#naive-bayes-frequency-ratio-representation)): When calculating probability, add 1 to the numerator count and add $$|V|$$ to the denominator&#x20;
+* Add-one smoothing ([Laplacian smoothing](broken-reference)): When calculating probability, add 1 to the numerator count and add $$|V|$$ to the denominator&#x20;
 * Add-k smoothing: add $$k$$ to the numerator and $$k * |V|$$ to the denominator
 * More advanced: Kneser-Ney smoothing, Good-Turing smoothing
 

@@ -13,16 +13,14 @@ Obtaining the maximum a posteriori probability estimate of the most likely seque
 #### Components:&#x20;
 
 * Transition matrix $$A$$ and emission matrix $$B$$ of Hidden Markov Model&#x20;
-* Auxiliary matrix $$C_{n \times k}$$ which tracks the intermediate optional probability. $$n$$ is the number of hidden state and $$k$$ is the number of words in observed states (e.g.: a text sequence)&#x20;
+* Auxiliary matrix $$C_{n \times k}$$ which tracks the intermediate optional probability. $$n$$ is the number of hidden states and $$k$$ is the number of words in observed states (e.g.: a text sequence)&#x20;
 * Auxiliary matrix $$D_{n \times k}$$, which tracks the indices of visited states
 
 #### Initialization:&#x20;
 
 1. Fill the first column of $$C$$( the probability from start sate to the first word with each hidden state) with: $$c_{i,1} = \pi_i * b_{i, cindex(w_1)}$$
    * $$\pi_i$$: The transition probability from start state $$\pi$$ to hidden state $$i$$
-   *   $$b_{i, cindex(w_1)}$$: The emission probability of word 1 (which has column index $$cindex(w_1)$$ in emission matrix) at hidden state $$i$$.&#x20;
-
-
+   * $$b_{i, cindex(w_1)}$$: The emission probability of word 1 (which has column index $$cindex(w_1)$$ in emission matrix) at hidden state $$i$$.&#x20;
 2. Fill the first column of $$D$$ with 0. This is becase there is no preceding part of speech tags that we traversed from. &#x20;
 
 #### Forward Pass&#x20;

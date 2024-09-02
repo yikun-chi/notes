@@ -2,17 +2,17 @@
 description: https://www.coursera.org/learn/probabilistic-models-in-nlp/home/week/2
 ---
 
-# NLPC2W2: Probabilistic Model
+# NLP-C2-W2: PoS Tagging and HMM
 
-##
-
-## Part of Speech Tagging and Hidden Markov Model&#x20;
+## Document Processing&#x20;
 
 ### Dealing with Unknown Words When Processing a Document&#x20;
 
 We can replace unknown words with different unknown tokens, such as "--unk\_digit--", "--unk\_punct--" and etc.  [Notebook practice ](https://drive.google.com/file/d/1FHZ\_SxK58imWGYTZzs5nalnNteofFWZY/view?usp=share\_link)
 
-### Hidden Markov Model as PoS Transition&#x20;
+## PoS Transition HMM&#x20;
+
+### Setup: &#x20;
 
 Hidden nodes: Part of Speech, e.g.: verb, noun&#x20;
 
@@ -28,7 +28,7 @@ $$
     \end{align*}
 $$
 
-We can add smoothing to deal with cases of 0, which can cause 1) division by 0 problem in probability calculation and 2) probability of 0, which doesn't generalize well.  So we calculate transition probability as:&#x20;
+We can add smoothing to deal with cases of 0, which can cause 1) a division by 0 problems in probability calculation and 2) a probability of 0, which doesn't generalize well.  So, we calculate transition probability as follows:&#x20;
 
 $$
 \begin{align*}
@@ -40,7 +40,7 @@ $$
 
 ### Smoothing in Calculating Emission Probabilities&#x20;
 
-Following the same principle, we can calcuate emission probabilities as&#x20;
+Following the same principle, we can calculate emission probabilities as&#x20;
 
 $$
 \begin{align*}
@@ -62,8 +62,6 @@ Counter('abracadabra').most_common (3)
 ```
 
 ## Completed Notebook
-
-
 
 [Part of Speech Tagging](https://drive.google.com/file/d/1sGzQF5LFhzIoF4Df5mMTFj0gIAr7sxnv/view?usp=share\_link)
 

@@ -2,7 +2,7 @@
 description: https://www.coursera.org/learn/probabilistic-models-in-nlp/home/week/3
 ---
 
-# NLPC2W3: Autocomplete and Language Models
+# NLP-C2-W3: Autocomplete and Language Models
 
 ## N-gram and Sequence Probabilities
 
@@ -21,7 +21,7 @@ $$
 In general, add start token _\<s>_ until there is enough length to start and 1 end token _\</s>._ This fixes:&#x20;
 
 1. Getting the correct count for N-gram probability calculation&#x20;
-2. Make the sum of probability of all possible sentence with all possible lengths to be 1 instead for each certain length, the probability sum of all possible sentence at that length to be 1 (enable generalization)
+2. Make the sum of the probability of all possible sentences with all possible lengths to be 1 instead for each certain length, the probability sum of all possible sentence at that length to be 1 (enable generalization)
 
 ### Operationalization&#x20;
 
@@ -46,41 +46,37 @@ Other consideration&#x20;
 
 ### Smoothing&#x20;
 
-* Add-one smoothing ([Laplacian smoothing](broken-reference)): When calculating probability, add 1 to the numerator count and add $$|V|$$ to the denominator&#x20;
+* Add-one smoothing (Laplacian smoothing): When calculating probability, add 1 to the numerator count and add $$|V|$$ to the denominator&#x20;
 * Add-k smoothing: add $$k$$ to the numerator and $$k * |V|$$ to the denominator
 * More advanced: Kneser-Ney smoothing, Good-Turing smoothing
 
 ### Backoff&#x20;
 
-If an N gram is missing, use N-i gram until a non-zero probability is reached&#x20;
+If an N-gram is missing, use the N-i gram until a non-zero probability is reached.&#x20;
 
-* "stupid" backoff: multiply probability by a constant to discount&#x20;
+* "stupid" backoff: multiply the probability by a constant to discount&#x20;
 
 ### Interpolation&#x20;
 
-Define a N-gram probability as the weighted probability of all order of N gram, e.g.:&#x20;
+Define an N-gram probability as the weighted probability of all order of N-gram, e.g.:&#x20;
 
 $$
 \hat{p}(w_3|w_1,w_2)=\lambda_1*p(w_3|w_1,w_2)+\lambda_2*p(w_2|w_1)+\lambda_3*p(w_1)
 $$
 
-note all lambda should sums to 1
-
-
-
-
+note all lambda should sum to 1
 
 ## Language Model Evaluation - Perplexity&#x20;
 
 Train-Validation-Test split are constructed by splitting continuous text (e.g.: article) or by random short sequences (e.g.: part of sentences).&#x20;
 
-Perplexity is defined as the probability of all sentences (multiplied together) raised to the -1 over number of words (not including start token, but include end token)
+Perplexity is defined as the probability of all sentences (multiplied together) raised to the -1 over the number of words (not including the start token, but including end token)
 
 $$
 perplexity = p(s_1,...,s_m)^{-1/m}
 $$
 
-A good model has low perplexity, such as 60-20 for English or 5.3-5.9 for log perplexity
+A good model has low perplexity, such as 60-20 for English or 5.3-5.9 for log perplexity.
 
 
 

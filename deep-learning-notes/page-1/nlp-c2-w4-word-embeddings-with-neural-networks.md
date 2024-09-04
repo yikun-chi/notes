@@ -2,21 +2,25 @@
 description: https://www.coursera.org/learn/probabilistic-models-in-nlp/home/week/4
 ---
 
-# Word Embeddings with Neural Networks
+# NLP-C2-W4:Word Embeddings with Neural Networks
 
 ## Common Embedding method
 
+### Basic word embeddings&#x20;
+
 word2vec (Google 2013)&#x20;
 
-* Continuous bag-of-words (CBOW): Use context words around the center word to predict center word
+* Continuous bag-of-words (CBOW): Use context words around the center word to predict the center word
 * Continuous skip-gram / Skip-gram with negative sampling (SGNS)&#x20;
 
-Global Vectors (GloVe) (Stanford, 2014(&#x20;
+Global Vectors (GloVe) (Stanford, 2014)&#x20;
 
-fast Text(Facebook, 2016)&#x20;
+fastText (Facebook, 2016)&#x20;
 
 * Supports out-of-vocabulary words&#x20;
 * Can average word embeddings to get embedding for sentences&#x20;
+
+### Deep learning-based embeddings&#x20;
 
 Bert (Google, 2018)&#x20;
 
@@ -38,25 +42,25 @@ Model Architecture:&#x20;
   * 1 layer, size is the embedding dimensions&#x20;
   * softmax activation&#x20;
 * Output layer :&#x20;
-  * The probability distribution over vocabulary. Pick the arg-max to be the actual predicted word&#x20;
+  * The probability distribution over vocabulary. Pick the arg-max to be the actual predicted word.&#x20;
 * Cost function:&#x20;
-  * cross entropy loss b/t softmax output and one-hot vector of actual word&#x20;
+  * Cross-entropy loss b/t softmax output and one-hot vector of the actual word&#x20;
 
-Obtain word embedding:&#x20;
+Options for obtaining word embedding:&#x20;
 
-1. The weight matrix of input layer is $$d \times V$$ where $$d$$ is the embedding dimension. So each column can be seen as the embedding to the corresponding word&#x20;
-2. The weight matrix of hidden layer is $$V \times d$$, so we can use each row as the corresponding word vector
-3. Take the average of option 1 and 2
+1. The weight matrix of the input layer is $$d \times V$$ where $$d$$ is the embedding dimension. So, each column can be seen as the embedding to the corresponding word&#x20;
+2. The weight matrix of the hidden layer is $$V \times d$$, so we can use each row as the corresponding word vector
+3. Take the average of options 1 and 2
 
 Model Evaluation&#x20;
 
 * Intrinsic evaluation: test relationships between words&#x20;
   * analogy
-    * semantic : e.g.: "France" is to "Paris" as "Italy" is to ?&#x20;
-    * syntactic : e.g.: "Seen" is to "saw" as "been" is to ?
+    * semantic: e.g., "France" is to "Paris" as "Italy" is to ?&#x20;
+    * syntactic: e.g., "Seen" is to "saw" as "been" is to ?
   * clustering algorithms and comparing it to thesaurus
   * visualization&#x20;
-* Extrinsic evaluation: test word embeddings on external task&#x20;
+* Extrinsic evaluation: test word embeddings on an external task&#x20;
   * named entity recognition&#x20;
   * POS tagging&#x20;
   * ...&#x20;

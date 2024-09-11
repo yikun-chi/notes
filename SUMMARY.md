@@ -98,7 +98,7 @@
   * [NLP-C2-W2: PoS Tagging and HMM](deep-learning-notes/natural-language-processing/probabilistic-model.md)
   * [NLP-C2-W3: Autocomplete and Language Models](deep-learning-notes/page-1/nlp-c2-w3-autocomplete-and-language-models.md)
   * [NLP-C2-W4:Word Embeddings with Neural Networks](deep-learning-notes/page-1/nlp-c2-w4-word-embeddings-with-neural-networks.md)
-  * [NLPC3W1: Neural Networks for Sentiment Analysis](deep-learning-notes/page-1/nlpc3w1-neural-networks-for-sentiment-analysis.md)
+  * [NLP-C3-W1: Neural Networks for Sentiment Analysis](deep-learning-notes/page-1/nlp-c3-w1-neural-networks-for-sentiment-analysis.md)
 
 ***
 

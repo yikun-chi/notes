@@ -52,6 +52,7 @@
   * [Small data, where n = me](paper-reading-notes/communication-and-psychology-theory/small-data-where-n-me.md)
   * [The Structural Transformation of the Public Sphere](paper-reading-notes/communication-and-psychology-theory/the-structural-transformation-of-the-public-sphere.md)
 * [Personality](paper-reading-notes/personality/README.md)
+  * [Toward a Structure- and Process-Integrated Trait as Density Distributions](paper-reading-notes/personality/toward-a-structure-and-process-integrated-trait-as-density-distributions.md)
   * [A Multimodal Affective Sensing Model for Constructing a Personality-Based Financial Advisor System](paper-reading-notes/personality/a-multimodal-affective-sensing-model-for-constructing-a-personality-based-financial-advisor-system.md)
   * [What Do we Know When We Know a Person](paper-reading-notes/personality/what-do-we-know-when-we-know-a-person.md)
 * [Relationships](paper-reading-notes/relationships/README.md)

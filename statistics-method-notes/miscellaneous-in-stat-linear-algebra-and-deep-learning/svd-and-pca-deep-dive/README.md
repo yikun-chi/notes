@@ -3,7 +3,6 @@
 Content from:
 
 * &#x20;[Jonathan Hui medium post](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)&#x20;
-* [Coursera workbook of the NLP module](broken-reference)
 * [Stanford CS 233 PCA module](https://drive.google.com/file/d/1b7HLvYZ\_cF8q2LGwpvDhR\_SNI-FQVcsT/view?usp=drive\_link)&#x20;
 * [Lecture Notes on PCA by Laurenz Wiskott](https://drive.google.com/file/d/1aVzEZjn-POBPfD6VmwJvQVQGNu5\_kwGj/view?usp=drive\_link)&#x20;
 

@@ -16,15 +16,7 @@ In the example below, $$x=\begin{bmatrix}x_1 \\ x_2\end{bmatrix}$$ is a point, $
 
 Assuming mean 0 for easier understanding, it is easy to see that minimizing the reconstruction error is equivalent to maximizing the variance of the projected data.  In this case, we have $$r^2 + v^2 = d^2$$ where $$r$$ is the reconstruction error and $$v$$is the new spread and $$d$$ is the original length.&#x20;
 
-<div>
-
 <figure><img src="../../../.gitbook/assets/r^2+v^2=d^2.png" alt="" width="206"><figcaption><p>Showing the relationship between r, v, and d</p></figcaption></figure>
-
- 
-
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
-
-</div>
 
 ## Motivating Covariance Matrix in Determining Maximal Variance
 

@@ -4,6 +4,8 @@ description: by Fleeson
 
 # Toward a Structure- and Process-Integrated Trait as Density Distributions
 
+[Annotated Link](https://drive.google.com/file/d/1HWklXMXFEnnmqfXQr7-hKlPPIcyv9deH/view?usp=drive\_link)
+
 ## Abstract
 
 Three experience-sampling studies explored the distributions of Big-Five-relevant states (behavior) across 2 to 3 weeks of everyday life. Within-person variability was high, such that the typical individual regularly and routinely manifested nearly all levels of all traits in his or her everyday behavior. Second, individual differences in central tendencies of behavioral distributions were almost perfectly stable. Third,  amount of behavioral variability (and skew and kurtosis) were revealed as stable individual differences. Finally, amount of within-person variability in extraversion was shown to reflect individual differences in reactivity to extraversion-relevant situational cues. Thus, decontextualized and noncontingent Big-Five content is highly useful for descriptions of individuals' density distributions as wholes. Simultaneously, contextualized and contingent personality units (e.g., conditional traits, goals) are needed for describing the considerable within-person variation.&#x20;
@@ -71,5 +73,11 @@ Using extraversion as an example, four predictions:
 3. If sensitivity to cues is trait-specific -> Variability will not be strongly correlated across traits&#x20;
 4. If individual differences in the amount of variability in a trait represent sensitivity to that trait's cues -> variability of extraversion will be predictable from reactivity of extraversion to time and to number of others.&#x20;
 
+## Main Result&#x20;
 
+* Within-person variability is generally close to total variation and larger than between-person variations. &#x20;
+* Individual states have a low correlation
+* Individual distribution parameters are stable, obtained by using split-half data to generate pairs of distribution and find parameters correlation (reported as stability)&#x20;
+* Individuals with a tendency in one distribution parameter (e.g., skew) in one personality dimension are more likely to have the same tendency in other dimensions&#x20;
+* Trait-relevant cues are significant when predicting within-person variation (state)&#x20;
 

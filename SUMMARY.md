@@ -30,6 +30,7 @@
   * [The Lost Doctrine: Suggestion Theory in Early Media Effects Research](paper-reading-notes/general-comm-and-psych/the-lost-doctrine-suggestion-theory-in-early-media-effects-research.md)
   * [The Moderator-Mediator Variable Distinction in Social Psychological Research by Baron and Kenny](paper-reading-notes/general-comm-and-psych/the-moderator-mediator-variable-distinction-in-social-psychological-research-by-baron-and-kenny.md)
   * [How do social media feed algorithms affect attitudes and behavior in an election campaign?](paper-reading-notes/general-comm-and-psych/how-do-social-media-feed-algorithms-affect-attitudes-and-behavior-in-an-election-campaign.md)
+  * [Media Repertoires as a Result of Selective Media Use](paper-reading-notes/general-comm-and-psych/media-repertoires-as-a-result-of-selective-media-use.md)
 * [Marketing](paper-reading-notes/marketing/README.md)
   * [Eternal Quest for the Best](paper-reading-notes/marketing/eternal-quest-for-the-best.md)
   * [Cost Conscious? The Neural and Behavioral Impact of Price Primacy on Decision Making](paper-reading-notes/marketing/cost-conscious-the-neural-and-behavioral-impact-of-price-primacy-on-decision-making.md)

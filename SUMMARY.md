@@ -85,6 +85,8 @@
 * [Regression and all its glory](statistics-method-notes/multilevel-modeling/README.md)
   * [Bayesian Multivarate Regression with Regularization](statistics-method-notes/multilevel-modeling/setup.md)
 * [Hidden Markov Models](statistics-method-notes/hidden-markov-models.md)
+* [Mixed Effect Model](statistics-method-notes/mixed-effect-model/README.md)
+  * [On Standardizing within-person effects: Potential problems of global standardization](statistics-method-notes/mixed-effect-model/on-standardizing-within-person-effects-potential-problems-of-global-standardization.md)
 
 ## Deep Learning Notes
 

@@ -18,6 +18,8 @@ Issues about raw units&#x20;
 
 ## Formulation&#x20;
 
+### Set-up
+
 Given variable $$X$$ and $$Y$$, the true within-person correlation is&#x20;
 
 $$
@@ -29,7 +31,69 @@ $$
 
 * $$\mu_{X_i} \& \mu_{Y_i}$$: Population within-person means
 * $$\sigma_{X_i} \&  \sigma_{Y_i}$$: Individual within-person standard deviations
-*   $$\mu_{\rho w}$$: is the average within-person correlation, generally the true parameter of interests.&#x20;
+* $$\mu_{\rho w}$$: is the average within-person correlation, generally the true parameter of interests.&#x20;
+
+### Consistent Estimators
+
+Let $$r_{w,i} =\frac{\sum_t(x_{ti}-x_i)(y_{ti}-y_i)}{T*s_{xi}*s_{yi}}$$ be the person-specific correlation estimators using the sample mean and within-person sample standard deviation, then generally we have the following multilevel models:&#x20;
+
+$$
+\begin{align*}
+r_{w,i} &= \rho_{w,i} + e_{it} \\
+\rho_{w,i} &= \mu_{\rho w} + u_{1i}
+\end{align*}
+$$
+
+So the estimator is a combination of true correlation and error, and true correlation is a combination of population mean and then person-specific variations.&#x20;
+
+### Person-mean centering followed by global standardization formulation
+
+The basic multilevel model (C1) is&#x20;
+
+$$
+\begin{align*}
+y_{it} &= \gamma_{0i}^{C1} + \gamma_{1i}^{C1}(x_{it}-x_i) + e_{it}^{C1} \\
+\gamma_{0i}^{C1} &= \gamma_{00}^{C1} + \gamma_{01}^{C1}x_i + u_{0i}^{C1} \\
+\gamma_{1i}^{C1} &= \gamma_{10}^{C1} + u_{1i}^{C1}
+\end{align*}
+$$
+
+* Without allowing variation to within-person effect $$u_{1i}^{C1}$$, the estimation of within-person effect yielded inflated Type 1 error (false positive).&#x20;
+* Including the term when there are no between-person variations of the within-person effect, the model has a higher non-convergence rate.&#x20;
+* The person-mean centering is also conducted for the outcome variable implicitly. We can see that if we move the $$\gamma_{0i}^{C1}$$ to the other side.&#x20;
+
+A typical multilevel model with explicitly mean centering (C2): Notice the outcome variable is mean-centered with a sample instead of a latent estimate, and PC annotes as person-specific centering.&#x20;
+
+$$
+\begin{align*}
+y_{it}^{PC} &= \gamma_{1i}^{C2}*x_{it}^{PC}+e_{it}^{C2} \\
+\gamma_{1i}^{C2} &= \gamma_{10}^{C2} + u_{1i}^{C2}\\
+y_{it}^{PC} &=y_{it} - y_i\\
+x_{it}^{PC} &=x_{it} - y_i\\
+\end{align*}
+$$
+
+* Empirically, the estimated within-person mean $$\gamma_{10}^{C2}$$ often has high reliability even when the number of time points is as low as 5 or 10.&#x20;
+
+The estimators are then standardized using global standard deviations. We have
+
+* G1 method: $$\hat{\gamma}_{10}^{G1} = \hat{\gamma}_{10}^{C1}*\frac{s_{cx}}{s_{cy}}$$ (using the person-mean centered IV and DVs)
+* G2 method: $$\hat{\gamma}_{10}^{G2} = \hat{\gamma}_{10}^{C1}*\frac{s_{cx}}{s_{y}}$$(using the person-mean centered IV and raw DV sd)
+* G3 method: $$\hat{\gamma}_{10}^{G3} = \hat{\gamma}_{10}^{C2}*\frac{s_{cx}}{s_{cy}}$$(using the person-mean centered IV and DVs with explicitly mean centering)&#x20;
+
+
+
+
+
+
+
+
+
+
+
+Estimator $$\gamma_{10}^{C1}$$ can be&#x20;
+
+
 
 
 

@@ -81,17 +81,10 @@ The estimators are then standardized using global standard deviations. We have
 * G2 method: $$\hat{\gamma}_{10}^{G2} = \hat{\gamma}_{10}^{C1}*\frac{s_{cx}}{s_{y}}$$(using the person-mean centered IV and raw DV sd)
 * G3 method: $$\hat{\gamma}_{10}^{G3} = \hat{\gamma}_{10}^{C2}*\frac{s_{cx}}{s_{cy}}$$(using the person-mean centered IV and DVs with explicitly mean centering)&#x20;
 
+The issue is that between-person difference (variance) in within-person variance is involved in all three estimators, so they are all inconsistent estimators of $$\mu_{\rho w}$$
 
-
-
-
-
-
-
-
-
-
-Estimator $$\gamma_{10}^{C1}$$ can be&#x20;
+* In G1 and G3, the estimator is a linear combination of the average with-person SD and variance in within-person SDs
+* In G2, the estimator is a linear combination of the average of within-person SDs, variance in within-person SDs, and variance in within-person means
 
 
 

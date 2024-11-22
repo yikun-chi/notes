@@ -86,6 +86,46 @@ The issue is that between-person difference (variance) in within-person variance
 * In G1 and G3, the estimator is a linear combination of the average with-person SD and variance in within-person SDs
 * In G2, the estimator is a linear combination of the average of within-person SDs, variance in within-person SDs, and variance in within-person means
 
+### Within-person standardization&#x20;
+
+P-S method:  the standard mixed-effect formulation is:&#x20;
+
+$$
+\begin{align*}
+y_{it}^{PS} &= \gamma_{1i}^{PS}x_{it}^{PS}+e_{it}^{PS} \\
+\gamma_{1i}^{PS} &= \gamma_{10} + u_{1i}^{PS}\\
+y_{it}^{PS} &= \frac{(y_{it} - y_i)}{s_{yi}}\\
+s_{yi} &= \sqrt{\frac{\sum_t (y_{it}-y_i)^2}{T_i-1}}
+\end{align*}
+$$
+
+* $$y_i$$ is the sample mean&#x20;
+* $$s_{yi}$$ is the sample standard deviation
+
+EB method: An alternative within-person standardization is to first estimate $$\gamma_{1i}^{C1}$$ with Bayesian regression, then standardize at the person level using the observed individual within-person standard deviation.&#x20;
+
+## Derivation Result&#x20;
+
+### Between-person differences in person means and variability&#x20;
+
+Let $$\mu_{Xi}=E[X_{it}|i]$$. The between-person population covariance matrix is&#x20;
+
+$$
+\begin{bmatrix}
+\sigma_{\mu_X}^2 & \sigma_{\mu_X, \mu_Y}\\
+\sigma_{\mu_X, \mu_Y} & \sigma_{\mu_Y}^2\\
+\end{bmatrix}
+$$
+
+* $$\sigma^2_{\mu_X}$$ quantifies between-person differences in the person means of $$X$$
+*   $$\rho_b=\frac{\sigma_{\mu_X, \mu_Y}}{\sigma_{\mu_x}*\sigma_{\mu_y}}$$ quantifies the population between-person correlation between $$X$$ and $$Y$$
+
+
+
+
+
+
+
 
 
 

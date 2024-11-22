@@ -104,11 +104,9 @@ $$
 
 EB method: An alternative within-person standardization is to first estimate $$\gamma_{1i}^{C1}$$ with Bayesian regression, then standardize at the person level using the observed individual within-person standard deviation.&#x20;
 
-## Derivation Result&#x20;
+## Derivation Result &#x20;
 
-### Between-person differences in person means and variability&#x20;
-
-Let $$\mu_{Xi}=E[X_{it}|i]$$. The between-person population covariance matrix is&#x20;
+Mean: Let $$\mu_{Xi}=E[X_{it}|i]$$. The between-person population covariance matrix is&#x20;
 
 $$
 \begin{bmatrix}
@@ -118,7 +116,65 @@ $$
 $$
 
 * $$\sigma^2_{\mu_X}$$ quantifies between-person differences in the person means of $$X$$
-*   $$\rho_b=\frac{\sigma_{\mu_X, \mu_Y}}{\sigma_{\mu_x}*\sigma_{\mu_y}}$$ quantifies the population between-person correlation between $$X$$ and $$Y$$
+* $$\rho_b=\frac{\sigma_{\mu_X, \mu_Y}}{\sigma_{\mu_x}*\sigma_{\mu_y}}$$ quantifies the population between-person correlation between $$X$$ and $$Y$$
+
+Variability: Let $$\sigma_{X_i}$$ be individual $$i$$'s population intraindividual standard deviation in $$X$$. Let $$E[\sigma_{X}]=\mu_{\sigma_x}$$. The covariance matrix of the person SD variable is&#x20;
+
+$$
+\begin{bmatrix} \sigma_{\sigma_X}^2 & \sigma_{\sigma_X, \sigma_Y} \\ \sigma_{\sigma_X, \sigma_Y} & \sigma_{\sigma_Y}^2\ \end{bmatrix}
+$$
+
+Findings:&#x20;
+
+1. $$\rho_{X,Y}$$, the population correlation, is a weighted average of the b/t person correlation $$\rho_b$$ and the average w/i person correlation $$\mu_{\rho w}$$. So itreflects neither&#x20;
+2. person-mean centering successfully removes the $$\rho_b$$ from the population correlation. But the correlation still not equal to $$\mu_{\rho w}$$ when it is not 0.&#x20;
+3. Person-scaled population correlation is equal to $$\mu_{\rho w}$$
+4. Global standardization (G1, G2) generally yields inconsistent estimates of the average within-person correlation $$\mu_{\rho w}$$ when it is not 0 and there are between-person differences in the w/i person standard deviations of one or both of the time-varying variables. &#x20;
+
+## Simulation Study and Result&#x20;
+
+1. if $$\mu_{\rho w}=0$$, regardless of whether there are between-person differences in persons SDs of $$X$$ and $$Y$$, the global scaling and person scaling approach all yield consistent results with good coverage rate.&#x20;
+2. If $$\mu_{\rho w}=0.5$$, global scaling approach yields inconstent results. The EB method yield results with ignorable bias when $$T> 20$$, and became better when more time points in terms of bias and coverage rates .
+3.  When $$\mu_{\rho w}\neq 0$$, the performance of the G1 and G2 method depends on whether there are between-person differences in person SDs.&#x20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Other Minor points&#x20;
+
+* Researcher have found that substantial between-person difference in within-person standard deviations existed in psychological and behavioral variables such as mood, motor performance, and stress.&#x20;
+* Between-person differences in intraindividual variability (i.e., between-person diff in within-person sd) have been found to be predictive of important outcomes.&#x20;
+
+
+
+
+
+
 
 
 

@@ -10,7 +10,11 @@ Annotated Link
 
 Notes are taken with Stanford COMM 208 Media Processes and Effects with Prof. Robby Ratan&#x20;
 
-## Objective vs. Interpretive Theory&#x20;
+## Chapters 2 & 3: Talk about Theory and Weighing the Words&#x20;
+
+**Objective vs. Interpretive Theory**&#x20;
+
+The objective theory assumes that truth is singular and is accessible through unbiased sensory observation, committed to uncovering cause-and-effect relationships.&#x20;
 
 Evaluation criteria for objective theory&#x20;
 
@@ -21,6 +25,8 @@ Evaluation criteria for objective theory&#x20;
 * Practical utility&#x20;
 * Quantitative research (experiment, survey ...)&#x20;
 
+The interpretive theory assumes that multiple meanings or truths are possible.&#x20;
+
 Evaluation criteria for interpretive theory&#x20;
 
 * Clarification of values: what kind of values are built into the theory and of the author&#x20;
@@ -29,6 +35,27 @@ Evaluation criteria for interpretive theory&#x20;
 * Community of agreement&#x20;
 * Reform of society: aim to generate change&#x20;
 * Qualitative research (textual analysis, ethnography...)&#x20;
+
+## Chapter 4: Mapping the Territory&#x20;
+
+1. The socio-psychological tradition - communication as interaction and influence
+   * Cause and effect of different communication processes &#x20;
+2. The cybernetic tradition: Communication as a system of information processing&#x20;
+   * How things flow in the system (e.g., relationship network)&#x20;
+3. The rhetorical tradition: Communication as artful public address
+   * How communication changes the minds of others&#x20;
+4. The semiotic tradition: Communication as the process of sharing meaning through signs&#x20;
+   * A sign is anything that can stand for other things&#x20;
+   * A symbol is an arbitrary word / non-verbal signs that bear no natural connection with the things they describe.&#x20;
+   * How are signs and symbols used and have their meanings changed
+5. The socio-cultural tradition: Communication as the creation and enactment of social reality&#x20;
+6. The critical tradition: Communication as a reflective challenge to the unjust discourse&#x20;
+7. The phenomenological tradition: Communication as the experience of self and others through dialogue
+   * It's all about understanding personal experiences (specifically to that person) and how to build a mutual connection
+
+## Interpersonal Communication Theories&#x20;
+
+### Chapter 5: Symbolic Interactionism of George Herbert Mead
 
 ## Media Effect Theories&#x20;
 

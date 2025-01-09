@@ -60,6 +60,8 @@
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)
   * [CrossCheck: Integrating... to identify digital indicators of psychotic relapse](paper-reading-notes/wellbing/crosscheck-integrating...-to-identify-digital-indicators-of-psychotic-relapse.md)
+* [PHR & Digital Twin](paper-reading-notes/phr-and-digital-twin/README.md)
+  * [Digital Twins for Health A Scoping Review](paper-reading-notes/phr-and-digital-twin/digital-twins-for-health-a-scoping-review.md)
 
 ## Statistics Method Notes
 

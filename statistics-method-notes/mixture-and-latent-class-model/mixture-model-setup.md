@@ -35,6 +35,10 @@ $$
 
 This likelihood can be optimized by using the EM algorithm or direct maximization. During the actual maximization process, we often choose to maximize log-likelihood.
 
+$$
+\begin{equation*} l(\theta|y_{1:T}) = \sum_{t=1}^T \log \left( \sum_{i=1}^N \pi_i f_i(y_t|\theta_i) \right) \end{equation*}
+$$
+
 ## Posterior Probabilities
 
 The posterior probability is the probability that the state at observation $$t$$ given observation is $$y_t$$

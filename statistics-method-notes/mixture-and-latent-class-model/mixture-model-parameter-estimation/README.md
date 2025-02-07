@@ -6,7 +6,7 @@ description: 'Visser & Speekenbrink: Sec 2.3'
 
 ## Maximum Likelihood Estimator
 
-MLE is defined as the parameters that maximizes the [likelihood function](../mixture-model-setup.md#likelihood) defined in previous chapter given the observation (treating observation as fixed)
+MLE is defined as the parameters that maximize the [likelihood function](../mixture-model-setup.md#likelihood) defined in pthe revious chapter given the observation (treating observation as fixed)
 
 $$
 \begin{equation*}
@@ -16,11 +16,11 @@ $$
 
 ### Label Switching
 
-In a mixture model, the components can permute and still has the same distribution. (e.g.: If there are two normal distribution state, just swap the paramters for state 1 with parameters for state 2). It has more severe consequences when using Bayesian paramter estimation and inference techniques, and bootstrapping. In that cause, relabeling components to make them consistent over iterations becomes necessary.&#x20;
+In a mixture model, the components can permute and still have the same distribution. (e.g.: If there are two normal distribution states, just swap the parameters for state 1 with parameters for state 2). It has more severe consequences when using Bayesian parameter estimation and inference techniques, and bootstrapping. In that case, relabeling components to make them consistent over iterations becomes necessary.&#x20;
 
 ## Method 1: Numerical Optimization of the Likelihood&#x20;
 
-Numerical optimization can iteratively find the minimum of a function. Look at below trivial example
+Numerical optimization can iteratively find the minimum of a function. Look at the below trivial example
 
 {% code overflow="wrap" %}
 ```r
@@ -51,29 +51,29 @@ opt$par
 ```
 {% endcode %}
 
-* _GaussMix2_ is a function that takes in parameters and observation y. It then finds the minimum of the negative log likelihood:$$\sum_{t=1}^N (-1) * (\pi_1f_1(y_t) + \pi_2f_2(y_t))$$
+* _GaussMix2_ is a function that takes in parameters and observation y. It then finds the minimum of the negative log-likelihood:$$\sum_{t=1}^N (-1) * (\pi_1f_1(y_t) + \pi_2f_2(y_t))$$
 * _optim_ arguments passed are&#x20;
   * _par = pstart_: Initial values for the parameters to be optimized over&#x20;
-  * _fn = GaussMix2_: The function toe be minimized. First argument is the vector of parameters that needs to be minized&#x20;
+  * _fn = GaussMix2_: The function to be minimized. The first argument is the vector of parameters that needs to be minimized&#x20;
   * _y=y\_obs:_ the additional argument required for _fn_
-  * The requirement of mixing probabilities have to be between 0 and 1 and positive standard deviation is enforced through _lower_ and _upper_ arguments&#x20;
+  * The requirement of mixing probabilities has to be between 0 and 1 and positive standard deviation is enforced through _lower_ and _upper_ arguments&#x20;
 
 ## Expectation Maximization (EM) Algorithm&#x20;
 
 ### EM Goal and Use Canse:&#x20;
 
-Parameter estimation for problems with missing or latent data and maximum likelihood estimation would be easy if we know the missing or latent values.
+Parameter estimation for problems with missing or latent data and maximum likelihood estimation would be easy if we knew the missing or latent values.
 
 ### EM Idea&#x20;
 
-Impute expected values for the latent data / states and then estimate parameters by optimizing the joint likelihood of the parameters given the observation and imputed latent states. Then we can separately perform the following step&#x20;
+Impute expected values for the latent data/states and then estimate parameters by optimizing the joint likelihood of the parameters given the observation and imputed latent states. Then we can separately perform the following step&#x20;
 
-* Expectation step: (Re)compute expectation of the complete-data log likelihood (The likelihood of observed data + hidden states).&#x20;
-* Maximization step: Expected complete-data log likelihood is a function of parameters $$\theta$$, but not the unobserved state $$S$$. So we can find the optimal values of $$\theta$$ by maximizing expected complete-data log likelihood.&#x20;
+* Expectation step: (Re)compute the expectation of the complete-data log likelihood (The likelihood of observed data + hidden states).&#x20;
+* Maximization step: Expected complete-data log-likelihood is a function of parameters $$\theta$$, but not the unobserved state $$S$$. So we can find the optimal values of $$\theta$$ by maximizing the expected complete-data log-likelihood.&#x20;
 
 ### EM in Mixture Model&#x20;
 
-The joint log-likelihood function (complete-data log likelihood) can be decomposed into two parts:&#x20;
+The joint log-likelihood function (complete-data log-likelihood) can be decomposed into two parts:&#x20;
 
 $$
 \begin{equation*}
@@ -81,31 +81,33 @@ $$
 \end{equation*}
 $$
 
-* The first part is the probability of $$S_t$$ (state at time $$t$$) given the mixing probability parameter $$\theta_{pr}$$. The second part is the probability of $$Y_t$$ (observation at time $$t$$) given the state at that time and the density parameters $$\theta_{obs}$$.&#x20;
+* Compared to the model [log-likelihood](em-algorithm-and-mixtures-of-generalized-linear-models.md#model-likelihood), the expression is the joint log-likelihood of data and the hidden states. The hidden states are normally unavailable in the data. &#x20;
+* The first part is the probability of $$S_t$$ (the state at the time $$t$$) given the mixing probability parameter $$\theta_{pr}$$. The second part is the probability of $$Y_t$$ (observation at time $$t$$) given the state at that time and the density parameters $$\theta_{obs}$$.&#x20;
 
-The expectation of complete-data log likelihood:&#x20;
+The expected value of complete-data log-likelihood w.r.t all possible hidden states across each observation  ($$s_{1:T}$$) given the observations and initial/previous guess parameters $$\theta'$$:&#x20;
 
 $$
 \begin{align*}
 Q(\theta, \theta') 
 & \equiv E_{s_{1:T}|y_{1:T}, \theta'}\left[ \log f(y_{1:T}, s_{1:T}|\theta)\right] \\
 & = \sum_{s_{1:T}\in S^T} P(s_{1:T} | y_{1:T},\theta')\log f(y_{1:T}, s_{1:T}|\theta)\\
+& = \sum_{s_{1:T}\in S^T}P(s_{1:T} | y_{1:T},\theta') * \log (P(s_{1:T}|\theta_{pr}) * f(y_{1:T}|s_{1:T},\theta_{obs})\\
 & = \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i) \log P(s_t = i|\theta_{pr}) + \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log f(y_t | s_t = i, \theta_{obs}) \\
 \gamma_t(i) & = p(s_t=i|y_t, \theta')
 \end{align*}
 $$
 
-* In the definition, the expectation is w.r.t hidden state across each observation ($$s_{1:T}$$) given the observations and initial / previous guess parameter $$\theta'$$.&#x20;
-* The expectation is a function of the true parameter and the initial / guess parameters&#x20;
-* The second equal sign is only for mixture model. It applies the definition of expectation. Notice $$s_{1:T}\in S^T$$ is just a short hand for all possible permutation of hidden states from time 1 to T.&#x20;
-* The third equation can be also think of as directly applying the definition of expectation over the previous listed complete-data log likelihood equation.&#x20;
-* $$\gamma$$ function is the posterior probabilities of the state given the initial / previous guess parameters.&#x20;
+* The expectation is a function of the true parameter and the initial guess parameters&#x20;
+* The first equal sign is applying the definition of expectation.&#x20;
+* The second equal sign is applying the definition of complete joint log-likelihood.&#x20;
+* Notice $$s_{1:T}\in S^T$$ is just a shorthand for all possible permutations of hidden states from time 1 to T.&#x20;
+* $$\gamma$$ function is the posterior probabilities of the state given the initial/previous guess parameters.&#x20;
 
-So overall, the EM algorithm for mixture model can be described as&#x20;
+So overall, the EM algorithm for the mixture model can be described as&#x20;
 
 1. Start with an initial set of parameters $$\theta'$$
 2. Repeat until convergence:&#x20;
-   1. Compute the [posterior probabilities](../mixture-model-setup.md#posterior-probabilities) $$\gamma$$and the [log-likelihood](../mixture-model-setup.md#likelihood) $$l(\theta'|y_{1:T})$$as described in previous chapter.&#x20;
+   1. Compute the [posterior probabilities](../mixture-model-setup.md#posterior-probabilities) $$\gamma$$and the [log-likelihood](../mixture-model-setup.md#likelihood) $$l(\theta'|y_{1:T})$$as described in the previous chapter.&#x20;
    2. Obtain new estimates&#x20;
       * $$\begin{equation*} \hat{\theta}_{pr} = \overset{\text{argmax}}{\theta_{pr}} \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log P(s_t = i|\theta_{pr}) \end{equation*}$$
       *   $$\begin{equation*} \hat{\theta}_{obs} = \overset{\text{argmax}}{\theta_{obs}} \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log f(y_t|s_t = i,\theta_{obs}) \end{equation*}$$
@@ -113,7 +115,7 @@ So overall, the EM algorithm for mixture model can be described as&#x20;
 
    3. Set $$\theta'=(\hat{\theta}{pr}, \hat{\theta}{obs})$$
 
-The convergence can be checked by 1) the norm of the parameter guesses or 2) relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
+The convergence can be checked by 1) the norm of the parameter guesses or 2) the relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
 
 In summary, EM algorithm for Mixture Class Model alternative between&#x20;
 

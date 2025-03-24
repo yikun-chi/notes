@@ -85,6 +85,7 @@
     * [A Simple 2D PCA Example](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/svd-and-pca-deep-dive/svd-and-pca-deep-dive.md)
   * [Measuring Difference in Probability Distributions](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/measuring-difference-in-probability-distributions.md)
   * [Generalizability Theory](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/generalizability-theory.md)
+  * [Moderator, Mediator, Confounding Variable in Causal Diagram](statistics-method-notes/miscellaneous-in-stat-linear-algebra-and-deep-learning/moderator-mediator-confounding-variable-in-causal-diagram.md)
 * [Regression and all its glory](statistics-method-notes/multilevel-modeling/README.md)
   * [Bayesian Multivarate Regression with Regularization](statistics-method-notes/multilevel-modeling/setup.md)
 * [Hidden Markov Models](statistics-method-notes/hidden-markov-models.md)

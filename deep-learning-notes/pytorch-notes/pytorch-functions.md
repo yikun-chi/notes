@@ -2,7 +2,7 @@
 
 ## Tensor Operation
 
-### [torch.tensor.scatter\_](https://pytorch.org/docs/stable/generated/torch.Tensor.scatter\_.html#torch-tensor-scatter)
+### [torch.tensor.scatter\_](https://pytorch.org/docs/stable/generated/torch.Tensor.scatter_.html#torch-tensor-scatter)
 
 Tensor.scatter\_(_dim_, _index_, _src_, _reduce=None_) → [Tensor](https://pytorch.org/docs/stable/tensors.html#torch.Tensor)
 
@@ -32,7 +32,7 @@ tensor([[1, 2, 3, 0, 0],
 
 * The scatter function dim is 0, so we know the index input is specifying the new index in dimension 0, and the rest of the dimensions follow the original dimension in src.&#x20;
 * Look at _src\[0]\[1]=2_, the corresponding index value is _index\[0]\[1]=1_, so we know that _src\[0]\[1]_ will be placed into _self\[1]\[1]_.&#x20;
-* Look at _src\[0]\[2]=3_, the corresponding index value is _index\[0]\[2] = 2,_ so we know that _src\[0]\[2]_ will be placed into self_\[2]\[2]_
+* Look at _src\[0]\[2]=3_, the corresponding index value is _index\[0]\[2] = 2,_ so we know that _src\[0]\[2]_ will be placed into sel&#x66;_\[2]\[2]_
 * Because index tensor shape is \[1,4], so the second row of source tensors are not placed
 
 <pre class="language-python"><code class="lang-python"><strong># Using scatter_ to create one-hot encoding based on value of y 

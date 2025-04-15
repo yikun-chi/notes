@@ -56,6 +56,7 @@
   * [Toward a Structure- and Process-Integrated Trait as Density Distributions](paper-reading-notes/personality/toward-a-structure-and-process-integrated-trait-as-density-distributions.md)
   * [A Multimodal Affective Sensing Model for Constructing a Personality-Based Financial Advisor System](paper-reading-notes/personality/a-multimodal-affective-sensing-model-for-constructing-a-personality-based-financial-advisor-system.md)
   * [What Do we Know When We Know a Person](paper-reading-notes/personality/what-do-we-know-when-we-know-a-person.md)
+  * [Personality psychology as a truly behavioural science](paper-reading-notes/personality/personality-psychology-as-a-truly-behavioural-science.md)
 * [Relationships](paper-reading-notes/relationships/README.md)
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)

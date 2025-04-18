@@ -50,17 +50,26 @@ description: Notes from Stanford Psych 290
 
 
 
-## NLP Findings&#x20;
+## Quick NLP Stuff&#x20;
+
+Language is Weird:&#x20;
+
+*   Language follows the Zif's law. The probability of a word with a rank $$r$$ to show up in text is&#x20;
+
+    &#x20;$$p(W_r)= \frac{0.1}{r}$$
+
+Minimum Data Intuition&#x20;
+
+* Minimal: hundreds of words from hundreds of people
+* Medium: hundreds of words from thousands of people, or\
+  thousands of words from hundreds of people
+* Good: thousands of words from thousands of people
+
+A fundamental difficulty of language&#x20;
+
+* Many processes map to a single outcome (e.g., use of a singular pronoun), but knowing the outcome is hard to match to a specific process.&#x20;
 
 
-
-
-
-
-
-## Validation&#x20;
-
-* see class page 20 to get all the validation approach / measures.&#x20;
 
 
 
@@ -69,11 +78,12 @@ description: Notes from Stanford Psych 290
 Review April 17th lecture&#x20;
 
 ```python
+# connects the extension to the databse file 
 from sqlalchemy import create_engine 
-
 tutorial_db_engine = create_engine(f"sqlite://sqlite_data/{databse}.db?charset=utf8mb4")
 
-
+# connect the extention to the database 
+%sql tutorial_db_engine 
 ```
 
 

@@ -8,8 +8,8 @@ description: Notes from Stanford Psych 290
 
 ### Component of DLATK&#x20;
 
-* Takes in message table
-* Produce feature table
+* Takes in a message table
+* Produce a feature table
   * Be careful how this impacts the calculation. For example, if I have 1 gram, and want to know the average percentage of use (the group norm) of a single word, we can't just take the mean (missing all the people who did not use that word)
 * Uses lexicon tables to store dictionaries
 * Use outcome tables for correlations
@@ -71,8 +71,6 @@ A fundamental difficulty of language&#x20;
 
 
 
-
-
 ## Code Snippets
 
 Review April 17th lecture&#x20;
@@ -88,5 +86,32 @@ tutorial_db_engine = create_engine(f"sqlite://sqlite_data/{databse}.db?charset=u
 
 
 
-## Dictionary&#x20;
+## Review april 22nd&#x20;
+
+## Working with the Dictionary&#x20;
+
+### LIWC
+
+Correlation pattern: review April 17th lecture notes&#x20;
+
+### Annotation-based emotion dictionaries&#x20;
+
+* Affective Norms of the English Language (ANEW) by Bradley & Young
+  * Captures the ways in which words are perceived
+  * The impact that emotional features have on the processing and memory of words&#x20;
+    * zqq
+
+ML-based dictionaries&#x20;
+
+* generally better than annotation-based&#x20;
+
+## ML & AI Analysis a Annotate&#x20;
+
+* table 3, comparing lv2 and lv3 result&#x20;
+
+
+
+Machin
+
+Types of sentiment analysis&#x20;
 

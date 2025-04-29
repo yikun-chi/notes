@@ -46,6 +46,19 @@ description: Notes from Stanford Psych 290
     --correlate\
     --rmatrix --csv --sort\
     --outcome 
+    
+!dlatkInterface.py \
+    --corpdb eich \
+    --corptable msgs\
+    --correl_field user_id \
+    --correlate\
+    --rmatrix --csv --sort\
+    ---feat_table 'feat$cat_mini_LIWC2015$msgs$user_id$1gra' \
+    -- outcome_table blog_outcomes --outcomes age gender \
+    -- output_name ~/mini_liwc_age_gender
+    -
+  controls 
+  at least conrolling fpr gedfm.e
 ```
 
 
@@ -68,6 +81,8 @@ Minimum Data Intuition&#x20;
 A fundamental difficulty of language&#x20;
 
 * Many processes map to a single outcome (e.g., use of a singular pronoun), but knowing the outcome is hard to match to a specific process.&#x20;
+
+
 
 
 
@@ -105,13 +120,23 @@ ML-based dictionaries&#x20;
 
 * generally better than annotation-based&#x20;
 
-## ML & AI Analysis a Annotate&#x20;
+## ML & AI Analysis Annotate&#x20;
 
 * table 3, comparing lv2 and lv3 result&#x20;
 
 
 
-Machin
 
-Types of sentiment analysis&#x20;
+
+## Language Analysis in Science&#x20;
+
+Testing a priori hypotheses in language&#x20;
+
+Prediction&#x20;
+
+Exploratory correlates&#x20;
+
+Measuring within-person change&#x20;
+
+Exploiting semantic distances&#x20;
 

@@ -140,3 +140,9 @@ Measuring within-person change&#x20;
 
 Exploiting semantic distances&#x20;
 
+
+
+## Embedding
+
+distance to probed points vs. factor analysis&#x20;
+

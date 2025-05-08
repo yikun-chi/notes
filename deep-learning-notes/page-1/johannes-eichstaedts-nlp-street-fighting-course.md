@@ -146,3 +146,21 @@ Exploiting semantic distances&#x20;
 
 distance to probed points vs. factor analysis&#x20;
 
+
+
+## Open Vocabulary Analysis&#x20;
+
+feat\_occ\_filter --set\_p\_occ 0.05: set occurance to be 5%, so only features that have shown in more than 5% of the user  (notice here the feature table only uses one dash: -f ) — see the option 1 filter down the table we have, in slides&#x20;
+
+
+
+Extracting 2-grams&#x20;
+
+* add 2-gram extraction method&#x20;
+
+
+
+
+
+
+

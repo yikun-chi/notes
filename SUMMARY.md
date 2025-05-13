@@ -108,8 +108,12 @@
   * [NLP-C2-W3: Autocomplete and Language Models](deep-learning-notes/page-1/nlp-c2-w3-autocomplete-and-language-models.md)
   * [NLP-C2-W4:Word Embeddings with Neural Networks](deep-learning-notes/page-1/nlp-c2-w4-word-embeddings-with-neural-networks.md)
   * [NLP-C3-W1: Neural Networks for Sentiment Analysis](deep-learning-notes/page-1/nlp-c3-w1-neural-networks-for-sentiment-analysis.md)
-  * [Johannes Eichstaedt's NLP Street Fighting Course](deep-learning-notes/page-1/johannes-eichstaedts-nlp-street-fighting-course.md)
+  * [NLP Street Fighting Course](deep-learning-notes/page-1/nlp-street-fighting-course.md)
 
 ***
 
 * [Miscellaneous](miscellaneous.md)
+
+## Misc
+
+* [GPS Data Processing Code Snippet](misc/gps-data-processing-code-snippet.md)

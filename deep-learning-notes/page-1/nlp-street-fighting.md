@@ -1,8 +1,8 @@
 ---
-description: Notes from Stanford Psych 290 by Johannes Eichstaedt
+description: Notes from Stanford Psych 290 taught by Johannes Eichstaedt
 ---
 
-# NLP Street Fighting Course
+# NLP Street Fighting
 
 ## NLP Research Street Knowledge&#x20;
 
@@ -65,10 +65,9 @@ Dictionaries:&#x20;
     --corpdb eich\  #-- database name
     --corptable msgs\ #-- message table
     --correl_field user_id \  #-- group by what
-    --add_ngrams -n 1  #-- doing what (do 1 gram) '
+    --add_ngrams -n 1  #-- doing what (do 1 gram) # do -n 1 2 3 to get 1-3 gram 
 
-
-# Adding lexicon information to 1 gram 
+# Adding lexicon information to 1-gram 
 # It will give you a table that counts each user's different categories (e.g., positive emotion). 
 ! dlatkInterface.py \
     --corpdb eich \
@@ -164,13 +163,15 @@ Predicts X from text, e.g., [What Twitter Profile and Posted Images Reveal about
 
 Imputing estimates where there are none
 
-Using the prediction error as an estimate of something else e.g., : [Authentic self-expression on social media is associated with greater subjective well-being](https://www.nature.com/articles/s41467-020-18539-w)
+Using the prediction error as an estimate of something else, e.g., : [Authentic self-expression on social media is associated with greater subjective well-being](https://www.nature.com/articles/s41467-020-18539-w)
 
 ### Exploratory correlates&#x20;
 
 Papers that show "the language of X"&#x20;
 
-Show "dose response" / "XY, "IV-DV"patterns&#x20;
+* e.g.: [From “Sooo Excited!!!” to “So Proud”: Using Language to Study Development](https://psycnet.apa.org/fulltext/2013-41501-001.html)
+
+Show "dose response" / "XY, "IV-DV" patterns&#x20;
 
 Construct elaboration and refinement
 
@@ -184,7 +185,7 @@ Construct differentiation through language
 
 ### Measuring Within-person change&#x20;
 
-e.g., : [The secret life of pronouns: flexibility in writing style and physical health](https://pubmed.ncbi.nlm.nih.gov/12564755/)
+e.g., [The secret life of pronouns: flexibility in writing style and physical health](https://pubmed.ncbi.nlm.nih.gov/12564755/)
 
 ### Exploiting semantic distances&#x20;
 
@@ -192,29 +193,73 @@ Given a set of constructs, what are their semantic distances&#x20;
 
 ## NLP Project Intuition&#x20;
 
-*
+### Basic Power Analysis&#x20;
 
+**Tips:**&#x20;
 
+1. It's often better to get fewer words per observation (100+) and get more observations.&#x20;
+
+**Sample Size Intuition** &#x20;
+
+<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUeIE9iGcs_eiXoEUdjbtxdV6SgV3RECOqBQaqOAIAqM1pvJhuWYhltqm11qPykvrzYzEGsG5ja8NNzOhjH-dPRJje1IOyJc49y1Inr_fDdiQG4i0lEzLuYbTtL82f5hw1NMe_JGiQYafDCT5T5GXg=s2048?key=nbAnua_AF0Z7zVM_gIjgIw" alt="" width="563"><figcaption><p>Feature Type vs. Demographic for Sample Size Count </p></figcaption></figure>
+
+<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUf-o9jkTpHHq06Uek7XKcJRGGIeO02LZ5cPzXOTQ75BwD_dVnaoH8z-ncjQ0Zgqx96HcGzUh_I2Ohvd3lUyIGx8vhN65Yvx8iFrJLUcAqADSuhQrR-CwS-Y4tPpxzUlLTa6VynM0tpWCanebLw_QXw=s2048?key=nbAnua_AF0Z7zVM_gIjgIw" alt="" width="563"><figcaption><p>Feature Type vs. Personality Outcome for Sample Size Count </p></figcaption></figure>
+
+&#x20;**Words per group intuition**&#x20;
+
+<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdd1Uk8CZdp-v9yrf11uxEOdf81eolVCKi4YNrNcRjZPaXsIvUCPfcvfDNb1OCAeNFNJDmcSnSucEU4yL1Ust7EB5cjE0F-YX7wlx7ad1LfmyCKXsfpXrb_d0YKqA2cIvCWxtdxohgOedYIsx-j0l8=s2048?key=nbAnua_AF0Z7zVM_gIjgIw" alt="" width="563"><figcaption><p>Words per user for samples of N = 1,000 and N = 5,000 </p></figcaption></figure>
+
+<figure><img src="https://lh7-rt.googleusercontent.com/slidesz/AGV_vUfiFPqLR0oRyJiblCjR_9Ovd4WCpGy5_9hLKzXkj62BWYyXrb3yibRYGmb0wUdXyrqx9nHa2Hu54S80F9je8EnXJcyJnPA6GC98SDqLeXVWLvmE6k3mIedLosNStDMZC8CcxdlvCzlmumBBsE2IvlY=s2048?key=nbAnua_AF0Z7zVM_gIjgIw" alt="" width="563"><figcaption><p>Words per user to discover significant correlations </p></figcaption></figure>
+
+General Rule of Thumbs:&#x20;
+
+* If your datasets are limited, reduce your language dimensions
+  * reduce features with occurrence filtering (down to 3k to 10k 1grams), pointwise mutual information threshold (down to <10k 2-3 grams)
+  * Select language features based on the literature&#x20;
+  * project into a lower-dimensional space (sentiment, valence/arousal, LIWC)&#x20;
+  * model topics&#x20;
+* Ballpark&#x20;
+  * No discovery, but sentiment, etc: 30+ words from 100 groups
+  * Minimal: 100s of words from 100s of groups
+  * Medium: 100s / 1000s from 1000s/100s of groups
+  * Good: 1000s of words from 1000s of groups
 
 ## Code Snippets
 
 ### Running Database in Colab&#x20;
 
 ```python
-# connects the extension to the databse file 
+# connects the extension to the database file 
 from sqlalchemy import create_engine 
 tutorial_db_engine = create_engine(f"sqlite://sqlite_data/{databse}.db?charset=utf8mb4")
 
-# connect the extention to the database 
+# connect the extension to the database 
 %sql tutorial_db_engine 
 
-# reload the database  
+# Reload the database  
 %reload_ext sql 
+```
+
+### R in Colab & DLATK Functions
+
+```r
+# write from R to db 
+dbWriteTable(db_con, "table_name", df, overwrite = True, row.names = False)
+
+# query from db to R
+df <- dbGetQuery(db_con, "sql_query")
+
+# functions to check df
+checkDf2(feat_meta)
+
+# Functions to convert feature table to wide format 
+feat_meta_wide <- importFeat(feat_meta)
+
 ```
 
 
 
-## Review april 22nd&#x20;
+## # Graveyard&#x20;
 
 ## Working with the Dictionary&#x20;
 

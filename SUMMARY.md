@@ -9,6 +9,7 @@
   * [Prompting Techniques](paper-reading-notes/ai-and-llm/prompting-techniques.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
+  * [Personality](paper-reading-notes/general-comm-and-psych/personality.md)
   * [Behavioral Landscapes and Change in Behavioral Landscapes](paper-reading-notes/general-comm-and-psych/behavioral-landscapes-and-change-in-behavioral-landscapes.md)
   * [A First Look at Communication Theory](paper-reading-notes/general-comm-and-psych/a-first-look-at-communication-theory.md)
   * [The nature of communication between humans](paper-reading-notes/general-comm-and-psych/the-nature-of-communication-between-humans.md)

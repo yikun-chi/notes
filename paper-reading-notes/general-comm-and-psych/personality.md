@@ -8,6 +8,10 @@ Funder, D. C. (2001). Personality. Annual Review of Psychology, 52(1), 197–221
 
 [Annotated Link](https://drive.google.com/file/d/1xrcZEgJrst-7ay67TgDBydB5P7S6gM-c/view?usp=drive_link)
 
+## Overall Summary
+
+A good article that summarizes the status quo of some current paradigms in psychology.&#x20;
+
 ## Framing&#x20;
 
 The mission of personality psychology is theoretical, empirical, and institutional:&#x20;
@@ -16,7 +20,7 @@ The mission of personality psychology is theoretical, empirical, and institution
 * Empirical: gather and analyze data that reveal how persons, situations, and behaviors are interrelated, and to develop psychometric tools to clarify the nature of these relations&#x20;
 * Institutional mission: provide an integrative force in an era of scientific specialization and fragmentation.&#x20;
 
-## Existing Paradigm TLDR&#x20;
+## Paradigm TLDR&#x20;
 
 ### Trait
 
@@ -29,3 +33,23 @@ Two empirical recognitions
 * Behavioral consistency and change are orthogonal phenomena. i.e., differences across situations do not imply that individual differences do not exist.&#x20;
 
 The Big Five&#x20;
+
+* Two remaining issues:
+  1. Whether the five traits are independent of each other. Although the conceptualization ensured the factors were independent, the scales did not.&#x20;
+  2. Whether the big five subsume all there is to say about personality.&#x20;
+
+### Behaviorist
+
+Behavior was viewed exclusively as a function of environmentally imposed reinforcement contingencies. This view is no longer sustainable and has started to incorporate psychology.&#x20;
+
+### Social-Cognitive&#x20;
+
+Focus on cognitive processes of the individual, especially perception and memory.&#x20;
+
+### Biological&#x20;
+
+### Evolutionary&#x20;
+
+## Basic Research Issues
+
+Imbalance in personality triad: the person, the situation, and behavior. Situation and behaviors were less studied then.&#x20;

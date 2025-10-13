@@ -91,8 +91,9 @@ $$
 Q(\theta, \theta') 
 & \equiv E_{s_{1:T}|y_{1:T}, \theta'}\left[ \log f(y_{1:T}, s_{1:T}|\theta)\right] \\
 & = \sum_{s_{1:T}\in S^T} P(s_{1:T} | y_{1:T},\theta')\log f(y_{1:T}, s_{1:T}|\theta)\\
-& = \sum_{s_{1:T}\in S^T}P(s_{1:T} | y_{1:T},\theta') * \log (P(s_{1:T}|\theta_{pr}) * f(y_{1:T}|s_{1:T},\theta_{obs})\\
-& = \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i) \log P(s_t = i|\theta_{pr}) + \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log f(y_t | s_t = i, \theta_{obs}) \\
+& = \sum_{s_{1:T}\in S^T} P(s_{1:T} | y_{1:T},\theta')\log \left(P(S_{1:T}|\theta_{pr}) + f(Y_{1:T}|S_{1:T}, \theta_{obs}) \right) \\
+& = \sum_{t=1}^T\sum_{i=1}^N P(S_t=i | y_t,\theta')\log \left(P(S_t =i|\theta_{pr}) + f(y_t|S_t=i, \theta_{obs}) \right) \\
+& = \sum_{t=1}^T\sum_{i=1}^N \gamma_t(i)*\log \left(P(S_t =i|\theta_{pr}) \right) +\sum_{t=1}^T\sum_{i=1}^N \gamma_t(i) \log \left(f(y_t|S_t=i, \theta_{obs}) \right) \\
 \gamma_t(i) & = p(s_t=i|y_t, \theta')
 \end{align*}
 $$
@@ -102,12 +103,13 @@ $$
 * The second equal sign is applying the definition of complete joint log-likelihood.&#x20;
 * Notice $$s_{1:T}\in S^T$$ is just a shorthand for all possible permutations of hidden states from time 1 to T.&#x20;
 * $$\gamma$$ function is the posterior probabilities of the state given the initial/previous guess parameters.&#x20;
+* We can now calculate $$\gamma_t(i)$$,  hence Q is now a function of $$\theta$$. We can then strive to maximzie this Q by finding the optimal $$\theta$$
 
 So overall, the EM algorithm for the mixture model can be described as&#x20;
 
 1. Start with an initial set of parameters $$\theta'$$
 2. Repeat until convergence:&#x20;
-   1. Compute the [posterior probabilities](../mixture-model-setup.md#posterior-probabilities) $$\gamma$$and the [log-likelihood](../mixture-model-setup.md#likelihood) $$l(\theta'|y_{1:T})$$as described in the previous chapter.&#x20;
+   1. Compute the [posterior probabilities](../mixture-model-setup.md#posterior-probabilities) $$\gamma$$and the [log-likelihood](../mixture-model-setup.md#likelihood) $$l(\theta'|y_{1:T})$$as described in the previous chapter. The log-likelihood is used to track the progress&#x20;
    2. Obtain new estimates&#x20;
       * $$\begin{equation*} \hat{\theta}_{pr} = \overset{\text{argmax}}{\theta_{pr}} \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log P(s_t = i|\theta_{pr}) \end{equation*}$$
       *   $$\begin{equation*} \hat{\theta}_{obs} = \overset{\text{argmax}}{\theta_{obs}} \sum_{t=1}^T \sum_{i=1}^N \gamma_t(i)\log f(y_t|s_t = i,\theta_{obs}) \end{equation*}$$
@@ -115,7 +117,7 @@ So overall, the EM algorithm for the mixture model can be described as&#x20;
 
    3. Set $$\theta'=(\hat{\theta}{pr}, \hat{\theta}{obs})$$
 
-The convergence can be checked by 1) the norm of the parameter guesses or 2) the relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
+The convergence can be checked by 1) the norm of the parameter guesses between this round and previous round to see if it reached to a very small differor 2) the relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
 
 In summary, EM algorithm for Mixture Class Model alternative between&#x20;
 

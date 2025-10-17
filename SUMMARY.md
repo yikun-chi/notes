@@ -6,6 +6,7 @@
 
 * [AI & LLM](paper-reading-notes/ai-and-llm/README.md)
   * [Generative Agents: Interactive Simulacra of Human Behavior](paper-reading-notes/ai-and-llm/generative-agents-interactive-simulacra-of-human-behavior.md)
+  * [LLM Social Simulations are a Promising Research Method](paper-reading-notes/ai-and-llm/llm-social-simulations-are-a-promising-research-method.md)
   * [Vibe Coding Baisc](paper-reading-notes/ai-and-llm/vibe-coding-baisc.md)
   * [Prompting Techniques](paper-reading-notes/ai-and-llm/prompting-techniques.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)

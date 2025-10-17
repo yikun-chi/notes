@@ -4,7 +4,7 @@
 
 ### Component of GLM&#x20;
 
-GLM assumes the observations follows an exponential distribution&#x20;
+GLM assumes the observations follows an exponential distribution (for simplicity, here is a good [Stack Exchange](https://stats.stackexchange.com/questions/284260/why-do-we-assume-the-exponential-family-in-the-glm-context) post about this, and a good notes from [Ryan Tibshirani](https://www.stat.cmu.edu/~ryantibs/advmethods/notes/glm.pdf) on GLM) &#x20;
 
 $$
 \begin{equation*}
@@ -51,7 +51,7 @@ $$
 
 ### Estimate GLM Through Iteratively Weighted Least Squares&#x20;
 
-GLM model beta coeffcients can be estimated through Iteratively Weighted Least Squares, and it can be shown that this is equivalent to maximum likelihood estimates.&#x20;
+GLM model beta coefficients can be estimated through Iteratively Weighted Least Squares, and it can be shown that this is equivalent to maximum likelihood estimates.&#x20;
 
 Start with an initial guess of $$\hat{\eta_t}$$ and $$\hat{\mu_t} = h(\hat{\eta_t})$$
 
@@ -61,7 +61,7 @@ Start with an initial guess of $$\hat{\eta_t}$$ and $$\hat{\mu_t} = h(\hat{\eta_
    * $$X$$: model matrix&#x20;
    * $$W$$: diagonal matrix with the working weights&#x20;
    * $$z$$: vector of working response
-4. Obtain new estiamte $$\hat{\eta}=X\hat{\beta}$$
+4. Obtain new estimate $$\hat{\eta}=X\hat{\beta}$$
 
 Repeat the steps until convergence&#x20;
 

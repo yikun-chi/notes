@@ -60,13 +60,13 @@ opt$par
 
 ## Expectation Maximization (EM) Algorithm&#x20;
 
-### EM Goal and Use Canse:&#x20;
+### EM Goal and Use Case:&#x20;
 
 Parameter estimation for problems with missing or latent data and maximum likelihood estimation would be easy if we knew the missing or latent values.
 
 ### EM Idea&#x20;
 
-Impute expected values for the latent data/states and then estimate parameters by optimizing the joint likelihood of the parameters given the observation and imputed latent states. Then we can separately perform the following step&#x20;
+Impute expected values for the latent data/states, and then estimate parameters by optimizing the joint likelihood of the parameters given the observation and imputed latent states. Then we can separately perform the following step&#x20;
 
 * Expectation step: (Re)compute the expectation of the complete-data log likelihood (The likelihood of observed data + hidden states).&#x20;
 * Maximization step: Expected complete-data log-likelihood is a function of parameters $$\theta$$, but not the unobserved state $$S$$. So we can find the optimal values of $$\theta$$ by maximizing the expected complete-data log-likelihood.&#x20;
@@ -103,7 +103,8 @@ $$
 * The second equal sign is applying the definition of complete joint log-likelihood.&#x20;
 * Notice $$s_{1:T}\in S^T$$ is just a shorthand for all possible permutations of hidden states from time 1 to T.&#x20;
 * $$\gamma$$ function is the posterior probabilities of the state given the initial/previous guess parameters.&#x20;
-* We can now calculate $$\gamma_t(i)$$,  hence Q is now a function of $$\theta$$. We can then strive to maximzie this Q by finding the optimal $$\theta$$
+* We can now calculate $$\gamma_t(i)$$,  hence Q is now a function of $$\theta$$. We can then strive to maximize this Q by finding the optimal $$\theta$$
+* <mark style="color:orange;">Conceptually, we are first setting a guess of parameters, which allows us to find the next parameters that maximize (not calculate, but maximize) the expected value of complete-data log-likelihood.</mark>&#x20;
 
 So overall, the EM algorithm for the mixture model can be described as&#x20;
 
@@ -117,7 +118,7 @@ So overall, the EM algorithm for the mixture model can be described as&#x20;
 
    3. Set $$\theta'=(\hat{\theta}{pr}, \hat{\theta}{obs})$$
 
-The convergence can be checked by 1) the norm of the parameter guesses between this round and previous round to see if it reached to a very small differor 2) the relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
+The convergence can be checked by 1) the norm of the parameter guesses between this round and previous round to see if it reached to a very small differ or 2) the relative increase in the log-likelihood. This can be done in R through package _depmixS4._&#x20;
 
 In summary, EM algorithm for Mixture Class Model alternative between&#x20;
 

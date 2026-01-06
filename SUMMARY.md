@@ -9,6 +9,7 @@
   * [LLM Social Simulations are a Promising Research Method](paper-reading-notes/ai-and-llm/llm-social-simulations-are-a-promising-research-method.md)
   * [Vibe Coding Baisc](paper-reading-notes/ai-and-llm/vibe-coding-baisc.md)
   * [Prompting Techniques](paper-reading-notes/ai-and-llm/prompting-techniques.md)
+  * [Notes on LLM](paper-reading-notes/ai-and-llm/notes-on-llm.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
 * [General Comm and Psych](paper-reading-notes/general-comm-and-psych/README.md)
   * [Personality](paper-reading-notes/general-comm-and-psych/personality.md)

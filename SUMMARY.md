@@ -61,6 +61,7 @@
   * [Toward a Structure- and Process-Integrated Trait as Density Distributions](paper-reading-notes/personality/toward-a-structure-and-process-integrated-trait-as-density-distributions.md)
   * [What Do we Know When We Know a Person](paper-reading-notes/personality/what-do-we-know-when-we-know-a-person.md)
   * [Personality psychology as a truly behavioral science](paper-reading-notes/personality/personality-psychology-as-a-truly-behavioral-science.md)
+  * [A (More) Behavioural Science of Personality in the Age of Multi‐Modal Sensing, Big Data...](paper-reading-notes/personality/a-more-behavioural-science-of-personality-in-the-age-of-multi-modal-sensing-big-data....md)
 * [Relationships](paper-reading-notes/relationships/README.md)
   * [Will You Go on a Date with Me? Predicting First Dates from Linguistic Traces in Online Dating Messag](paper-reading-notes/relationships/will-you-go-on-a-date-with-me-predicting-first-dates-from-linguistic-traces-in-online-dating-messag.md)
 * [Wellbing](paper-reading-notes/wellbing/README.md)

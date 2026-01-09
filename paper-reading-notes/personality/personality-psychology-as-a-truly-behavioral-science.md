@@ -29,5 +29,13 @@ Personality psychology has been accused of neglecting behavior—of devoting ins
 
 **Table 2:** Nine methods of measuring wide-ranging and meaningful behaviours
 
+**Follow-up discussion:** the strengths and weakness of different methods (direct behavioural observations, experience sampling reports of current behavior, acquaintance reports etc)&#x20;
+
+Interesting points
+
+* The author ignored behavioural traces, stating that they are not indicators of specific behaviours themselves. The assessment of behavioural traces is a step removed from behaviour. But for things like GPS or app log, are they behavioural traces or observation of behavior?&#x20;
+
+
+
 
 

@@ -64,9 +64,8 @@ $$
 Result:&#x20;
 
 * Main effect of presentation mode on commitment&#x20;
-* Mediation effect of hope and regret \
-
+* Mediation effect of hope and regret <br>
 
 ## General Issues
 
-* What are other contextual factors or individual difference variables that would increase choosers' tendencies to wonder about future possibilities? \
+* What are other contextual factors or individual difference variables that would increase choosers' tendencies to wonder about future possibilities? <br>

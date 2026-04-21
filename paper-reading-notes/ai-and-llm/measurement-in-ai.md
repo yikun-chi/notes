@@ -49,7 +49,70 @@ But in reality, there are many ways in which Rash model / IRT doesn't hold.&#x20
 * LLMs don't guess randomly&#x20;
 * some benchmark items leak into training data, changing effective $$\beta_j$$ without the item changing&#x20;
 
+#### Estimation of Rasch Model through JMLE &#x20;
 
+Under local independence (given $$\theta_i$$, responses to different items are independent), then we have the joint likelihood and negtive log-likelihood
+
+$$
+\begin{align*} L(\theta, \beta|Y) &=\prod_{i,j}P_{ij}^{Y_{ij}}(1-P_{ij})^{1-Y_{ij}}  \\ l(\theta,\beta) &= -\sum_{i=1}^N\sum_{j=1}^M\left[Y_{ij}(\theta_i-\beta_j)-log(1+e^{\theta_i-\beta_j})\right] \end{align*}
+$$
+
+where $$P_{ij}=\sigma(\theta_i-\beta_j)$$.&#x20;
+
+We can then fit parmeters using gradient descent with stepsize $$\gamma_t$$
+
+$$
+\theta_i^{t+1}=\theta_i^{t}-\gamma_t*\frac{\partial l(\theta,\beta)}{\partial\theta_i}, \textbf{where} \frac{\partial l(\theta,\beta)}{\partial\theta_i}=\sum_{j=1}^M[Y_{ij}-P_{ij}] \\\beta_j^{t+1}=\beta_j^{t}-\gamma_t*\frac{\partial l(\theta,\beta)}{\partial\beta_j}\textbf{where} \frac{\partial l(\theta,\beta)}{\partial\beta_j}=\sum_{i=1}^N[P_{ij}-Y_{ij}]
+$$
+
+#### Identifiability Issue
+
+For any $$c\in\mathbb{R}$$, $$\sigma((\theta_i+c)-(\beta_j+c))=\sigma(\theta_i-\beta_j),\forall i,j$$. Hence if I increase both the model capability and item difficulty, everything stays the same.&#x20;
+
+We have three fixes:&#x20;
+
+* sum-to-zero (standard approach): make the sum of model capabilities or item difficulties to be 0. (average ability / difficulty is zero)
+* Fixed anchor: set $$\beta_1=0$$ (scale pinned to one known item)
+* Bayesian prior: $$\theta_i \sim N(0, \sigma^2)$$ (soft centering and regularizes)&#x20;
+* $$c\in \double {R}$$$$c\in \doubleR$$$$c\in \doubleR$$
+
+#### Conditional MLE (CMLE)&#x20;
+
+In JMLE, we need to estiamte each item's difficulty. This might not be idea when the model and item grows a lot&#x20;
+
+But condition on sum score $$S_i=\sum_{j}Y_{ij}$$, by Rasch sufficiency, this eliminates $$\theta_i$$ exactly. So we can do $$P(Y_i|S_i, \beta)$$. In other words, we don't care model's individual performances on each question. We only care about overall model accuracy.&#x20;
+
+But no closed form for 2PL or 3PL.&#x20;
+
+#### Marginal MLE (MMLE)
+
+Under MMLE, we assume $$\theta_i \sim N(0, \sigma^2)$$ and integrate out. This works for any IRT model, estimated with EM algorithm
+
+**E-step:** for each model i, compute the posterior: $$p(\theta_i|Y_i, \beta^{(t)})\propto p(Y_i|\theta_i, \beta^{(t)}) * p(\theta_i)$$. There is no closed-form solution, but can approximate with Gauss-Hermit quadrature
+
+**M-step:** updating $$\beta_j$$ equating expected and observed counts: $$\sum_{i=1}^N E_{\theta_i}[\sigma(\theta_i-\beta_j)] =\sum_{i=1}^N Y_{ij}$$. then solve with Newton-Raphson.&#x20;
+
+Connection: notice EM implements marginal MLE by integrating $$\theta_i$$ out in the E-step, and estimating only $$\beta$$ in the M-step.&#x20;
+
+#### Bayesian IRT
+
+$$
+p(\theta,\beta|Y)\propto p(Y|\theta,\beta)*p(\theta)*p(\beta)
+$$
+
+Standard weakly informative priors:&#x20;
+
+* $$\theta_i \sim N(0,1)$$
+* $$\beta_j \sim N(0, 1.5^2)$$
+* $$\alpha_j \sim \text{LogNormal}(0,0.5)$$
+
+Notice those prior are not drawn from a stable human population. Those priors are used as a regularization device.&#x20;
+
+Under Maximum A Posteriori (MAP), we have&#x20;
+
+$$
+\hat{\theta}^{MAP}, \hat{\beta}^{MAP}=\argmax_{\theta,\beta}\left[ l(\theta,\beta)-\frac{\lambda_\theta}{2}\lvert \theta \rvert^2 -  \right]
+$$
 
 ### Two-Parameter Logistic (2PL)
 
@@ -86,6 +149,8 @@ R_i^{new}=R_i + K(S_i-E_i)
 $$
 
 where $$S_i \in \{0, 0.5, 1\}$$ denotes the outcome, and $$E_i=\sigma(\frac{(R_j-R_i) ln(10)}{400})$$ and $$K$$ is a learning rate parameter.&#x20;
+
+## Estimating Measurement Model and Inference&#x20;
 
 
 

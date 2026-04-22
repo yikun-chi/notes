@@ -49,7 +49,7 @@ But in reality, there are many ways in which Rash model / IRT doesn't hold.&#x20
 * LLMs don't guess randomly&#x20;
 * some benchmark items leak into training data, changing effective $$\beta_j$$ without the item changing&#x20;
 
-####
+
 
 ### Two-Parameter Logistic (2PL)
 
@@ -97,7 +97,46 @@ where $$S_i \in \{0, 0.5, 1\}$$ denotes the outcome, and $$E_i=\sigma(\frac{(R_j
 
 ## Factor Models&#x20;
 
+$$
+P(Y_{ij}=1|U_i, V_j, Z_j) =\sigma(U_i^TV_j+Z_j)
+$$
 
+where $$U_i \in \mathbb{R}^K$$ is the ability vector of model i, $$V_j \in \mathbb{R}^K$$ is the loading vetor of item $$j$$ into different dimension, and $$Z_j \in \mathbb{R}^K$$ is the difficulty intercept of item $$j$$.&#x20;
+
+In matrix form, we have&#x20;
+
+$$
+\Theta=UV^T+1Z^T
+$$
+
+where $$U \in \mathbb{R}^{N \times K}$$, $$V \in \mathbb{R}^{M \times K}$$, $$Z \in \mathbb{R}^{M}$$
+
+Typically, the we let $$K\in \{1,2,4\}$$
+
+## Dealing with low fill rate and incomplete
+
+### Proceed as normal&#x20;
+
+Typical benchmark fill rate is 1-20%. Under the assumption of missing at random, we just proceed as normal and only operate on the observed set $$\Omega$$. We can then do logistic matrix completion&#x20;
+
+$$
+\begin{align*} &\min_{U,V,Z} -\sum_{(i,j)\in\Omega}\log P(Y_{ij}|U_i,V_j,Z_j) \\& \text{where } P_{ij}= \sigma(U_i^TV_j+Z_j)\end{align*}
+$$
+
+Note this is essentially collaborative filtering applied to binary correctness data&#x20;
+
+### Cold-Start
+
+A new model has zero observed response, so the matrix completion above can't help. Same as new item getting released.&#x20;
+
+On model set, we can take metadata $$F_i$$ (e.g., parameter count, architecture family, training data size, release date), and then learn a function $$f_u : F_i \to \hat{U}_i$$ to predict the ability vector from meta data&#x20;
+
+On item side, we can use text embedding $$E_j$$ to learn $$f_v: E_j \to (\hat{V}_j, \hat{Z}_j)$$
+
+* but a surprise finding, semantic similarity does not imply behavioral similarity&#x20;
+*
+
+$$ $K \in \{1, 2, 4\} $$
 
 ## Estimating IRT Model and Inference&#x20;
 
@@ -177,7 +216,7 @@ Under MCMC (Metropolis-Hastings), we can also get the full shape of the distribu
 
 But note we can use Laplace approximation to approximate uncertainty under MAP via the inverse Hessian at the MAP optimum. Reliable where M is large $$(\gg 100)$$.&#x20;
 
-### Estimation Summary$$\epsilon \sim N(0, \sgima^2_{prop})$$
+### Estimation Summary
 
 | Method                              | Approach                     | Speed  | theta treatment |
 | ----------------------------------- | ---------------------------- | ------ | --------------- |
@@ -221,8 +260,6 @@ ECE = \sum_{b=1}^B \frac{\lvert B_b \rvert }{N_{total}}\lvert \bar{Y}_{B_b}-\bar
 $$
 
 We partition predictions into B bins, compare mean observed accuracy to mean predicted probability per bin.&#x20;
-
-$$\hat{P_{ij}$$$$\hat{\theta_i], \hat{\beta_j}$$
 
 ## Scaling&#x20;
 

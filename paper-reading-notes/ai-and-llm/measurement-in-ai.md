@@ -49,7 +49,59 @@ But in reality, there are many ways in which Rash model / IRT doesn't hold.&#x20
 * LLMs don't guess randomly&#x20;
 * some benchmark items leak into training data, changing effective $$\beta_j$$ without the item changing&#x20;
 
-#### Estimation of Rasch Model through JMLE &#x20;
+####
+
+### Two-Parameter Logistic (2PL)
+
+$$
+P(Y_{ij}=1)=\sigma(\alpha_j(\theta_i-\beta_j))
+$$
+
+where $$\alpha_j$$ is the discrimination of item $$j$$. High $$\alpha_j$$ means steep ICC, sharply distinguishes ability, and low $$\alpha_j$$ means flatter ICC, less informative.&#x20;
+
+### Three-Parameter Logistic (3PL)
+
+$$
+P(Y_{ij}=1)=c_j + (1-c_j)\sigma(\alpha_j(\theta_i-\beta_j))
+$$
+
+where $$c_j\in [0,1]$$ is the guessing parameter. Higher $$c_j$$ means easier to guess, generally is $$\frac{1}{\textbf{number of item}}$$
+
+### K-Factor Logistic Models&#x20;
+
+$$
+P(Y_{ij=1}|U_i, V_j, Z_j)=\sigma(U_i^TV_j + Z_j)
+$$
+
+where $$U_i\in \mathbb{R}^K$$ is the ability vector of model i, $$V_j \in \mathbb{R}^K$$ is the loading vector of item $$j$$, and finally $$Z_j \in \mathbb{R}$$ is the ifficulty intercept of item $$j$$
+
+
+
+## Comparison / Rank Model&#x20;
+
+### Bradley - Terry Model
+
+$$
+P(\textbf{model i beats model j})=\sigma(\theta_i-\theta_j)
+$$
+
+here $$\theta$$ is the strength of the model. Overall this has the same form as Rasch, but different interpretation since there is no item response, it is simply model comparison.&#x20;
+
+### Elo Rating System&#x20;
+
+$$
+R_i^{new}=R_i + K(S_i-E_i)
+$$
+
+where $$S_i \in \{0, 0.5, 1\}$$ denotes the outcome, and $$E_i=\sigma(\frac{(R_j-R_i) ln(10)}{400})$$ and $$K$$ is a learning rate parameter.&#x20;
+
+## Factor Models&#x20;
+
+
+
+## Estimating IRT Model and Inference&#x20;
+
+### Estimation of Rasch Model through JMLE &#x20;
 
 Under local independence (given $$\theta_i$$, responses to different items are independent), then we have the joint likelihood and negtive log-likelihood
 
@@ -73,10 +125,9 @@ We have three fixes:&#x20;
 
 * sum-to-zero (standard approach): make the sum of model capabilities or item difficulties to be 0. (average ability / difficulty is zero)
 * Fixed anchor: set $$\beta_1=0$$ (scale pinned to one known item)
-* Bayesian prior: $$\theta_i \sim N(0, \sigma^2)$$ (soft centering and regularizes)&#x20;
-* $$c\in \double {R}$$$$c\in \doubleR$$$$c\in \doubleR$$
+* Bayesian prior: $$\theta_i \sim N(0, \sigma^2)$$ (soft centering and regularizes) $$c\in \double {R}$$$$c\in \doubleR$$$$c\in \doubleR$$
 
-#### Conditional MLE (CMLE)&#x20;
+### Conditional MLE (CMLE)&#x20;
 
 In JMLE, we need to estiamte each item's difficulty. This might not be idea when the model and item grows a lot&#x20;
 
@@ -84,7 +135,7 @@ But condition on sum score $$S_i=\sum_{j}Y_{ij}$$, by Rasch sufficiency, this el
 
 But no closed form for 2PL or 3PL.&#x20;
 
-#### Marginal MLE (MMLE)
+### Marginal MLE (MMLE)
 
 Under MMLE, we assume $$\theta_i \sim N(0, \sigma^2)$$ and integrate out. This works for any IRT model, estimated with EM algorithm
 
@@ -94,7 +145,7 @@ Under MMLE, we assume $$\theta_i \sim N(0, \sigma^2)$$ and integrate out. This w
 
 Connection: notice EM implements marginal MLE by integrating $$\theta_i$$ out in the E-step, and estimating only $$\beta$$ in the M-step.&#x20;
 
-#### Bayesian IRT
+### Bayesian IRT
 
 $$
 p(\theta,\beta|Y)\propto p(Y|\theta,\beta)*p(\theta)*p(\beta)
@@ -111,48 +162,67 @@ Notice those prior are not drawn from a stable human population. Those priors ar
 Under Maximum A Posteriori (MAP), we have&#x20;
 
 $$
-\hat{\theta}^{MAP}, \hat{\beta}^{MAP}=\argmax_{\theta,\beta}\left[ l(\theta,\beta)-\frac{\lambda_\theta}{2}\lvert \theta \rvert^2 -  \right]
+\hat{\theta}^{MAP}, \hat{\beta}^{MAP}=\argmax_{\theta,\beta}\left[ l(\theta,\beta)-\frac{\lambda_\theta}{2}\lVert \theta \rVert^2 -  \frac{\lambda_\beta}{2}\lVert \beta\rVert^2  \right]
 $$
 
-### Two-Parameter Logistic (2PL)
+where $$\lambda = \frac{1}{\sigma^2}$$, which is the regularization strength&#x20;
+
+Under MCMC (Metropolis-Hastings), we can also get the full shape of the distribution of the parameters&#x20;
+
+1. Start at $$\theta^{(0)}$$
+2. Propose $$\theta' = \theta^{t} + \epsilon$$ where $$\epsilon \sim N(0, \sigma^2_{prop})$$
+3. Accept with probability $$\alpha = min(1, \frac{p(\theta'|Y)}{p(\theta^{(t)}|Y)})$$
+4. Set $$\theta_{(t+1)}=\theta'$$ if accepted, else unchange&#x20;
+5. Repeat&#x20;
+
+But note we can use Laplace approximation to approximate uncertainty under MAP via the inverse Hessian at the MAP optimum. Reliable where M is large $$(\gg 100)$$.&#x20;
+
+### Estimation Summary$$\epsilon \sim N(0, \sgima^2_{prop})$$
+
+| Method                              | Approach                     | Speed  | theta treatment |
+| ----------------------------------- | ---------------------------- | ------ | --------------- |
+| GD/L-BFGS (MLE)                     | Maximize $$l$$ directly      | Fast   | JMLE            |
+| EM                                  | Iterate E/M step             | Medium | MMLE            |
+| GD/L-BFGS + L2 Regularization (MAP) | $$l + \log p(\theta,\beta)$$ | Fast   | JMLE/MMLE       |
+| MCMC                                | Sample posterior             | Slow   | MMLE            |
+
+typically option 3 is the practical default. We go full baysian if dataset is small or extreme score. Under Bayesian, MAP + Laplace approximation is the default.&#x20;
+
+### Gradient Update to the Bradley-Terry&#x20;
 
 $$
-P(Y_{ij}=1)=\sigma(\alpha_j(\theta_i-\beta_j))
+\frac{\partial l}{\partial \theta_i}=\sum_{k\neq i}\left[ 1(i\succ k)-\sigma(\theta_i-\theta_k) \right]
 $$
 
-where $$\alpha_j$$ is the discrimination of item $$j$$. High $$\alpha_j$$ means steep ICC, sharply distinguishes ability, and low $$\alpha_j$$ means flatter ICC, less informative.&#x20;
-
-### Three-Parameter Logistic (3PL)
-
-$$
-P(Y_{ij}=1)=c_j + (1-c_j)\sigma(\alpha_j(\theta_i-\beta_j))
-$$
-
-where $$c_j\in [0,1]$$ is the guessing parameter. Higher $$c_j$$ means easier to guess, generally is $$\frac{1}{\textbf{number of item}}$$
+recall Bradley-Terry is about pairwise model comparison. Elo update rule is just the stochastic gradient ascent on the Bradley-Terry log-likelihood.&#x20;
 
 
 
-## Comparison / Rank Model&#x20;
 
-### Bradley - Terry Model
+
+
+
+## Evaluating Predictive Performance&#x20;
+
+Model estimation gives you parameter estimates gives you $$\hat{\theta_i}, \hat{\beta}_j$$ and the predicted probability of correct response $$\hat{P}_{ij}=\sigma(\hat{\theta}_i-\hat{\beta_j})$$, but how can we evaluate the performance?&#x20;
+
+### Area Under the ROC Curve
 
 $$
-P(\textbf{model i beats model j})=\sigma(\theta_i-\theta_j)
+AUC = P(\hat{P}_{ij}>\hat{P}_{ij'}|Y_{ij=1}, Y_{ij'}=0)
 $$
 
-here $$\theta$$ is the strength of the model. Overall this has the same form as Rasch, but different interpretation since there is no item response, it is simply model comparison.&#x20;
+Probability that a correct response gets a higher predicted probability than an incorrect one. We can fit mode on training set, predict $$\hat{P}$$ on held-out entries, and get AUC on the pairs of $$(Y_{ij}, \hat{P}_{ij})$$ in testing set.&#x20;
 
-### Elo Rating System&#x20;
+### Expected Calibration Error (ECE)
 
 $$
-R_i^{new}=R_i + K(S_i-E_i)
+ECE = \sum_{b=1}^B \frac{\lvert B_b \rvert }{N_{total}}\lvert \bar{Y}_{B_b}-\bar{\hat{P}}_{B_b} \rvert
 $$
 
-where $$S_i \in \{0, 0.5, 1\}$$ denotes the outcome, and $$E_i=\sigma(\frac{(R_j-R_i) ln(10)}{400})$$ and $$K$$ is a learning rate parameter.&#x20;
+We partition predictions into B bins, compare mean observed accuracy to mean predicted probability per bin.&#x20;
 
-## Estimating Measurement Model and Inference&#x20;
-
-
+$$\hat{P_{ij}$$$$\hat{\theta_i], \hat{\beta_j}$$
 
 ## Scaling&#x20;
 

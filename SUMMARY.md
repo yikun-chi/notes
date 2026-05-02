@@ -6,6 +6,7 @@
 
 * [AI & LLM](paper-reading-notes/ai-and-llm/README.md)
   * [Measurement in AI](paper-reading-notes/ai-and-llm/measurement-in-ai.md)
+  * [Reliability in AI Benchmark](paper-reading-notes/ai-and-llm/reliability-in-ai-benchmark.md)
   * [Generative Agents: Interactive Simulacra of Human Behavior](paper-reading-notes/ai-and-llm/generative-agents-interactive-simulacra-of-human-behavior.md)
   * [LLM Social Simulations are a Promising Research Method](paper-reading-notes/ai-and-llm/llm-social-simulations-are-a-promising-research-method.md)
 * [App Usage Modelling](paper-reading-notes/app-usage-modelling.md)
